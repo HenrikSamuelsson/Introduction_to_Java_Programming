@@ -114,7 +114,7 @@ Java is case sensitive.
 
 All keywords are written in lower case.  
 
-**1.30**
+**1.30**  
 A comment is text in the source code intended for the human developers to document and explain the code.  
 
 The compiler will ignore all comments.  
