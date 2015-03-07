@@ -1,4 +1,4 @@
-# Answers to the checkpoint questions in chapter 1 #
+# Checkpoint Answers Chapter 1 #
 **1.1**  
 A computer is said to be made up of hardware and software. 
 
