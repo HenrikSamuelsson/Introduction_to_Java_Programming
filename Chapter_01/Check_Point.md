@@ -100,4 +100,47 @@ IDE is an acronym for Integrated Development Environment.
 **1.27**  
 NetBeans and Eclipse are two different integrated development environments that can be helpful when developing Java programs.  
 
+**1.28**  
+A keyword is a word that has special meaning to the compiler and can hence not be used for other purposes.  
 
+Example of keywords are:  
+- class  
+- public  
+- static  
+- void  
+
+**1.29**  
+Java is case sensitive.  
+
+All keywords are written in lower case.  
+
+**1.30**
+A comment is text in the source code intended for the human developers to document and explain the code.  
+
+The compiler will ignore all comments.  
+
+A comment line is started by writing two slashes and will then continue until the end of the line.  
+
+I paragraph comment can span over multiple lines. This type of comment starts with a slash followed by an asterisk and ends with an asterisk followed by a slash.  
+
+**1.31**  
+The following statement will display a string on the console:  
+```java
+System.out.println("A string that will appear on the console.");
+```
+
+**1.32**  
+The output of the following code
+```java
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("3.5 * 4 / 2 - 2.5 is ");
+		System.out.println(3.5 * 4 / 2 - 2.5);
+	}
+}
+```
+will be
+```
+3.5 * 4 / 2 - 2.5 is  
+4.5
+```
