@@ -235,7 +235,7 @@ public class Welcome {
 ```
 Lets fix the code.  
 
-The name of the method "Main" is misspelled should be "main".  
+The name of the method "Main" is misspelled, should be "main".  
 
 The keyword static is missing.  
   
@@ -245,7 +245,7 @@ A fully corrected version looks like this:
 ```Java
 public class Welcome {
 	public static void main(String[] args) {
-		 System.out.println("Welcome to Java!");
-		  }
+		System.out.println("Welcome to Java!");
+		}
 }
 ```
