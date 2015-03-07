@@ -200,3 +200,51 @@ public class Test {
 	}
 }
 ```
+
+**1.42**  
+A syntax error is introduced when writing some code that does not follow the Java syntax rules.  
+
+A runtime error will occur during program execution causing the program to terminate in an uncontrolled way because of some unforeseen event.  
+
+I program with a logical error will compile and run but does not behave as is should.  
+
+**1.43**  
+Examples of syntax errors are misspelling of keywords, missing a terminating brace, or not ending a statement with a semicolon.  
+
+Examples of runtime errors are not being able to handle incorrect user input. For example if a number is expected and the user writes "five" instead of 5. Or the user enters 0 and we use this to divide later on.  
+
+Examples of logical errors are using the wrong formula for calculating something. Or not having full understanding of how some language feature actually works.  
+
+**1.44**  
+Forgetting to put a closing quotation mark on a string will raise a syntax error when compiling the code.  
+
+**1.45**  
+A program that needs to read integer, but the user enter strings will raise an runtime error, assuming we have not included special code to handle this situation.  
+
+**1.46**  
+Mistakenly using the wrong code, like calculating the area of a triangle instead of the area of a rectangle, introduces a logical error.  
+
+**1.47**  
+The following code have errors multiple errors:
+```Java
+public class Welcome {
+	public void Main(String[] args) {
+		System.out.println('Welcome to Java!);
+	}
+}
+```
+Lets fix the code.  
+
+Main is misspelled should be main. 
+The keyword static is missing.  
+  
+The string in the print statement have a single apostrophe when there should be two quotation marks surrounding the string.  
+
+A fully corrected version looks like this:  
+```Java
+public class Welcome {
+	public static void main(String[] args) {
+		 System.out.println("Welcome to Java!");
+		  }
+}
+```
