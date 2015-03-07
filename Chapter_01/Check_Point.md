@@ -85,5 +85,19 @@ Java is currently owned and developed by a company called Oracle.
 **1.22**  
 A Java applet is a small application which is written in Java and delivered to the users over the Web. The user launches the Java applet from a web page, and the applet is then executed within in a process separate from the web browser itself.  
 
-**1.23** 
-Java is often used when developing Android applications.  
+**1.23**  
+Java is often used when developing Android applications. 
+
+**1.24**  
+The Java language specification is a technical definition of the Java programming language’s syntax and semantics.  
+
+**1.25**  
+JDK is an acronym for Java Development toolKit.  
+
+**1.26**  
+IDE is an acronym for Integrated Development Environment.  
+
+**1.27**  
+NetBeans and Eclipse are two different integrated development environments that can be helpful when developing Java programs.  
+
+
