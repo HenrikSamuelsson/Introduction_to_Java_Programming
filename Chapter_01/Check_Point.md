@@ -206,7 +206,7 @@ A syntax error is introduced when writing some code that does not follow the Jav
 
 A runtime error will occur during program execution causing the program to terminate in an uncontrolled way because of some unforeseen event.  
 
-I program with a logical error will compile and run but does not behave as is should.  
+I program with a logical error will compile and run but, does not behave as is should during execution.  
 
 **1.43**  
 Examples of syntax errors are misspelling of keywords, missing a terminating brace, or not ending a statement with a semicolon.  
@@ -235,7 +235,8 @@ public class Welcome {
 ```
 Lets fix the code.  
 
-Main is misspelled should be main. 
+The name of the method "Main" is misspelled should be "main".  
+
 The keyword static is missing.  
   
 The string in the print statement have a single apostrophe when there should be two quotation marks surrounding the string.  
