@@ -188,7 +188,7 @@ public class Test {
 }
 ```
 
-The code is simple enough to read without the comments so these comments that just crowd the code can be removed.
+The code is simple enough to read without the comments so these comments, that just crowd the code, can be removed.
 
 Lets also change to end-of-line style block braces throughout the entire code for consistency and because this is the style used in the Java API source code.  
 
