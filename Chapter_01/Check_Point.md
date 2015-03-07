@@ -175,7 +175,7 @@ A NoClassDefFoundError indicates a class file that does not exist.
 **1.40**  
 A NoSuchMethodError indicates that the class to be executed does not have a proper main method.  
 
-**1.41**
+**1.41**  
 The following code need to be reformatted according to the programming style and documentation guidelines.  
 ```Java
 public class Test {
