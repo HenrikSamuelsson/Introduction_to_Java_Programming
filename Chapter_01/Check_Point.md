@@ -75,3 +75,14 @@ CPU.
 Multithreading allows a single program to execute multiple tasks at the same time. In a game so can for example one task be responsible for playing sounds. While another task updates the graphics.  
 
 Multiprocessing, or parallel processing, uses two or more processors together to perform subtasks concurrently and then combine solutions of the subtasks to obtain a solution for the entire task.  
+
+**1.21**  
+Initial development of Java was done at Sun Microsystems and the work was lead by James Gosling.  
+
+Java is currently owned and developed by a company called Oracle.  
+
+**1.22**  
+A Java applet is a small application which is written in Java and delivered to the users over the Web. The user launches the Java applet from a web page, and the applet is then executed within in a process separate from the web browser itself.  
+
+**1.23** 
+Java is often used when developing Android applications.  
