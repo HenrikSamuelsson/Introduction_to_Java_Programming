@@ -144,3 +144,34 @@ will be
 3.5 * 4 / 2 - 2.5 is  
 4.5
 ```
+
+**1.33**  
+The Java source file-name extension is ".java".  
+
+The Java bytecode file-name extension is ".class".  
+
+**1.34**  
+The input to a Java compiler is a source file that shall have the ".java" extension.  
+
+The output of a Java compiler is a bytecode file that will have a ".class" extension.  
+
+**1.35**  
+The command used to compile a Java program in the console is "javac" followed by the name of the source file.  
+
+**1.36**  
+The command used to run a Java program in the console is "java" followed byte the name of bytecode file. Note that the ".class" extension shall not be included in the command.  
+
+**1.37**
+JVM stands for Java Virtual Machine. This is a program that can translate bytecode into machine code and in this way run a Java program.  
+
+**1.38**  
+Java can not be run on any machine.  
+
+There must be a JVM installed on a machine if a Java program shall be able to run.  
+
+**1.39**  
+A NoClassDefFoundError indicates a class file that does not exist. 
+   
+**1.40**  
+A NoSuchMethodError indicates that the class to be executed does not have a proper main method.  
+
