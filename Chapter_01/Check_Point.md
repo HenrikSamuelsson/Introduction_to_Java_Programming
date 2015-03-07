@@ -174,3 +174,29 @@ A NoClassDefFoundError indicates a class file that does not exist.
    
 **1.40**  
 A NoSuchMethodError indicates that the class to be executed does not have a proper main method.  
+
+**1.41**
+The following code need to be reformatted according to the programming style and documentation guidelines.  
+```Java
+public class Test {
+	// Main method
+	public static void main(String[] args)
+	{
+		/** Display output */
+		System.out.println("Welcome to Java");
+	}
+}
+```
+
+The code is simple enough to read without the comments so these comments that just crowd the code can be removed.
+
+Lets also change to end-of-line style block braces throughout the entire code for consistency and because this is the style used in the Java API source code.  
+
+The result after changes will be:
+```Java
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("Welcome to Java");
+	}
+}
+```
