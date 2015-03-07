@@ -60,6 +60,18 @@ A compiler takes one or more files with high level source code and builds a mach
 **1.17**  
 The difference between a compiler and interpreter is that an interpreter works with translation of source code to machine code in real time while the program is running. An compiler will be finished with the entire translation before the program runs.  
 
+**1.18**  
+An operating system (OS) is software that manages computer hardware and software resources and provides common services for computer programs. The operating system is an essential component of the system software in a computer system. Application programs usually require an operating system to function.  
 
+Some currently popular operating systems are Windows, Linux, and Android.
 
+**1.19**  
+An operating system is responsible for handling of input/output devices such as keyboard mouse and screen. An operating system will also often make it possible to run several programs at once by letting each program use the CPU in short intervals and giving each application some memory that the application is allowed to read and write. An operating system is often also responsible for security, preventing unauthorized access to the system.  
+ 
+**1.20**  
+Multiprogramming allows multiple programs to run simultaneously by sharing the same
+CPU.  
 
+Multithreading allows a single program to execute multiple tasks at the same time. In a game so can for example one task be responsible for playing sounds. While another task updates the graphics.  
+
+Multiprocessing, or parallel processing, uses two or more processors together to perform subtasks concurrently and then combine solutions of the subtasks to obtain a solution for the entire task.  
