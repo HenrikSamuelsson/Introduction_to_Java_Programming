@@ -13,7 +13,7 @@ Five major computer hardware components are
 4. Screen  
 5. Keyboard   
 
-**1.3**
+**1.3**  
 CPU stands for Central Processing Unit.
 
 **1.4**  
@@ -24,10 +24,10 @@ A bit is the basic unit of information in computing. A bit can only have one of 
 
 A byte is a unit of information in computing that most commonly consists of eight bits.  
 
-**1.6**
+**1.6**  
 Memory is special hardware used for holding information while executing a software. RAM stands for Random Access Memory. The name RAM indicates that any part of the memory can be read and written in roughly the same amount of time.  
 
-**1.7** 
+**1.7**  
 Memory size is, at the time of writing, often measured in gigabyte (GB).  
   
 **1.8**  
