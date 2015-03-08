@@ -1,5 +1,5 @@
 /**
- * Exercise 1.1 from the book Introduction to Java Programming.
+ * Exercise 1.1 from the book Introduction to Java Programming (10th).
  * <p>
  * Write a program that displays "Welcome to Java", 
  * "Welcome to Computer Science", and "Programming is fun".
