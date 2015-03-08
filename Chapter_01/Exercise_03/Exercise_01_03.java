@@ -1,5 +1,5 @@
 /**
- * Exercise 1.2 from the book Introduction to Java Programming (10th).
+ * Exercise 1.3 from the book Introduction to Java Programming (10th).
  * <p>
  * Write a program that displays the following pattern:
  * 
