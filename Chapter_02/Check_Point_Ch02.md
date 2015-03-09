@@ -59,3 +59,20 @@ The following are all keywords and can hence not be used as names for identifier
 - public  
 - int  
 
+**2.5**  
+The problem with the original code, presented in the book, is that the identifier k is not declared or given a value before it is used.  
+
+A working version of the code:  
+```Java  
+public class Test {
+
+	public static void main(String[] args) {
+		int k = 1;
+		int i = k + 2;
+		System.out.println(i);
+	}
+
+}
+```  
+
+
