@@ -75,4 +75,14 @@ public class Test {
 }
 ```  
 
+**2.6**  
+The problem with the original code, presented in the book, is the below line where the variables are declared in an invalid way.  
+```Java  
+int i = j = j = 2;
+```  
+A corrected valid way is like this:
+```Java  
+int i, j, k;  
+i = j = k = 2;
+```  
 
