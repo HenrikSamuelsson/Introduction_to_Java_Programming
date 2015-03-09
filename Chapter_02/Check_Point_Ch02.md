@@ -46,7 +46,7 @@ The following are all valid names for identifiers:
 - y  
 - radius  
 
-The following are not valid names for identifiers because the all contain characters not allowed to be used for identifiers.  
+The following are not valid names for identifiers because all contain characters not allowed to be used for identifiers.  
 - a++   
 - --a  
 - #44  
