@@ -86,3 +86,39 @@ int i, j, k;
 i = j = k = 2;
 ```  
 
+**2.7**  
+Using constants is benfical because:  
+1. Can be used for replacing a long number with a short simple text in numeroues places in the code, which saves time when coding.  
+2. Being able to use a descriptive name makes the code easier to read.  
+3. Should the value of the constant need to be changed so will we only need to change the code at a single location.   
+
+Here is an example of declaring a constant in Java:  
+```Java  
+final int SIZE = 20;
+```  
+**2.8**  
+The following naming conventions are often used in Java code.
+
+Variables and methods are written in lowercase. If a name is made up of several words so are the words pushed together and words following the first word will have the first letter capitalized. For example:  
+```Java  
+radius, getHeight, numberOfStudents
+```  
+
+Class names are written in the same way as variables and methods except that the first letter is capitalized.  
+
+Constants are written all uppercase. An underscore is used to separate the words in constants that contain multiple words.
+
+A constant:  
+```Java  
+MAX_VALUE
+```  
+
+A class:  
+```Java
+Test
+```  
+
+Variables or methods:
+```Java  
+read, readDouble
+```  
