@@ -36,4 +36,26 @@ import java.util.Scanner;
 import java.util.*;
 ```  
 
+**2.4**  
+The following are all valid names for identifiers:  
+- miles  
+- Test  
+- $4  
+- apps  
+- x  
+- y  
+- radius  
+
+The following are not valid names for identifiers because the all contain characters not allowed to be used for identifiers.  
+- a++   
+- --a  
+- #44  
+
+This identifier name is disqualified in two ways because it starts with a number and uses a # which is not allowed.  
+- 4#r 
+
+The following are all keywords and can hence not be used as names for identifiers.  
+- class  
+- public  
+- int  
 
