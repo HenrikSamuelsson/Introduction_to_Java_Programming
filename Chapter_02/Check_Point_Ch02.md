@@ -122,3 +122,19 @@ Variables or methods:
 ```Java  
 read, readDouble
 ```  
+
+**2.9**  
+The following code is based on the algorithm that is described in the book.  
+```Java  
+public class Checkpoint_02_09 {
+	
+	public static void main(String[] args) {
+		double miles = 100;									// step 1
+		final double KILOMETERS_PER_MILE = 1.609;			// step 2
+		double kilometers = miles * KILOMETERS_PER_MILE;	// step 3
+		System.out.println(kilometers);						// step 4
+	}
+
+}
+```  
+The variable kilometers will have the value 160.9 after step 4.  
