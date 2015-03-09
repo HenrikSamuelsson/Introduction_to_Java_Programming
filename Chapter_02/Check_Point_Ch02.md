@@ -80,7 +80,7 @@ The problem with the original code, presented in the book, is the below line whe
 ```Java  
 int i = j = j = 2;
 ```  
-A corrected valid way is like this:
+A corrected valid option to do things is like this:
 ```Java  
 int i, j, k;  
 i = j = k = 2;
