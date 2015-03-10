@@ -182,7 +182,7 @@ float min: 1.4E-45
 double max: 1.7976931348623157E308  
 double min: 4.9E-324  
 ```  
-The program will not answer the question of what type that takes the least amount of memory. But it can be concluded by studying the numbers above that it is byte that is cheapest to store, taking only 8 bits of memory.  
+The program will not answer the question of what type that takes the least amount of memory. But it can be concluded, by studying the numbers above, that it is byte that is cheapest to store, taking only 8 bits of memory.  
 
 **2.11**  
 Start by doing the math in your head or on paper and then run below program to verify.  
