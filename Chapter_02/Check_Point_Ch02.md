@@ -138,3 +138,48 @@ public class Checkpoint_02_09 {
 }
 ```  
 The variable kilometers will have the value 160.9 after step 4.  
+
+**2.10** 
+The following program will print the max and min values of a number of data types.  
+```Java  
+public class CheckPoint_02_10 {
+	
+	public static void main(String[] args) {
+		System.out.println("byte max: " + Byte.MAX_VALUE);   
+		System.out.println("byte min: " + Byte.MIN_VALUE);
+		
+		System.out.println("short max: " + Short.MAX_VALUE);   
+		System.out.println("short min: " + Short.MIN_VALUE);
+		
+		System.out.println("int max: " + Integer.MAX_VALUE);   
+		System.out.println("int min: " + Integer.MIN_VALUE);
+		
+		System.out.println("long max: " + Long.MAX_VALUE);   
+		System.out.println("long min: " + Long.MIN_VALUE);
+		
+		System.out.println("float max: " + Float.MAX_VALUE);   
+		System.out.println("float min: " + Float.MIN_VALUE);
+		
+		System.out.println("double max: " + Double.MAX_VALUE);   
+		System.out.println("double min: " + Double.MIN_VALUE);
+	}
+
+}
+
+```  
+Result when running the program:  
+```  
+byte max: 127  
+byte min: -128  
+short max: 32767  
+short min: -32768  
+int max: 2147483647  
+int min: -2147483648  
+long max: 9223372036854775807  
+long min: -9223372036854775808  
+float max: 3.4028235E38  
+float min: 1.4E-45  
+double max: 1.7976931348623157E308  
+double min: 4.9E-324  
+```  
+The program will not answer the question of what type that takes the least amount of memory. But it can be concluded by studying the numbers above that it is byte that is cheapest to store, taking only 8 bits of memory.  
