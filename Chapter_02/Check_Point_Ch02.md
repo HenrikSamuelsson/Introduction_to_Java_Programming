@@ -184,7 +184,7 @@ double min: 4.9E-324
 ```  
 The program will not answer the question of what type that takes the least amount of memory. But it can be concluded by studying the numbers above that it is byte that is cheapest to store, taking only 8 bits of memory.  
 
-**2.11**
+**2.11**  
 Start by doing the math in your head and then run this program to verify.  
 ```Java
 public class CheckPoint_02_11 {
