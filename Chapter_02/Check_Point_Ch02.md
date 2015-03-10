@@ -208,5 +208,14 @@ Result from the program:
 -34 % -5 = -4  
 5 % 1 = 0  
 1 % 5 = 1  
+```
+  
+**2.12**  
+The weekday 100 days after a Tuesday can be calculated using the modulo operator.  
+
+Tuesday is day 2 in the week, and there are 7 days in a week. We want the day after 100 days. The calculation of this will be:  
 ```  
- 
+(2 + 100) % 7 = 4
+```  
+The result is the day 4 in a week meaning that the answer is Thursday.  
+
