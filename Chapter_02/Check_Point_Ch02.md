@@ -290,5 +290,5 @@ All of the following values are correct literals.
 ```
 12.3, 12.3e+2, 23.4e-2, -334.4, 20.5, 39F, 40D  
 ```
-All values except are treated as double except 39F that is considered to be float since it is marked with a F.  
+All values are treated as double, except 39F that is considered to be float since it is marked with a F.  
 
