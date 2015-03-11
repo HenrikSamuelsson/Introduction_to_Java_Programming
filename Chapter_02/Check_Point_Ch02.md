@@ -217,4 +217,4 @@ Tuesday is day 2 in the week, and there are 7 days in a week. We want the day af
 ```  
 (2 + 100) % 7 = 4
 ```  
-The result is 4 indicating the fourt day in a week, meaning that the answer is Thursday.  
+The result is 4 indicating the fourth day in a week, meaning that the answer is Thursday.  
