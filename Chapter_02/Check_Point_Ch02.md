@@ -285,4 +285,10 @@ A float have 7 to 8 significant digits.
 
 A double have 15 to 17 significant digits.  
 
+**2.19**  
+All of the following values are correct literals.  
+```
+12.3, 12.3e+2, 23.4e-2, -334.4, 20.5, 39F, 40D  
+```
+All values except are treated as double except 39F that is considered to be float since it is marked with a F.  
 
