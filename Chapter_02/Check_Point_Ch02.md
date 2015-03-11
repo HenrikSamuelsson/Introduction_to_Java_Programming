@@ -217,4 +217,11 @@ Tuesday is day 2 in the week, and there are 7 days in a week. We want the day af
 ```  
 (2 + 100) % 7 = 4
 ```  
-The result is 4 indicating the fourth day in a week, meaning that the answer is Thursday.  
+The result is 4 indicating the fourth day in a week, meaning that the answer is Thursday.
+
+**2.13**  
+The result of integer division will always be an integer. Eventual fraction will be truncated away. This means that 25 / 4 becomes 6 instead of 6.25.  
+
+A common way to achieve floating-point number division if the decimal part shall be preserved is to add a dummy decimal 0. The result of for example 25.0 / 4 will become 6.25.  
+
+
