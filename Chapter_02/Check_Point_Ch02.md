@@ -292,3 +292,6 @@ All of the following values are correct literals.
 ```
 All values are treated as double, except 39F that is considered to be float since it is marked with a F.  
 
+**2.20**  
+52.534 can optionally be written as 5.2534e+1, 0.52534e+2, or 525.34e-1. But it can not be written as 5.2334e+0 because this would mean 5.2534e.  
+
