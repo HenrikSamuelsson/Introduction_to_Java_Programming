@@ -266,4 +266,10 @@ and produces this output
 25 / 4.0 is 6.25
 3 * 2 / 4 is 1
 3.0 * 2 / 4 is 1.5
-```   
+```  
+
+**2.16**  
+A statement to display 2<sup>3.5</sup> can be written like this  
+```Java  
+System.out.println(Math.pow(2, 3.5));
+```  
