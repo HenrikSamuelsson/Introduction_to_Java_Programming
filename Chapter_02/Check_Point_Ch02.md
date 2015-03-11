@@ -222,6 +222,27 @@ The result is 4 indicating the fourth day in a week, meaning that the answer is 
 **2.13**  
 The result of integer division will always be an integer. Eventual fraction will be truncated away. This means that 25 / 4 becomes 6 instead of 6.25.  
 
-A common way to achieve floating-point number division if the decimal part shall be preserved is to add a dummy decimal 0. The result of for example 25.0 / 4 will become 6.25.  
+A common way to achieve floating-point number division, that preserves the decimal part, is to add a dummy decimal 0. The result of for example 25.0 / 4 will become 6.25.  
 
+**2.14**  
+The following code  
+```Java  
+public class CheckPoint_02_14 {
 
+	public static void main(String[] args) {
+		System.out.println(2 * (5 / 2 + 5 / 2));
+		System.out.println(2 * 5 / 2 + 2 * 5 / 2);
+		System.out.println(2 * (5 / 2));
+		System.out.println(2 * 5 / 2);
+	}
+
+}
+```  
+produces this output  
+```  
+8  
+10  
+4  
+5  
+```  
+   
