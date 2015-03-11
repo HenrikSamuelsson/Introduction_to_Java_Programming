@@ -273,3 +273,9 @@ A statement to display 2<sup>3.5</sup> can be written like this
 ```Java  
 System.out.println(Math.pow(2, 3.5));
 ```  
+
+**2.17**  
+A statement that returns a floating point result of mr<sup>2</sup>, where m and r are integers, can be written  like this  
+```Java  
+System.out.println(1.0*m*Math.pow(r, 2));  
+```  
