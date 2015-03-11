@@ -279,3 +279,10 @@ A statement that returns a floating point result of mr<sup>2</sup>, where m and 
 ```Java  
 System.out.println(1.0*m*Math.pow(r, 2));  
 ```  
+
+**2.18**  
+A float have 7 to 8 significant digits.  
+
+A double have 15 to 17 significant digits.  
+
+
