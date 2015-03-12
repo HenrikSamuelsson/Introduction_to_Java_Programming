@@ -353,3 +353,29 @@ An expression can be used as a statement, just by adding a semicolon, if it has 
 It is true that the statment `x = x + 5` is also an expression.  
 **d.**  
 The statment `x = y = x = 0` is legal.  
+
+**2.26**  
+The output of the following code  
+```Java  
+public class CheckPoint_02_26 {
+
+	public static void main(String[] args) {
+		int a = 6;
+		int b = a++;
+		System.out.println(a);
+		System.out.println(b);
+		a = 6;
+		b = ++a;
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+}  
+```
+will be
+```  
+7  
+6  
+7  
+7  
+```  
