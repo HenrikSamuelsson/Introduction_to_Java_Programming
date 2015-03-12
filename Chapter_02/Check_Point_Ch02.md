@@ -302,7 +302,7 @@ All values are treated as double, except 39F that is considered to be float sinc
 `5_` is not a valid literal because it ends with an underscore.  
 
 **2.24**  
-Examples of arithmetic expressions written in Java.
+Examples of arithmetic expressions written in Java.  
 **a.**     
 ```Java  
 4 / (3 * (r + 34)) - 9 * (a + b * c) + (3 + d * (2 + a)) / (a + b * d)
