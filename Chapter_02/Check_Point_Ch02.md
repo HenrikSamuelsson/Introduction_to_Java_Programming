@@ -300,3 +300,14 @@ All values are treated as double, except 39F that is considered to be float sinc
 `_2534` is not a valid literal because it begins with an underscore, it would however be a valid variable name.  
 `5_2` is a valid int literal.  
 `5_` is not a valid literal because it ends with an underscore.  
+
+**2.24**  
+Examples of arithmetic expressions written in Java.
+***a.***    
+```Java  
+4 / (3 * (r + 34)) - 9 * (a + b * c) + (3 + d * (2 + a)) / (a + b * d)
+```  
+***b***  
+```Java  
+5.5 * Math.pow(r + 2.5, 2.5 + t)
+```  
