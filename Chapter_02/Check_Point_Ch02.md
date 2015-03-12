@@ -355,7 +355,7 @@ It is true that the statment `x = x + 5` is also an expression.
 The statment `x = y = x = 0` is legal.  
 
 **2.26**  
-The output of the following code  
+The following program    
 ```Java  
 public class CheckPoint_02_26 {
 
@@ -372,7 +372,7 @@ public class CheckPoint_02_26 {
 
 }  
 ```
-will be
+will output  
 ```  
 7  
 6  
