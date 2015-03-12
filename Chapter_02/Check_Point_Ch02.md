@@ -343,3 +343,13 @@ will output
 14.0  
 3.0    
 ```
+
+**2.25**  
+**a.**  
+An expression can be used as a statement, just by adding a semicolon, if it has a side effect. This means that `i + 1;` is not a valid statement, but `i++;` is a valid statement because it has the side effect that it changes the value of i.  
+**b.**  
+`x++` can as explained above, be used as a statement.  
+**c.**  
+It is true that the statment `x = x + 5` is also an expression.  
+**d.**  
+The statment `x = y = x = 0` is legal.  
