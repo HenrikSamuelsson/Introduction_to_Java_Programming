@@ -295,13 +295,13 @@ All values are treated as double, except 39F that is considered to be float sinc
 **2.20**  
 `52.534` can optionally be written as `5.2534e+1`, `0.52534e+2`, or `525.34e-1`. But it can not be written as `5.2334e+0` because this would mean `5.2534e`.  
 
-**2.23**  
+**2.21**  
 `5_2534e+1` is a valid double literal.  
 `_2534` is not a valid literal because it begins with an underscore, it would however be a valid variable name.  
 `5_2` is a valid int literal.  
 `5_` is not a valid literal because it ends with an underscore.  
 
-**2.24**  
+**2.22**  
 Examples of arithmetic expressions written in Java.  
 **a.**     
 ```Java  
@@ -311,7 +311,7 @@ Examples of arithmetic expressions written in Java.
 ```Java  
 5.5 * Math.pow(r + 2.5, 2.5 + t)
 ```  
-**2.25**  
+**2.23**  
 The current time is obtained by calling 
 ```
 System.currentTimeMillis()
@@ -319,3 +319,27 @@ System.currentTimeMillis()
 that give the number of milliseconds passed since 01-01-1970, 00:00:00 GMT.  
 
 It is then just some arithmetic calculations that is needed to transform this value to hours, minutes, and seconds. There is an detailed example program in the book that do these calculation, so there is no need to repeat them here.  
+
+**2.24**  
+The following program  
+```Java  
+public class CheckPoint_02_24 {
+	
+	public static void main(String[] args) {
+		double a = 6.5;
+		
+		a += a + 1;
+		System.out.println(a);
+		
+		a = 6;
+		a /= 2;
+		System.out.println(a);
+	}
+
+}
+```
+will output
+```
+14.0  
+3.0    
+```
