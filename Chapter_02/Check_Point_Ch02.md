@@ -303,11 +303,11 @@ All values are treated as double, except 39F that is considered to be float sinc
 
 **2.24**  
 Examples of arithmetic expressions written in Java.
-***a.***    
+**a.**     
 ```Java  
 4 / (3 * (r + 34)) - 9 * (a + b * c) + (3 + d * (2 + a)) / (a + b * d)
 ```  
-***b***  
+**b.**  
 ```Java  
 5.5 * Math.pow(r + 2.5, 2.5 + t)
 ```  
