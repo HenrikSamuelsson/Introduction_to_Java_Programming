@@ -311,3 +311,11 @@ Examples of arithmetic expressions written in Java.
 ```Java  
 5.5 * Math.pow(r + 2.5, 2.5 + t)
 ```  
+**2.25**  
+The current time is obtained by calling 
+```
+System.currentTimeMillis()
+```
+that give the number of milliseconds passed since 01-01-1970, 00:00:00 GMT.  
+
+It is then just some arithmetic calculations that is needed to transform this value to hours, minutes, and seconds. There is an detailed example program in the book that do these calculation, so there is no need to repeat them here.  
