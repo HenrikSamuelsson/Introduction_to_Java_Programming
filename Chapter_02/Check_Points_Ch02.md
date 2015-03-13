@@ -462,3 +462,8 @@ Numbers are stored with a limited numbers of digits. When a variable is assigned
 
 Just as with integer arithmetic, floating point arithmetic operations can cause overflow.  
 
+**2.36**  
+An overflow will not cause a runtime error.  
+
+
+
