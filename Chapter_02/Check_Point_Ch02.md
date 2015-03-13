@@ -418,7 +418,7 @@ Enter purchase amount: 197.55
 Sales tax is $11  
 ```
 
-**2.30**  
+**2.31**  
 The following program  
 ```Java   
 public class CheckPoint_02_31 {
@@ -435,4 +435,10 @@ will output
 ```
 2.5  
 2  
-```
+```  
+
+**2.32**  
+The following code snippet shows how to write a slightly more advanced arithmetic expression that involves square root among other things.  
+```Java  
+(-b + Math.sqrt((Math.pow(b, 2) - 4 * a * c))) / (2 * a)  
+```  
