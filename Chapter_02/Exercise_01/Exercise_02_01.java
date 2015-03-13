@@ -14,7 +14,7 @@ public class Exercise_02_01 {
 		
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a degree in Celsius: ");
-		degreeCelcius= input.nextDouble();
+		degreeCelcius = input.nextDouble();
 		degreeFahrenheit = (9.0 / 5) * degreeCelcius + 32;
 		System.out.print(degreeCelcius + " Celcius is " + degreeFahrenheit
 				+ " Fahrenheit");
