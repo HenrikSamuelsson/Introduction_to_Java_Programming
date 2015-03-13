@@ -410,3 +410,10 @@ will output
 f is 12.5
 i is 12
 ```  
+
+**2.30**  
+Changing `(int)(tax * 100) / 100.0` to `(int)(tax * 100) / 100` in Listing 2.8 of the book, will cause int division to be used instead of double division. This will mean that all decimals will be truncated away. So a run of the program can then look like this  
+```
+Enter purchase amount: 197.55  
+Sales tax is $11  
+```
