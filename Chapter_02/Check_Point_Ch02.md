@@ -390,3 +390,23 @@ It is also possible to assign a value to a variable that have smaller range. Thi
 The fractional part of a double value will be truncated when casting to an int.  
 
 Casting does not change the variable being cast.  
+
+**2.29**  
+The following program  
+```Java  
+public class CheckPoint_02_29 {
+
+	public static void main(String[] args) {
+		float f = 12.5F;
+		int i = (int)f;
+		System.out.println("f is " + f);
+		System.out.println("i is " + i);
+	}
+
+}
+```  
+will output  
+```  
+f is 12.5
+i is 12
+```  
