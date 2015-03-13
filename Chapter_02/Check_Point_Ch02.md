@@ -379,3 +379,9 @@ will output
 7  
 7  
 ```  
+**2.27**  
+Different types of values can be used together.  
+
+An automatic conversion will happen when a value is assigned to a variable of a type that have a larger range.  
+
+It is also possible to assign a value to a variable that have smaller range. This can cause loss of information so a cast must be used to indicate that we are aware of what we are doing. We will then need to somehow keep control over the ranges so that no vital information is lost in the process.  
