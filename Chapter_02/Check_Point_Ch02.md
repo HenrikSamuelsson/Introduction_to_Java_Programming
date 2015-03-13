@@ -417,3 +417,22 @@ Changing `(int)(tax * 100) / 100.0` to `(int)(tax * 100) / 100` in Listing 2.8 o
 Enter purchase amount: 197.55  
 Sales tax is $11  
 ```
+
+**2.30**  
+The following program  
+```Java   
+public class CheckPoint_02_31 {
+
+	public static void main(String[] args) {
+		double amount = 5;
+		System.out.println(amount / 2);
+		System.out.println(5 / 2);
+	}
+
+}
+```
+will output  
+```
+2.5  
+2  
+```
