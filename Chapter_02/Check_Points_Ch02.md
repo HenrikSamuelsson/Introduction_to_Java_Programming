@@ -465,5 +465,9 @@ Just as with integer arithmetic, floating point arithmetic operations can cause 
 **2.36**  
 An overflow will not cause a runtime error.  
 
+**2.37**  
+Round off errors are introduced because some numbers are stored as approximations off the exact mathematical value.   
 
+There are no round-off errors caused by integer operations. The exception to this rules is that values can be truncated when doing division but this does not really count as an round off error.  
 
+Floating-point operations will frequently cause round-off errors.  
