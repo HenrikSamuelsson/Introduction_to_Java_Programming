@@ -457,4 +457,8 @@ Your amount 1.99 consists of
 **2.34**  
 It is not allowed to declare a variable as int and then later redeclare it as double.  
 
-  
+**2.35**  
+Numbers are stored with a limited numbers of digits. When a variable is assigned a value that is too large (in size) to be stored, it causes overflow. An integer overflow is when a variable of type int overflows.  
+
+Just as with integer arithmetic, floating point arithmetic operations can cause overflow.  
+
