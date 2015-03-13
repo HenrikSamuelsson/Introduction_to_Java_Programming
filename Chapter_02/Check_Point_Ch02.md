@@ -452,4 +452,9 @@ Your amount 1.99 consists of
  2 dimes  
  0 nickels  
  4 pennies  
-```  
+``` 
+
+**2.34**  
+It is not allowed to declare a variable as int and then later redeclare it as double.  
+
+  
