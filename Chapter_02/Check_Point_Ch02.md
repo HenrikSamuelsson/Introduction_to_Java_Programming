@@ -442,3 +442,14 @@ The following code snippet shows how to write a slightly more advanced arithmeti
 ```Java  
 (-b + Math.sqrt((Math.pow(b, 2) - 4 * a * c))) / (2 * a)  
 ```  
+
+**2.33**  
+Running the program ComputeChange, from book listing 2.10, with the input 1.99 produces the following output.  
+```  
+Your amount 1.99 consists of  
+ 1 dollars  
+ 3 quarters  
+ 2 dimes  
+ 0 nickels  
+ 4 pennies  
+```  
