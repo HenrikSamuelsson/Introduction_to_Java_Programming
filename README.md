@@ -8,3 +8,4 @@ Author: Y. Daniel Liang
 Publication date: 25 January 2014  
 ISBN 10: 0133813460  
 ISBN 13: 9780133813463  
+![alt text](http://wps.pearsoned.com/wps/media/objects/15622/15997432/_skins_/P/places_blue/cover.jpg "Book cover")  
