@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 /**
- * Exercise 2.1 from the book Introduction to Java Programming (10th).
- * <p>
- *
+ * Exercise 2.2 from the book Introduction to Java Programming (10th).
+ * 
  * @author Henrik Samuelsson, henrik.samuelsson(at)gmail.com
  */
 
@@ -25,7 +24,7 @@ public class Exercise_02_02 {
 		area = radius * radius * Math.PI;
 		volume = area * length;
 		
-		// present result
+		// present the results
 		System.out.println("The area is " + area);
 		System.out.println("The volume is " + volume);
 	}
