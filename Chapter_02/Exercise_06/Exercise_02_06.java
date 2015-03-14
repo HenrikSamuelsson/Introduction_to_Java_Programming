@@ -26,7 +26,6 @@ public class Exercise_02_06 {
 		
 		// present the result
 		System.out.println("The sum of the digits is " + sum);
-
 	}
 
 }
