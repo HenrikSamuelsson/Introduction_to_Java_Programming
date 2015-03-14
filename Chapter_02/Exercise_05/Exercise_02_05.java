@@ -26,7 +26,7 @@ public class Exercise_02_05 {
 		gratuityInCents = (int)(subtotal * gratuityRate);
 		totalInCents = subtotalInCents + gratuityInCents;
 		
-		// present the result
+		// present the result in dollars and cents
 		System.out.println("The gratuity is $" + 
 				gratuityInCents / 100 + "." + gratuityInCents % 100 + 
 				" and total is $" + 
