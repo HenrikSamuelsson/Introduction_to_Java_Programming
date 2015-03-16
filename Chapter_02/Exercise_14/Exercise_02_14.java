@@ -29,7 +29,6 @@ public class Exercise_02_14 {
 		
 		// display the calculated BMI to the user
 		System.out.print("BMI is " + bmi);
-		
 	}
 
 }
