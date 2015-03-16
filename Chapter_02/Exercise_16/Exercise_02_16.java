@@ -4,7 +4,9 @@ import java.util.Scanner;
  * Exercise 2.16 from the book Introduction to Java Programming (10th).
  * 
  * @note Got the answer 78.59180539343781 when testing with input 5.5. The
- *       answer according to the book should have been 78.5895. N  
+ *       answer according to the book should have been 78.5895. I do not know
+ *       what caused this mismatch, seems to big to be a rounding error.
+ *        
  * @author Henrik Samuelsson, henrik.samuelsson(at)gmail.com
  */
 
