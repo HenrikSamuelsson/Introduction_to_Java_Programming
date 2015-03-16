@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Exercise X.X from the book Introduction to Java Programming (10th).
+ * Exercise 2.11 from the book Introduction to Java Programming (10th).
  * <p>
  * @note Did not get the exact same answer as in the book. This is likely
  * because of some rounding error.
