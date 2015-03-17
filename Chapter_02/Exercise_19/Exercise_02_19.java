@@ -3,8 +3,9 @@ import java.util.Scanner;
 /**
  * Exercise 2.19 from the book Introduction to Java Programming (10th).
  * 
- * @note I did not understand the suggested formula in the book so I searched
- *       for a formula online and found this site: 
+ * @note I did not understand the suggested formula, for calculating the area of
+ *       a triangle, in the book. So I searched for a formula online and found 
+ *       this site: 
  *       	http://www.mathopenref.com/coordtrianglearea.html
  *       There was another formula that I ended up using.
  *       
