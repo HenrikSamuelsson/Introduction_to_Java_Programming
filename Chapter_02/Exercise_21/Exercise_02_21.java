@@ -20,7 +20,7 @@ public class Exercise_02_21 {
 		System.out.print ("Enter number of years: ");
 		years = input.nextDouble();
 		
-		// calculate the future value of the investment
+		// calculate the future value of investment
 		futureValue = investment * Math.pow(1 + interest / 1200, years * 12);
 		
 		// display the result of the calculation
