@@ -21,7 +21,7 @@ public class Exercise_02_20 {
 		interest = balance * (interestRate / 1200);
 		
 		// display the result of the calculation
-		System.out.println("The interest is  " + interest);
+		System.out.println("The interest is " + interest);
 	}
 
 }
