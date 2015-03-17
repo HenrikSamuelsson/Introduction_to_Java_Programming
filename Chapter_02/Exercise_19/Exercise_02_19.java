@@ -32,7 +32,7 @@ public class Exercise_02_19 {
 		area = Math.abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2);
 		
 		// display the result
-		System.out.println(area);
+		System.out.println("The area of the triangle is " + area);
 	}
 
 }
