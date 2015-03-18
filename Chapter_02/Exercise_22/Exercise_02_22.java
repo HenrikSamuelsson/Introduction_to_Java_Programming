@@ -17,14 +17,12 @@ public class Exercise_02_22 {
 				+ "amount $11.56 write 1156: ");
 		int amount = input.nextInt();
 		
-		
 		// find the number of one dollars
 		int numberOfOneDollars = amount / 100;
 		amount = amount % 100;
 		
 		// find the number of quarters in the remaining amount
 		int numberOfQuarters = amount / 25;
-		
 		amount = amount % 25;
 		
 		// find the number of dimes in the remaining amount
