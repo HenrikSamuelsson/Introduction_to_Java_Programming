@@ -9,3 +9,14 @@ Examples of relational operators are:
 ==   equal to  
 !=   not equal to
 ```  
+
+**3.2**  
+Below are some Boolean expressions with comments about the resulting values.  
+```
+x = 1  
+(x > 0)   // true  
+(x < 0)   // false
+(x != 0)  // true
+(x >= 0)  // true
+(x != 1)  // false
+```  
