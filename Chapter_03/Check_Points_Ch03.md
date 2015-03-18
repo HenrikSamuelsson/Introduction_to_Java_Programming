@@ -20,3 +20,22 @@ x = 1
 (x >= 0)  // true
 (x != 1)  // false
 ```  
+
+**3.3**  
+It is now allowed to cast from an boolean to an int in Java, neither is it allowed to cast from an int to an boolean.  
+
+This means that the following program will not compile.  
+```Java  
+public class CheckPoint_03_03 {
+
+	public static void main(String[] args) {
+		boolean b = true;
+		i = (int)b;					// error
+		
+		int i = 1;
+		boolean b = (boolean)i;		// error
+	}
+
+}
+
+```  
