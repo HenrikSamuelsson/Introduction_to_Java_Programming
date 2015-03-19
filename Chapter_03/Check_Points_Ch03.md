@@ -42,6 +42,6 @@ public class CheckPoint_03_03 {
 **3.4**  
 An if statement that assigns 1 to x if y is greater than 0:  
 ```Java
-  if(y > 0)
-			x = 1;
+if(y > 0)  
+	x = 1;  
 ```  
