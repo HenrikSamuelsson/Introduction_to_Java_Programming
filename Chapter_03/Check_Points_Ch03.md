@@ -59,4 +59,25 @@ if(score > 90)
 	pay *= 1.03;
 else
 	pay *= 1.01;
+```   
+
+**3.7**  
+**(a)**  
+There is a logical error in this code for this check point. The output will when number is 30 be:  
+```
+30 is even.  
+30 is odd.
+```
+When number is 35 so will the output be:  
+```
+35 is odd.  
+```
+**(b)**  
+The second version of the code is corrected and will when number is 30 output:
+```  
+30 is even.
+```
+When number is 35 so will the output be:  
+```
+35 is odd.  
 ```
