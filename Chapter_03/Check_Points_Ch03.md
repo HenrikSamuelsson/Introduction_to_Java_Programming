@@ -51,3 +51,12 @@ An if statement that increases pay by 3% if score is greater than 90:
 if(score > 90)  
 	pay *= 1.03;  
 ```  
+
+**3.6**  
+An if statement that increases pay by 3% if score is greater than 90 and otherwise increases pay by 1%.  
+```Java  
+if(score > 90)  
+	pay *= 1.03;
+else
+	pay *= 1.01;
+```
