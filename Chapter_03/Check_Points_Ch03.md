@@ -77,7 +77,7 @@ The second version of the code is corrected and will when number is 30 output:
 ```  
 30 is even.
 ```
-When number is 35 so will the output be:  
+When number is 35 so will the output, as in the first verison, be:  
 ```
 35 is odd.  
 ```
