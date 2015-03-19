@@ -45,3 +45,9 @@ An if statement that assigns 1 to x if y is greater than 0:
 if(y > 0)  
 	x = 1;  
 ```  
+**3.5**  
+An if statement that increases pay by 3% if score is greater than 90:  
+```Java  
+if(score > 90)  
+	pay *= 1.03;  
+```  
