@@ -81,3 +81,15 @@ When number is 35 so will the output, as in the first verison, be:
 ```
 35 is odd.  
 ```
+
+**3.8**  
+There will be no output for if x = 3 and y = 2.  
+
+The ouput will be  
+```
+x is 2
+```
+if x = 2 and y = 2.  
+
+![](https://github.com/HenrikSamuelsson/Introduction_to_Java_Programming/blob/master/Chapter_03/Resources/check_point_03_08.png)
+
