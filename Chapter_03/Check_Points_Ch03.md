@@ -91,3 +91,9 @@ The ouput will be `x is 2` if x = 2 and y = 2.
 
 ![](https://github.com/HenrikSamuelsson/Introduction_to_Java_Programming/blob/master/Chapter_03/Resources/check_point_03_08.png)
 
+**3.9**  
+There will be no output if x = 2 and y = 3.  
+
+The ouput will be `x is 3` if x = 3 and y = 2.  
+
+The ouput will be `z is 6` if x = 3 and y = 3.  
