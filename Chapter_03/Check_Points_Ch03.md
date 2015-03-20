@@ -108,3 +108,7 @@ a, b, and c are equivalent.
 
 a and c are correctly indented.  
 
+**3.12**  
+```Java
+boolean newLine = count % 10 == 0;
+```
