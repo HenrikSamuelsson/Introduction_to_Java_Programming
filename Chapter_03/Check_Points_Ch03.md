@@ -103,3 +103,8 @@ The problem with the code in this checkpoint is that only D or F will be printed
 
 The score comparisons shall be done in descending order for this code to work as intended.  
 
+**3.11**
+a, b, and c are equivalent.  
+
+a and c are correctly indented.  
+
