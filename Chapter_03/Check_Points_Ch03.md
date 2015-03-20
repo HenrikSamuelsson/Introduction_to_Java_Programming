@@ -97,3 +97,9 @@ There will be no output if x = 2 and y = 3.
 The ouput will be `x is 3` if x = 3 and y = 2.  
 
 The ouput will be `z is 6` if x = 3 and y = 3.  
+
+**3.10**  
+The problem with the code in this checkpoint is that only D or F will be printed. D will be printed for all whenever score is 60 or more, F is printed if score is less than 60.  
+
+The score comparisons shall be done in descending order for this code to work as intended.  
+
