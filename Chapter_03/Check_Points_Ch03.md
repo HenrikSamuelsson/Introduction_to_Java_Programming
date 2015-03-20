@@ -106,7 +106,7 @@ The score comparisons shall be done in descending order for this code to work as
 **3.11**
 a, b, and c are equivalent.  
 
-a and c are correctly indented.  
+b and c are correctly indented.  
 
 **3.12**  
 ```Java
