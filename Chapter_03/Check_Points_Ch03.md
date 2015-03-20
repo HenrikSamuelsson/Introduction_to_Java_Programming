@@ -112,3 +112,6 @@ b and c are correctly indented.
 ```Java
 boolean newLine = count % 10 == 0;
 ```
+
+**3.13**  
+Both a and b are correct and will do the same thing. The code in b is the preferred way because it shows that the statements are related.  
