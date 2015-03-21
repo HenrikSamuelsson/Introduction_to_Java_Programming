@@ -266,7 +266,7 @@ Write a Boolean expression that evaluates to true if either weight is greater th
 ```Java  
 (weight > 50 && !(height > 60)) || (!(weight > 50) && height > 60)  
 ``` 
-My opinion is that the answer that can be found on the book web site is wrong on this one.  
+My opinion is that the other answer, that can be found on the book web site, is wrong on this one.  
 
 **3.29**  
 The following data types are allowed to be used as a switch variable:  
