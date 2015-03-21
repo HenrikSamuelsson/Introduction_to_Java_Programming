@@ -266,5 +266,18 @@ Write a Boolean expression that evaluates to true if either weight is greater th
 ```Java  
 (weight > 50 && !(height > 60)) || (!(weight > 50) && height > 60)  
 ``` 
-The answer from the book web site is wrong on this one, in my opinion.  
- 
+My opinion is that the answer that can be found on the book web site is wrong on this one.  
+
+**3.29**  
+The following data types are allowed to be used as a switch variable:  
+- char  
+- byte  
+- short  
+- int  
+- String  
+
+Omitting a break statement will cause a fall-through causing the code in the next case to be to executed.  
+
+A switch statement can be converted to an equivalent if statement, and vice versa.  
+
+A switch statement can make the code easier to read comparing to using deeply nested if statements.  
