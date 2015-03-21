@@ -419,3 +419,8 @@ if (number % 3 == 0)
 else
 	System.out.println(j);
 ```  
+
+**3.36**  
+```Java  
+1 == (int) (Math.random() * 2) ? 1 : -1;
+```  
