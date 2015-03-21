@@ -242,3 +242,9 @@ The output will be
 (x + y < z) is true  
 (x + y > z) is false  
 ```  
+
+**3.25**  
+Boolean expression that evaluates to true if age is greater than 13 and less than 18.  
+```Java  
+age > 13 && age < 18  
+```  
