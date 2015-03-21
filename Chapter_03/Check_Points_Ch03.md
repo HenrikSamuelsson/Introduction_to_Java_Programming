@@ -281,3 +281,32 @@ Omitting a break statement will cause a fall-through causing the code in the nex
 A switch statement can be converted to an equivalent if statement.    
 
 A switch statement can make the code easier to read comparing to using deeply nested if statements.  
+
+**3.30**  
+```Java  
+public class CheckPoint_03_03 {
+
+	public static void main(String[] args) {
+		int x, y;
+
+		x = 3;
+		y = 3;
+		switch (x + 3) {
+		case 6:
+			y = 1;
+		default:
+			y += 1;
+		}
+		System.out.println("After switch statement y = " + y);
+		
+		// rewrite switch to an equivalent if-else variant
+		y = 3; 	// set y to original value
+		if(x + 3 == 6)
+			y = 1;
+		y += 1;
+		System.out.println("After if statement y = " + y);
+	}
+
+}
+```  
+
