@@ -424,3 +424,26 @@ else
 ```Java  
 1 == (int) (Math.random() * 2) ? 1 : -1;
 ```  
+
+**3.37**  
+The precedence of the the Boolean operators is (listed from high to low):
+- NOT `!`    
+- XOR `^`  
+- AND `&&`   
+- OR `||`  
+
+The expression `true || true && false` will be evaluated as follows.  
+```
+true || (true && false)  
+true || false
+true
+```
+The expression `true && true || false` will be evaluated as follows.  
+```  
+(true && true) || false  
+true || false  
+true
+```  
+
+  
+ 
