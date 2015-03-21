@@ -445,5 +445,8 @@ true || false
 true
 ```  
 
+**3.38**  
+It is true that all the binary operators except =, +=, -=, *=, /=, %= are left associative.  
+  
   
  
