@@ -309,4 +309,6 @@ public class CheckPoint_03_03 {
 
 }
 ```  
+y is 2 after the switch statement.  
+
 
