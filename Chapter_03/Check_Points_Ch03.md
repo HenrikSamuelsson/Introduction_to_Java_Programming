@@ -221,10 +221,10 @@ x and y
 (x != 0) || (x = 0) 
 ```  
 
-***3.22**  
+**3.22**  
 Yes.  
 
-***3.23***  
+**3.23**  
 Call the following expression p:  
 ```  
 x >= 50 && x <= 100  
