@@ -233,3 +233,12 @@ p is false when x is 45
 p is true when x is 67  
 p is false when x is 101  
 
+**3.24**  
+The output will be  
+```
+(x < y && y < z) is true  
+(x < y || y < z) is true  
+!(x < y) is false  
+(x + y < z) is true  
+(x + y > z) is false  
+```  
