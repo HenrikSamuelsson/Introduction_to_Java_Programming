@@ -115,3 +115,26 @@ boolean newLine = count % 10 == 0;
 
 **3.13**  
 Both a and b are correct and will do the same thing. The code in b is the preferred way because it shows that the statements are related.  
+
+**3.14**  
+**(a)**  
+This code will always check for both even numbers and numbers that is a multiple of 5.
+
+The output when using number 14, 15, and 30 will be:
+```
+14 is even  
+15 is a multiple of 5
+30 is even  
+30 is a multiple of 5
+```  
+
+**(b)**  
+This code will check if a number is even. If the number is odd so will an additional check be done that checks if the number is a multiple of 5.  
+
+The out put when using number 14, 15, and 30 will be:
+```  
+14 is even  
+15 is a multiple of 5
+30 is even  
+```  
+
