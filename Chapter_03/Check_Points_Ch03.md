@@ -355,5 +355,6 @@ public class CheckPoint_03_31 {
 ```  
 x is 17 after the switch statement.  
 
-A flowchart for the switch statment is shown below.  
+A flowchart for the switch statement is shown below.  
+
 ![](https://github.com/HenrikSamuelsson/Introduction_to_Java_Programming/blob/master/Chapter_03/Resources/checkpoint_03_31.png?raw=true)
