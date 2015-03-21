@@ -470,5 +470,4 @@ false
 
 `(x > 0 || x < 10)` is the same as `((x > 0) || (x < 10))`  
 
-`(x > 0 || x < 10 && y < 0)` is the same as  
-`(x > 0 ||(x < 10 && y < 0))`  
+`(x > 0 || x < 10 && y < 0)` is the same as  `(x > 0 ||(x < 10 && y < 0))`  
