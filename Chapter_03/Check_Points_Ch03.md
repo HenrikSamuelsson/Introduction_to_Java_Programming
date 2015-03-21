@@ -447,6 +447,21 @@ true
 
 **3.38**  
 It is true that all the binary operators except =, +=, -=, *=, /=, %= are left associative.  
-  
-  
+
+**3.39**
+```  
+2 * 2 - 3 > 2 && 4 – 2 > 5  
+4 - 2 > 2 && 4 - 2 > 5  
+2 > 2 && 2 > 5  
+false && false  
+false  
+```  
+
+```
+2 * 2 - 3 > 2 || 4 – 2 > 5  
+4 - 3 > 2 || 4 – 2 > 5  
+1 > 2 || 2 > 5  
+false || false  
+false     
+```  
  
