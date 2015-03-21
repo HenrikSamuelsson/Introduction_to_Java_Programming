@@ -145,21 +145,25 @@ Examples of possible values when using Math.random() are 0.5, 0.0, 0.234.
 
 **3.16**  
 **(a)**  
+Generates an int in the 0 to 19 interval:  
 ```
 int a = (int)(Math.random() * 20);    
 ```  
 
 **(b)**  
+Generates an int in the 10 to 19 interval:  
 ```
 int b = 10 + (int)(Math.random() * 10);    
 ```  
 
 **(c)**  
+Generates an int in the 10 to 50 interval:  
 ```
 int c = 10 + (int)(Math.random() * 41);    
 ```  
 
 **(d)**  
+Generates an int that is 0 or 1:  
 ```
 int d = (int)(Math.random() * 2);    
 ```  
