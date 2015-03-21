@@ -142,3 +142,24 @@ The out put when using number 14, 15, and 30 will be:
 Math.random() will generate a random double value between 0.0 and 1.0, excluding 1.0.  
 
 Examples of possible values when using Math.random() are 0.5, 0.0, 0.234.  
+
+**3.16**  
+**(a)**  
+```
+int a = (int)(Math.random() * 20);    
+```  
+
+**(b)**  
+```
+int b = 10 + (int)(Math.random() * 10);    
+```  
+
+**(c)**  
+```
+int c = 10 + (int)(Math.random() * 41);    
+```  
+
+**(d)**  
+```
+int d = (int)(Math.random() * 2);    
+```  
