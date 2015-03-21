@@ -167,3 +167,6 @@ Generates an int that is 0 or 1:
 ```
 int d = (int)(Math.random() * 2);    
 ```  
+
+**3.17**  
+The two statements in this check point are equal. The first one is better since it is shorter.  
