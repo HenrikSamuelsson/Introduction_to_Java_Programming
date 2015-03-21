@@ -387,7 +387,14 @@ case 6:
 ```  
 
 **3.33**  
-The out put will be:  
+The output will be:  
 ```  
 sorted  
 ```  
+
+**3.34**  
+```Java  
+ticketPrice = ages >= 16 ? 20 : 10;  
+```  
+ 
+
