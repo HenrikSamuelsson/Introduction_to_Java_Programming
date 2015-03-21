@@ -248,3 +248,23 @@ Boolean expression that evaluates to true if age is greater than 13 and less tha
 ```Java  
 age > 13 && age < 18  
 ```  
+
+**3.26**  
+Boolean expression that evaluates to true if weight is greater than 50 pounds or height is greater than 60 inches.  
+```Java  
+weight > 50 || height > 60
+```  
+
+**3.27**  
+Write a Boolean expression that evaluates to true if weight is greater than 50 pounds and height is greater than 60 inches.  
+```Java  
+weight > 50 && height > 60
+```  
+
+**3.28**  
+Write a Boolean expression that evaluates to true if either weight is greater than 50 pounds or height is greater than 60 inches, but not both.  
+```Java  
+(weight > 50 && !(height > 60)) || (!(weight > 50) && height > 60)  
+``` 
+The answer from the book web site is wrong on this one, in my opinion.  
+ 
