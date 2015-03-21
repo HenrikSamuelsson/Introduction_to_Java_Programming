@@ -202,5 +202,21 @@ x = 1
 **(b)**  
 ```Java  
 (x - 5 > 4.5) || (-(x - 5) > 4.5)
-```  
+``` 
 
+**3.21**  
+Assume that x and y are int type variables.  
+
+Examples of legal Java expressions:  
+```Java  
+x /= y  
+```     
+
+Examples of illegal Java expressions.
+```Java  
+x > y > 0  
+x = y && y  
+x or y  
+x and y  
+(x != 0) || (x = 0) 
+```  
