@@ -385,3 +385,9 @@ case 6:
 	break;
 }
 ```  
+
+**3.33**  
+The out put will be:  
+```  
+sorted  
+```  
