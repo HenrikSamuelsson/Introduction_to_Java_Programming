@@ -170,3 +170,16 @@ int d = (int)(Math.random() * 2);
 
 **3.17**  
 The two statements in this check point are equal. The first one is better since it is shorter.  
+
+**3.18**  
+```Java  
+x = 1  
+
+(true) && (3 > 4)      // false  
+!(x > 0) && (x > 0)    // false  
+(x > 0) || (x < 0)	   // true  
+
+(x != 0) || (x == 0)   // true  
+(x >= 0) || (x < 0)    // true  
+(x != 1) == !(x == 1)  // true  
+```  
