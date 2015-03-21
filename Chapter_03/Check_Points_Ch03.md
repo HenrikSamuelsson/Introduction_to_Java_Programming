@@ -220,3 +220,16 @@ x or y
 x and y  
 (x != 0) || (x = 0) 
 ```  
+
+***3.22**  
+Yes.  
+
+***3.23***  
+Call the following expression p:  
+```  
+x >= 50 && x <= 100  
+```  
+p is false when x is 45   
+p is true when x is 67  
+p is false when x is 101  
+
