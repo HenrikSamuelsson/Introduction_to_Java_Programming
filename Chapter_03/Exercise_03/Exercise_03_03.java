@@ -26,7 +26,7 @@ public class Exercise_03_03 {
 		} else {
 			x = (e * d - b * f) / (a * d - b * c);
 			y = (a * f - e * c) / (a * d - b * c);
-			System.out.println("x is " + x + " and y is " + 3.0);
+			System.out.println("x is " + x + " and y is " + y);
 		}	
 	}
 
