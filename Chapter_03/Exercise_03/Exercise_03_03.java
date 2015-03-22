@@ -21,6 +21,7 @@ public class Exercise_03_03 {
 		e = input.nextDouble();
 		f = input.nextDouble();
 		
+		// use Cramers rule to solve the system of linear equations
 		if (a * d - b * c == 0) {
 			System.out.println("The equation has no solution");
 		} else {
