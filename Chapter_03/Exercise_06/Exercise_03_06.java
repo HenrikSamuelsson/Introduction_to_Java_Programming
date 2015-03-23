@@ -29,8 +29,8 @@ public class Exercise_03_06 {
 		
 		// compute BMI
 		double weightInKilograms = weight * KILOGRAMS_PER_POUND;
-		double heightInMeters = feet * METERS_PER_FOOT;
-		heightInMeters += inches * METERS_PER_INCH;
+		double heightInMeters = feet * METERS_PER_FOOT 
+				+ inches * METERS_PER_INCH;
 		double bmi = weightInKilograms / (heightInMeters * heightInMeters);
 		
 		// display result
