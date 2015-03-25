@@ -102,4 +102,8 @@ int j = (int)(Math.random() * 1000);
 double k = 5.5 + (int)(Math.random() * 50);  
 ```  
 
+**4.5**  
+There is one package that is automatically imported into any Java program, this package is called java.lang.  
 
+One of the classes that belongs to the java.lang package is the Math class. This means that the Math methods can be used directly without the need for explicit import.  
+ 
