@@ -87,3 +87,19 @@ double angle = Math.toRadians(47);
 // convert pi / 7 radians to degrees  
 double angle = Math.toDegrees(Math.PI / 7);  
 ```  
+
+**4.5**  
+**(a)**  
+```Java  
+int i = 34 + (int)(Math.random() * 22);  
+```  
+**(b)**  
+```Java  
+int j = (int)(Math.random() * 1000);
+```  
+**(c)**  
+```Java  
+double k = 5.5 + (int)(Math.random() * 50);  
+```  
+
+
