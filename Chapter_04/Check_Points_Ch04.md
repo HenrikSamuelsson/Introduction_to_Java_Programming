@@ -1,5 +1,5 @@
 # Checkpoint Answers Chapter 4 #
-**3.1**  
+**4.1**  
 **(a)**  
 ```  
 Math.sqrt(4)   // 2.0  
@@ -72,3 +72,6 @@ Math.round(2.5)    // 3
 ```  
 Math.round(Math.abs(-2.5))   // 3  
 ```  
+
+**4.2**  
+The argument for trigonometric methods is an angle in radians.  
