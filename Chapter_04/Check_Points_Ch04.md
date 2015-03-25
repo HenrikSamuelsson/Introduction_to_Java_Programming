@@ -75,3 +75,9 @@ Math.round(Math.abs(-2.5))   // 3
 
 **4.2**  
 The argument for trigonometric methods is an angle in radians.  
+
+**4.3**
+```Java  
+// convert 47 degrees to radians  
+double angle = Math.toRadians(47);  
+```  
