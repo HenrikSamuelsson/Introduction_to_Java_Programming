@@ -81,3 +81,9 @@ The argument for trigonometric methods is an angle in radians.
 // convert 47 degrees to radians  
 double angle = Math.toRadians(47);  
 ```  
+
+**4.4**  
+```Java  
+// convert pi / 7 radians to degrees  
+double angle = Math.toDegrees(Math.PI / 7);  
+```  
