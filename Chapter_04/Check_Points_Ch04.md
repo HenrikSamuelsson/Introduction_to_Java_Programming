@@ -142,4 +142,17 @@ System.out.println((char)0x71);	// prints q
 System.out.println((char)0x72);	// prints r
 System.out.println((char)0x7A);	// prints z 
 ```  
- 
+
+**4.9**  
+Examples of correct character literals:
+```Java  
+'l'  
+'\u3fFa'  
+'\b'  
+'\t'  
+```  
+Example of incorrect character literal, because the Unicode representation is too long:
+```Java  
+'\u345dE'
+```  
+
