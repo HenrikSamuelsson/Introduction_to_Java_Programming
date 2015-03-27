@@ -156,3 +156,8 @@ Example of incorrect character literal, because the Unicode representation is to
 '\u345dE'
 ```  
 
+**4.10**  
+```Java  
+System.out.println('\\');	// prints \
+System.out.println('"');	// prints "
+```  
