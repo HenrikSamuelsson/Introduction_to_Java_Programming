@@ -248,3 +248,13 @@ public class Test {
 // c will become a lower case character in the range a to z  
 char c = (char)(97 + Math.random() * 26);  
 ```  
+
+**4.15**  
+```Java  
+System.out.println('a' < 'b');	// true  
+System.out.println('a' <= 'A');	// false   
+System.out.println('a' > 'b');	// false  
+System.out.println('a' >= 'A');	// true  
+System.out.println('a' == 'a');	// true
+System.out.println('a' != 'b');	// true
+```  
