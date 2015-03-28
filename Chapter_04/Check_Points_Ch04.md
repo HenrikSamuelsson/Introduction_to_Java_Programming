@@ -236,7 +236,7 @@ public class Test {
 		// prints c because the increment is done after usage  		
 		System.out.println(y++);
 
-		// prints -2 beacuse there is an auto conversion to int before subraction  
+		// prints -2 beacuse there is an auto conversion to int before the subraction  
         System.out.println(x - y);
    	}
 
