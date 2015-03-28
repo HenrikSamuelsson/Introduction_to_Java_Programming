@@ -242,3 +242,9 @@ public class Test {
 
 }
 ```
+
+**4.14**  
+```Java  
+// c will become a lower case character in the range a to z  
+char c = (char)(97 + Math.random() * 26);  
+```  
