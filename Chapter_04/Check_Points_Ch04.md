@@ -161,3 +161,40 @@ Example of incorrect character literal, because the Unicode representation is to
 System.out.println('\\');	// prints \
 System.out.println('"');	// prints "
 ```  
+
+**4.11**  
+```Java  
+int i = '1';  
+```  
+equals  
+```Java  
+int i = 49;  
+```  
+because the ASCII code for 1 is 49, i will hence become 49.  
+
+```Java  
+int j = '1' + '2' * ('4' - '3') + 'b' / 'a';  
+```  
+equals  
+```Java  
+int j = 49 + 50 * (52 - 51) + 98 / 97;  
+```  
+that evaluates to j becoming 100.  
+
+```Java  
+int k = 'a';  
+```  
+equals  
+```Java  
+int k = 97;  
+```  
+because the ASCII code for a is 97, k will hence become 97.  
+
+```Java  
+char c = 90;  
+```  
+equals  
+```Java  
+char c = 'Z';  
+```  
+because the 90 equals Z in the ASCII table, c will hence hold the value Z.  
