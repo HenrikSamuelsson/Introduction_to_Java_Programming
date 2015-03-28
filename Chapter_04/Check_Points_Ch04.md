@@ -265,7 +265,7 @@ String s1 = "Welcome to Java";
 String s2 = "Programming is fun";  
 String s3 = "Welcome to Java";  
 ```   
-The above lines will cause the following expressions to become the value indicated in the comments.  
+Assuming the above lines will cause the following expressions to become the value indicated in the comments.  
 ```Java  
 s1 == s2	// false  
 ```  
