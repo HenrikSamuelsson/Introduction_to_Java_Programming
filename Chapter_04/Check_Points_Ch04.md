@@ -221,3 +221,24 @@ int i = (int)d;
 int i = 97;  
 char c = (char)i;  
 ```  
+
+**4.13**
+```Java    
+public class Test {  
+
+	public static void main(String[] args) {  
+		char x = 'a';  
+        char y = 'c';  
+		
+		// prints b  
+        System.out.println(++x);
+        
+		// prints c because the increment is done after usage  		
+		System.out.println(y++);
+
+		// prints -2 beacuse there is an auto conversion to int before subraction  
+        System.out.println(x - y);
+   	}
+
+}
+```
