@@ -258,3 +258,77 @@ System.out.println('a' >= 'A');	// true
 System.out.println('a' == 'a');	// true
 System.out.println('a' != 'b');	// true
 ```  
+
+**4.16**  
+```Java
+String s1 = "Welcome to Java";  
+String s2 = "Programming is fun";  
+String s3 = "Welcome to Java";  
+```   
+The above lines will cause the following expressions to become the value indicated in the comments.  
+```Java  
+s1 == s2	// false  
+```  
+```Java  
+s2 == s3	// false  
+```  
+```Java  
+s1.equals(s2)	// false
+```  
+```Java   
+s1.equals(s3)	// true
+```  
+```Java   
+s1.compareTo(s2)	// a positive int
+```  
+```Java   
+s2.compareTo(s3) 	// a negative int  
+```  
+```Java   
+s2.compareTo(s2)	// 0
+```  
+```Java   
+s1.charAt(0)	// W
+```  
+```Java  
+s1.indexOf('j')		// -1 
+```  
+```Java  
+s1.indexOf("to")	// 8
+```  
+```Java	
+s1.lastIndexOf('a')		// 14    
+```  
+```Java  
+s1.lastIndexOf("o", 15)		// 9
+```  
+```Java  
+s1.length()  // 15
+```  
+```Java  
+s1.substring(5)		// me to Java
+```  
+```Java  
+s1.substring(5, 11)  // me to   
+```  
+```Java  
+s1.startsWith("Wel")  // true
+```  
+```Java  
+s1.endsWith("Java")  // true
+```  
+```Java  
+s1.toLowerCase()	// welcome to java  
+```  
+```Java  
+s1.toUpperCase()	// WELCOME TO JAVA    
+```  
+```Java  
+s1.concat(s2)	// Welcome to JavaProgramming is fun
+```  
+```Java  
+s1.contains(s2)		// false
+```  
+```Java  
+"\t Wel \t".trim()	// Wel  
+```  
