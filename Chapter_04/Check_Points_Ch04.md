@@ -198,3 +198,26 @@ equals
 char c = 'Z';  
 ```  
 because the 90 equals Z in the ASCII table, c will hence hold the value Z.  
+
+**4.12**  
+Some examples that illustrate casting.  
+```Java  
+// i will be set to 65
+char c = 'A';  
+int i = (int)c;  
+```  
+```Java 
+// i will be set to 1000 
+float f = 1000.34f;  
+int i = (int)f;  
+```  
+```Java  
+// i will be set to 1000
+double d = 1000.34;  
+int i = (int)d;  
+```  
+```Java  
+// c will be set to 'a'
+int i = 97;  
+char c = (char)i;  
+```  
