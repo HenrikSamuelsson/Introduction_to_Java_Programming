@@ -332,3 +332,22 @@ s1.contains(s2)		// false
 ```Java  
 "\t Wel \t".trim()	// Wel  
 ```  
+
+**4.17**  
+Suppose that s1 and s2 are two strings.  
+
+The following are all examples of correct string manipulations in Java.  
+```Java  
+String s = "Welcome to Java";  
+String s3 = s1 + s2;  
+s1 == s2  
+s1.compareTo(s2);  
+int i = s1.length();  
+```  
+On the other hands so are the following all incorrect code snippets.  
+```Java  
+String s3 = s1 - s2;    
+s1 >= s2  
+char c = s1(0);  
+char c = s1.charAt(s1.length());  
+```  
