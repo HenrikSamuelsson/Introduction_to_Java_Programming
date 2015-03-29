@@ -485,4 +485,37 @@ The format specifier for outputting a boolean is %f.
 
 The format specifier for outputting a string is %s.  
 
+**4.23**  
+**(a)**    
+```Java
+System.out.printf("%5d %d\n", 1, 2, 3);
+```
+Erroneous code because there are three items to be printed but only two format specifiers.  
+
+**(b)**    
+```Java  
+System.out.printf("%5d %f", 1);
+```  
+Erroneous code because there are two format specifiers but only one item to be printed.   
+
+**(c)**    
+```Java  
+System.out.printf("%5d %f\n", 1, 2);  
+```  
+Erroneous code because an int item is combined with a float format specifier.  
+
+**(d)**    
+```Java  
+System.out.printf("%.2f\n%0.3f\n", 1.23456, 2.34);   
+```  
+Erroneous because second format specifier tries to set the width to zero and this is not allowed.  
+
+**(e)**    
+```Java  
+System.out.printf("%08s\n", "Java");  
+```  
+Erroneous because of the 0 in the format specifiers that need to be removed.  
+ 
+
+
 
