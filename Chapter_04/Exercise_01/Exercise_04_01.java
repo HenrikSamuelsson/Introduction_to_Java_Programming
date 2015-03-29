@@ -19,6 +19,6 @@ public class Exercise_04_01 {
 		double area = (5 * s * s) / (4 * Math.tan(Math.PI / 5));
 
 		// format and present the result
-		System.out.printf("The area of the pentagon is %1.2f", area);
+		System.out.printf("The area of the pentagon is %.2f", area);
 	}
 }
