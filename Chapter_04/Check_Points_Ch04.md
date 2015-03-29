@@ -515,7 +515,69 @@ Erroneous because second format specifier tries to set the width to zero and thi
 System.out.printf("%08s\n", "Java");  
 ```  
 Erroneous because of the 0 in the format specifiers that need to be removed.  
- 
 
+**4.24**  
+```Java  
+public class CheckPoint_04_24 {
+	
+	public static void main(String[] args) {
+		System.out.println("(a)"); 
+		System.out.printf("amount is %f %e\n", 32.32, 32.32);
+	    System.out.println();
+	    
+	    System.out.println("(b)");
+		System.out.printf("amount is %5.2f%% %5.4e\n", 32.327, 32.32);
+		System.out.println();
+		    
+		System.out.println("(c)");
+		System.out.printf("%6b\n", (1 > 2));
+		System.out.println();
+		    
+		System.out.println("(d)");
+		System.out.printf("%6s\n", "Java");
+		System.out.println();
+		    
+		System.out.println("(e)");
+		System.out.printf("%-6b%s\n", (1 > 2), "Java");
+		System.out.println();
+		    
+		System.out.println("(f)");
+		System.out.printf("%6b%-8s\n", (1 > 2), "Java");
+		System.out.println();
+		    
+		System.out.println("(g)");
+		System.out.printf("%,5d %,6.1f\n", 312342, 315562.932);
+		System.out.println();
+		    
+		System.out.println("(h)");
+		System.out.printf("%05d %06.1f\n", 32, 32.32);
+	}
 
+}
+```
+Above program will print the following (note that it was run on computer with Swedish locale settings for displaying numbers, might differ a bit on machines in other countries).  
+```Java  
+(a)
+amount is 32,320000 3,232000e+01
 
+(b)
+amount is 32,33% 3,2320e+01
+
+(c)
+ false
+
+(d)
+  Java
+
+(e)
+false Java
+
+(f)
+ falseJava    
+
+(g)
+312 342 315 562,9
+
+(h)
+00032 0032,3
+```  
