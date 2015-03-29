@@ -367,4 +367,12 @@ public class CheckPoint_04_18 {
 
 }
 ```  
+Above program will output:  
+```  
+a)    11
+b)    50
+c)    111
+d)    12
+e)    51
+```  
 
