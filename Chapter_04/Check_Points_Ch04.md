@@ -344,7 +344,7 @@ s1 == s2
 s1.compareTo(s2);  
 int i = s1.length();  
 ```  
-On the other hands so are the following all incorrect code snippets.  
+On the other hands so are the following all incorrect.  
 ```Java  
 String s3 = s1 - s2;    
 s1 >= s2  
