@@ -401,4 +401,73 @@ Above program will output:
 1Welcome 2
 1Welcome a1
 ```  
-  
+
+**4.20**  
+**(a)**
+```Java  
+boolean isEqual = s1.equals(s2);  
+```    
+**(b)**
+```Java  
+boolean isEqual = s1.equalsIgnoreCase(s2);  
+```    
+**(c)**
+```Java  
+int x = s1.compareTo(s2);  
+```    
+**(d)**
+```Java  
+int x = s1.compareToIgnoreCase(s2);  
+```    
+**(e)**
+```Java  
+boolean b = s1.startsWith("AAA");  
+```    
+**(f)**
+```Java  
+boolean b = s1.endsWith("AAA");  
+```    
+**(g)**
+```Java  
+int x = s1.length();  
+```    
+**(h)**
+```Java  
+char x = s1.charAt(0);  
+```    
+**(i)**
+```Java  
+String s3 = s1 + s2;  
+```    
+**(j)**
+```Java  
+String s3 = s1.substring(1);  
+```    
+**(k)**
+```Java  
+String s3 = s1.substring(1, 5);  
+```    
+**(l)**
+```Java  
+String s3 = s1.toLowerCase();  
+```    
+**(m)**
+```Java  
+String s3 = s1.toUpperCase();  
+```    
+**(n)**
+```Java  
+String s3 = s1.trim();  
+```    
+**(o)**
+```Java  
+int x = s1.indexOf('e');
+```    
+**(p)**
+```Java  
+int x = s1.lastIndexOf("abc");
+```  
+
+
+
+
