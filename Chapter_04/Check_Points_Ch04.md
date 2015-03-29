@@ -468,6 +468,9 @@ int x = s1.indexOf('e');
 int x = s1.lastIndexOf("abc");
 ```  
 
-
-
+**4.21**  
+We will get the answer by adding the first numbers in Set1, Set3, and Set4:
+```  
+1 + 4 + 8 = 13
+```  
 
