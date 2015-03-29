@@ -474,3 +474,15 @@ We will get the answer by adding the first numbers in Set1, Set3, and Set4:
 1 + 4 + 8 = 13
 ```  
 
+**4.22**  
+The format specifier for outputting a boolean is %b.  
+
+The format specifier for outputting a character is %c.  
+
+The format specifier for outputting a decimal is %d.  
+
+The format specifier for outputting a boolean is %f.  
+
+The format specifier for outputting a string is %s.  
+
+
