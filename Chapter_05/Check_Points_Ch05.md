@@ -30,4 +30,10 @@ The variable max will hold the largest number entered and number will hold the l
 ```Java  
 max is 5  
 number 0  
-```   
+```  
+
+**5.5**  
+This program will start with x equal to 80000000 and x is then increased by one again and again until it overflows after reaching 2147483647, x will be -2147483648 after the overflow. The while loop will now terminate and the output will be:  
+```Java  
+x is -2147483648  
+```  
