@@ -25,4 +25,9 @@ The loop body will be run nine times and the output will be:
 9  
 ```  
 
- 
+**5.4**  
+The variable max will hold the largest number entered and number will hold the last number entered so the output will be:  
+```Java  
+max is 5  
+number 0  
+```   
