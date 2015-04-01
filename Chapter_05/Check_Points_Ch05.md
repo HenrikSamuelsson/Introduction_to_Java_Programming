@@ -37,3 +37,16 @@ This program will start with x equal to 80000000 and x is then increased by one 
 ```Java  
 x is -2147483648  
 ```  
+
+**5.6**  
+The program in this check point will take numbers as input and keep track of the biggest number in the variable called "max". The last entered number is stored in the variable called "number".  
+
+The out put when running the program with the input  
+```
+2 3 4 5 0  
+```  
+will be:  
+**  
+max is 5  
+number 0  
+**  
