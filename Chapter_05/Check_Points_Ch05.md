@@ -91,3 +91,33 @@ for (i = 1; i <= 100; i++) {
 	System.out.println(i);
 }
 ```  
+
+**5.10**  
+```Java  
+import java.util.Scanner;
+
+public class CheckPoint_05_10 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int number, sum = 0, count;
+		for (count = 0; count < 5; count++) {
+			number = input.nextInt();
+			sum += number;
+		}
+		System.out.println("sum is " + sum);
+		System.out.println("count is " + count);
+	}
+	
+}
+```  
+The program in this check point will sum integers until the control variable in the loop reaches the value five 5. This means that if the input to the program is  
+```
+2 3 4 5 0  
+```  
+so will the output be  
+```  
+sum is 14  
+count is 5
+```  
+
