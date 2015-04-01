@@ -46,7 +46,7 @@ The out put when running the program with the input
 2 3 4 5 0  
 ```  
 will be:  
-**  
+```  
 max is 5  
 number 0  
-**  
+```   
