@@ -41,7 +41,7 @@ x is -2147483648
 **5.6**  
 The program in this check point will take numbers as input and keep track of the biggest number in the variable called "max". The last entered number is stored in the variable called "number".  
 
-The out put when running the program with the input  
+The output when running the program with the input  
 ```
 2 3 4 5 0  
 ```  
@@ -50,3 +50,18 @@ will be:
 max is 5  
 number 0  
 ```   
+
+**5.7**  
+A do-while loop will always execute the body of the loop at least one time, this is not true for a while loop.  
+
+The code from the check point rewritten with using a do-while loop:  
+```Java  
+Scanner input = new Scanner(System.in);
+int sum = 0;
+int number;
+do {
+	System.out.println("Enter an integer (the input ends if it is 0)");
+	number = input.nextInt();
+	sum += number;
+} while (number != 0);
+```  
