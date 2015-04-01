@@ -78,3 +78,16 @@ for (int i = 0; i < 10; i++) {
 }
 ```  
 The above two loops will result in the same value in sum. This is so because the control variable i will have identical value, when used in the loop-continuiation-condition, regardless of ++i or i++ is used to increment i.  
+
+**5.9**  
+The three parts usually present in a for loop control section are  
+1. Initial action used to initialize control variables.  
+2. Loop continuation condition that controls if the body of the loop will run or not, will usually be based on the control variables.  
+3. After iteration action which usually will alter the value of the control variable.  
+
+A loop that prints the numbers for 1 to 100:  
+```Java  
+for (i = 1; i <= 100; i++) {
+	System.out.println(i);
+}
+```  
