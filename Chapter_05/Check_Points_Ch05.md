@@ -65,3 +65,16 @@ do {
 	sum += number;
 } while (number != 0);
 ```  
+
+**5.8**  
+```Java  
+for (int i = 0; i < 10; ++i) {  
+	sum += i;
+}
+```  
+```Java  
+for (int i = 0; i < 10; i++) {  
+	sum += i;
+}
+```  
+The above two loops will result in the same value in sum. This is so because the control variable i will have identical value, when used in the loop-continuiation-condition, regardless of ++i or i++ is used to increment i.  
