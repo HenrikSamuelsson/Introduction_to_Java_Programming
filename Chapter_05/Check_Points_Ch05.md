@@ -54,7 +54,7 @@ number 0
 **5.7**  
 A do-while loop will always execute the body of the loop at least one time, this is not true for a while loop.  
 
-The code from the check point rewritten with using a do-while loop:  
+The code from the check point rewritten using a do-while loop:  
 ```Java  
 Scanner input = new Scanner(System.in);
 int sum = 0;
