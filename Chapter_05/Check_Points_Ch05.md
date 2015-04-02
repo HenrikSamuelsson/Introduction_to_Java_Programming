@@ -124,4 +124,28 @@ count is 5
 **5.11**  
 The loop in this check point will iterate indefinitely and repeat the execution of the instructions in the body on each iteration.  
 
+**5.12**  
+A for loop, a while loop, and a do-while loop that all do the same thing.  
+```Java  
+long sum = 0;
+for (int i = 0; i <= 1000; i++)
+	sum = sum + i;
+```  
+```Java  
+long sum = 0;
+int i = 0;
+while (i <= 1000) {
+	sum += i;
+	i++;
+}
+```  
+```Java  
+long sum = 0;
+int i = 0;
+do {
+	sum += i
+	i++;
+} while (i <= 1000);
+```  
+
 
