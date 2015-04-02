@@ -121,3 +121,7 @@ sum is 14
 count is 5
 ```  
 
+**5.11**  
+The loop in this check point will iterate indefinitely and repeat the execution of the instructions in the body on each iteration.  
+
+
