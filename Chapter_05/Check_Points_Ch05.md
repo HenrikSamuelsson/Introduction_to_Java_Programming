@@ -166,3 +166,12 @@ n equal to 12 will for example result in
 (12 - 5) / 3 = 7 / 3 = 2.33
 ``` 
 which shall be rounded upwards resulting in 3 loop iterations.  
+
+**5.15**  
+A for loop can be converted into a while loop.  
+
+Some benefits of for loops are:  
+- For certain type of problem, a for loop can be easier to construct and easier to read than the corresponding while loop.  
+- It is a very good (perhaps the best) choice for counting loops.	 
+- All the control variables are nicely collected into one place when using for loops.  
+
