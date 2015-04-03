@@ -193,3 +193,32 @@ for (int i=1; sum < 1000; i++) {
 	sum = sum + i;  
 }
 ```  
+**5.17**  
+Fixed version of the code in this check point follows.  
+Had to guess a little on some of the fixes since there was no specification and instead just a piece of semi-random nonsense code.  
+```Java  
+public class Test {
+	public static void main(String[] args) { // missing static
+		int sum = 0; // sum was not defined in original code
+		for (int i = 0; i < 10; i++)	// removed a semicolon here
+			sum += i;
+
+		int j = 10; // j was not defined
+		int i = 5; // i was not defined
+		if (i < j) // removed a semicolon
+			System.out.println(i); // added missing semicolon
+		else
+			System.out.println(j);
+
+		while (j < 10) // removed semicolon
+		{
+			j++;
+		}
+
+		do {
+			j++;
+		} while (j < 10); // added semicolon
+	}
+}
+```  
+
