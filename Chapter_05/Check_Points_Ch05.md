@@ -221,3 +221,9 @@ public class Test {
 }
 ```  
 
+**5.18**  
+**(a)**  
+The problem with this code is a missing semicolon after the do-while loop at row 8.  
+**(b)**  
+The problem with this code is that the semicolon at line 3 shall be removed.  
+
