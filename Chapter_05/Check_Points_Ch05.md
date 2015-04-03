@@ -229,7 +229,7 @@ The problem with this code is that the semicolon at line 3 shall be removed.
 
 **5.19**  
 When i is 0, the println statement is executed 0 times.  
-When i is 1, the println statement is executed 1 time. 
+When i is 1, the println statement is executed 1 time.   
 When i is 2, the println statement is executed 2 times.  
 .  
 .  
