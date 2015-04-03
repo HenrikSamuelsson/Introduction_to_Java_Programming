@@ -157,7 +157,7 @@ n iterations
 **(b)**  
 n + 1 iterations  
 **(c)**  
-n - 5 iterations
+n - 5 iterations  
 **(d)**  
 (n-5)/3 iterations, rounded upwards if n-5 is not divisible by 3.  
 
@@ -165,4 +165,4 @@ n equal to 12 will for example result in
 ```  
 (12 - 5) / 3 = 7 / 3 = 2.33
 ``` 
-which shall be rounded upwards giving us 3 iterations.  
+which shall be rounded upwards resulting in 3 loop iterations.  
