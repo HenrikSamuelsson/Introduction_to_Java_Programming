@@ -178,7 +178,7 @@ Some benefits of for loops are:
 **5.16**  
 A while loop can always be converted into a for loop.  
 
-Belows follows an illustration where a given while loop have been converted into a correpsponding for loop.  
+Below follows an illustration where a given while loop have been converted into a corresponding for loop.  
 ```Java  
 int i = 1;  
 int sum = 0;  
