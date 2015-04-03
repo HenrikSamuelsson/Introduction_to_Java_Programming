@@ -175,3 +175,21 @@ Some benefits of for loops are:
 - It is a very good (perhaps the best) choice for counting loops.	 
 - All the control variables are nicely collected into one place when using for loops.  
 
+**5.16**  
+A while loop can always be converted into a for loop.  
+
+Belows follows an illustration where a given while loop have been converted into a correpsponding for loop.  
+```Java  
+int i = 1;  
+int sum = 0;  
+while (sum < 10000) {  
+	sum = sum + i;  
+	i++;  
+}  
+```  
+```Java  
+sum = 0;  
+for (int i=1; sum < 1000; i++) {  
+	sum = sum + i;  
+}
+```  
