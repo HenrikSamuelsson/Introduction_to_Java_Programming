@@ -240,3 +240,37 @@ So, the total is
 ```
 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45  
 ```  
+
+**5.20**  
+**(a)**  
+Output:
+```  
+0 0 1 0 1 2 0 1 2 3  
+```  
+**(b)**  
+Output:
+```  
+****
+****
+2 ****
+3 2 ****
+4 3 2 ****
+```  
+**(c)**  
+Output:
+```  
+1xxx2xxx4xxx8xxx16xxx
+1xxx2xxx4xxx8xxx
+1xxx2xxx4xxx
+1xxx2xxx
+1xxx
+```  
+**(d)**  
+Output:
+```  
+1G
+1G3G
+1G3G5G
+1G3G5G7G
+1G3G5G7G9G
+```  
