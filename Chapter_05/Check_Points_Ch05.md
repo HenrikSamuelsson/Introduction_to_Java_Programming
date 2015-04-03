@@ -194,8 +194,7 @@ for (int i=1; sum < 1000; i++) {
 }
 ```  
 **5.17**  
-Fixed version of the code in this check point follows.  
-Had to guess a little on some of the fixes since there was no specification and instead just a piece of semi-random nonsense code.  
+Fixed version of the code in this check point follows.  Had to guess a little on some of the fixes since there was no specification and instead just a piece of semi-random nonsense code.  
 ```Java  
 public class Test {
 	public static void main(String[] args) { // missing static
