@@ -125,6 +125,9 @@ count is 5
 The loop in this check point will iterate indefinitely and repeat the execution of the instructions in the body on each iteration.  
 
 **5.12**  
+A variable that is declared in a for loop control section can not be used after the loops exists.  
+
+**5.13**  
 A for loop, a while loop, and a do-while loop, that all do the same thing.  
 ```Java  
 long sum = 0;
@@ -148,7 +151,8 @@ do {
 } while (i <= 1000);
 ```  
 
-**5.13**  
+**5.14**  
+
 
 
 
