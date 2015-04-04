@@ -274,3 +274,8 @@ Output:
 1G3G5G7G
 1G3G5G7G9G
 ```  
+
+**5.21**  
+The suggested optimization is incorrect since it will not spot the gcd when entering two identical numbers. 
+
+ 
