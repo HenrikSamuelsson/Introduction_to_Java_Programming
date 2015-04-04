@@ -335,3 +335,19 @@ while (true) {
 System.out.println("Balance is " + balance);
 ```  
 The loop in this second example will never end because continue is mistakenly used instead of break.  
+
+**5.24**  
+The problem with the while loop version (see the book) is that the varible called "i" will not be incremented as it should when it is divisible by three. This is because the continune will cause an jump to the beginning of the loop.  
+
+We need to add the increment of "i" in one extra place:  
+```Java   
+int i = 0; 
+while (i < 4) {
+	if (i % 3 == 0) {
+		i++; 
+		continue;
+	} 
+	sum += i;
+	i++;
+}  
+```  
