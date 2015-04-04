@@ -286,7 +286,7 @@ But no information will be lost in this case because the numbers are always smal
 So there is no problem with our code but we still need to make a cast to a char to indicate to compiler that we are aware of what we are doing.  
 
 **5.23**  
-The loop will in each iteration divide the variable "decimal" by 16. The result will be truncated since this is how integer division works in Java. The execution stops when decimal is 0.  
+The loop will in each iteration divide the variable "decimal" by 16. The result will be truncated since this is how integer division works in Java. The execution stops when "decimal" is 0.  
 
 Assume that "decimal" starts at 245:  
 ```
@@ -301,10 +301,5 @@ Assume that "decimal" starts at 3245:
 202 / 16 = 12
 12 / 16 = 0
 ```  
-There will hence be 3 iterations in this case. 
-
-
-
-
-
+There will hence be 3 iterations in this case.  
  
