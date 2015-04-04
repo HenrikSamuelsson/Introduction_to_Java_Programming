@@ -279,10 +279,11 @@ Output:
 The suggested optimization is incorrect since it will not spot the gcd when entering two identical numbers. 
 
 **5.22**  
-The code will not compile if we remove the cast. This is because information might be lost when we convert an int to a char because an int can hold a lager range of numbers.  
+The code will not compile if we remove the cast. This is because the code is semi dangerous since information might be lost when we convert an int to a char. An int can hold a wider range of numbers than a char.  
 
-No information will be lost in this case because the numbers are always small enough to fit in a char. 
+But no information will be lost in this case because the numbers are always small enough to fit in a char. 
 
 So there is no problem with our code but we still need to make a cast to a char to indicate to compiler that we are aware of what we are doing.  
+
 
  
