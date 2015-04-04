@@ -304,9 +304,9 @@ Assume that "decimal" starts at 3245:
 There will hence be 3 iterations in this case.  
 
 **5.24**  
-The keyword break can be used in loops to exit the loop.  
+The keyword break can be used in a loop to exit the loop.  
 
-The keyword continue is used in loops to terminate the current iteration and moves execution directly to the loop control section.  
+The keyword continue is used in a loop to terminate the current iteration and move execution directly to the loop control section.  
 
 The keyword break is used in the following code:   
 ```Java  
@@ -334,4 +334,4 @@ while (true) {
 
 System.out.println("Balance is " + balance);
 ```  
-The loop in this second example will never end because continue is used instead of break.  
+The loop in this second example will never end because continue is mistakenly used instead of break.  
