@@ -336,7 +336,7 @@ System.out.println("Balance is " + balance);
 ```  
 The loop in this second example will never end because continue is mistakenly used instead of break.  
 
-**5.24**  
+**5.25**  
 The problem with the while loop version (see the book) is that the varible called "i" will not be incremented as it should when it is divisible by three. This is because the continune will cause an jump to the beginning of the loop.  
 
 We need to add the increment of "i" in one extra place:  
@@ -352,7 +352,7 @@ while (i < 4) {
 }  
 ```  
 
-**5.25**  
+**5.26**  
 The program TestBreak in Listing 5.12 rewritten so that the break is no longer used:  
 ```Java  
 public class TestBreak {
@@ -391,4 +391,28 @@ public class TestContinue {
 	}
 	
 }
-```    
+```  
+
+**5.27**  
+**(a)**  
+The second print statement will be executed after the break. The output will be:  
+```
+1
+2
+1
+2
+2
+3
+```  
+
+**(b)**  
+The increment of j will be executed after the continue. The output will be:  
+```  
+1
+2
+1
+2
+2
+3
+```  
+
