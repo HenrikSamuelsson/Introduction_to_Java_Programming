@@ -351,3 +351,44 @@ while (i < 4) {
 	i++;
 }  
 ```  
+
+**5.25**  
+The program TestBreak in Listing 5.12 rewritten so that the break is no longer used:  
+```Java  
+public class TestBreak {
+
+	public static void main(String[] args) {
+		int sum = 0;
+		int number = 0;
+
+		while (number < 20 && sum < 100) {
+			number++;
+			sum += number;
+		}
+
+		System.out.println("The number is " + number);
+		System.out.println("The sum is " + sum);
+	}
+
+}
+```  
+
+The program TestContinue in Listing 5.13 rewritten so that the continue is no longer used:  
+```Java  
+public class TestContinue {
+	
+	public static void main(String[] args) {
+		int sum = 0;
+		int number = 0;
+
+		while (number < 20) {
+			number++;
+			if (number != 10 && number != 11)
+				sum += number;
+		}
+
+		System.out.println("The sum is " + sum);
+	}
+	
+}
+```    
