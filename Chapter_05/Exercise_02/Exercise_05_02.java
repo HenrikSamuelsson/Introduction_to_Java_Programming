@@ -11,7 +11,7 @@ public class Exercise_05_02 {
 	public static void main(String[] args) {
 		final int NUMBER_OF_QUESTIONS = 10; // number of questions
 		int correctCount = 0; // count the number of correct answers
-		int count = 0; // rount the number of questions
+		int count = 0; // count the number of questions
 		long startTime = System.currentTimeMillis();
 		String output = ""; // output string is initially empty
 		Scanner input = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Exercise_05_02 {
 			int number1 = (int) (Math.random() * 15) + 1;
 			int number2 = (int) (Math.random() * 15) + 1;
 
-			// prompt the student to answer “What is number1 + number2?”
+			// prompt the student to answer â€œWhat is number1 + number2?â€
 			System.out.print("What is " + number1 + " + " + number2 + "? ");
 			int answer = input.nextInt();
 
