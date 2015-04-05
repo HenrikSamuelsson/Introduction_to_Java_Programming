@@ -66,7 +66,7 @@ do {
 } while (number != 0);
 ```  
 
-**5.8**  
+##5.8 ##
 ```Java  
 for (int i = 0; i < 10; ++i) {  
 	sum += i;
@@ -79,7 +79,7 @@ for (int i = 0; i < 10; i++) {
 ```  
 The above two loops will result in the same value in sum. This is so because the control variable i will have identical value, when used in the loop-continuiation-condition, regardless of ++i or i++ is used to increment i.  
 
-**5.9**  
+##5.9##
 The three parts usually present in a for loop control section are  
 1. Initial action used to initialize control variables.  
 2. Loop continuation condition that controls if the body of the loop will run or not, will usually be based on the control variables.  
@@ -92,7 +92,7 @@ for (i = 1; i <= 100; i++) {
 }
 ```  
 
-**5.10**  
+##5.10##
 ```Java  
 import java.util.Scanner;
 
@@ -121,13 +121,13 @@ sum is 14
 count is 5
 ```  
 
-**5.11**  
+##5.11##
 The loop in this check point will iterate indefinitely and repeat the execution of the instructions in the body on each iteration.  
 
-**5.12**  
+##5.12##
 A variable that is declared in a for loop control section can not be used after the loops exists.  
 
-**5.13**  
+##5.13##
 A for loop, a while loop, and a do-while loop, that all do the same thing.  
 ```Java  
 long sum = 0;
@@ -151,7 +151,7 @@ do {
 } while (i <= 1000);
 ```  
 
-**5.14**  
+##5.14##
 **(a)**  
 n iterations  
 **(b)**  
@@ -167,7 +167,7 @@ n equal to 12 will for example result in
 ``` 
 which shall be rounded upwards resulting in 3 loop iterations.  
 
-**5.15**  
+##5.15##
 A for loop can be converted into a while loop.  
 
 Some benefits of for loops are:  
@@ -175,7 +175,7 @@ Some benefits of for loops are:
 - It is a very good (perhaps the best) choice for counting loops.	 
 - All the control variables are nicely collected into one place when using for loops.  
 
-**5.16**  
+##5.16##
 A while loop can always be converted into a for loop.  
 
 Below follows an illustration where a given while loop have been converted into a corresponding for loop.  
@@ -193,7 +193,7 @@ for (int i=1; sum < 1000; i++) {
 	sum = sum + i;  
 }
 ```  
-**5.17**  
+##5.17##
 Fixed version of the code in this check point follows.  Had to guess a little on some of the fixes since there was no specification and instead just a piece of semi-random nonsense code.  
 ```Java  
 public class Test {
@@ -221,13 +221,13 @@ public class Test {
 }
 ```  
 
-**5.18**  
+##5.18##
 **(a)**  
 The problem with this code is a missing semicolon after the do-while loop at row 8.  
 **(b)**  
 The problem with this code is that the semicolon at line 3 shall be removed.  
 
-**5.19**  
+##5.19##
 When i is 0, the println statement is executed 0 times.  
 When i is 1, the println statement is executed 1 time.   
 When i is 2, the println statement is executed 2 times.  
@@ -241,7 +241,7 @@ So, the total is
 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45  
 ```  
 
-**5.20**  
+##5.20##
 **(a)**  
 Output:
 ```  
@@ -275,17 +275,17 @@ Output:
 1G3G5G7G9G
 ```  
 
-**5.21**  
+##5.21##
 The suggested optimization is incorrect since it will not spot the gcd when entering two identical numbers. 
 
-**5.22**  
+##5.22##
 The code will not compile if we remove the cast. This is because the code is semi dangerous since information might be lost when we convert an int to a char. An int can hold a wider range of numbers than a char.  
 
 But no information will be lost in this case because the numbers are always small enough to fit in a char. 
 
 So there is no problem with our code but we still need to make a cast to a char to indicate to compiler that we are aware of what we are doing.  
 
-**5.23**  
+##5.23##
 The loop will in each iteration divide the variable "decimal" by 16. The result will be truncated since this is how integer division works in Java. The execution stops when "decimal" is 0.  
 
 Assume that "decimal" starts at 245:  
@@ -303,7 +303,7 @@ Assume that "decimal" starts at 3245:
 ```  
 There will hence be 3 iterations in this case.  
 
-**5.24**  
+##5.24##  
 The keyword break can be used in a loop to exit the loop.  
 
 The keyword continue is used in a loop to terminate the current iteration and move execution directly to the loop control section.  
@@ -336,7 +336,7 @@ System.out.println("Balance is " + balance);
 ```  
 The loop in this second example will never end because continue is mistakenly used instead of break.  
 
-**5.25**  
+##5.25##
 The problem with the while loop version (see the book) is that the varible called "i" will not be incremented as it should when it is divisible by three. This is because the continune will cause an jump to the beginning of the loop.  
 
 We need to add the increment of "i" in one extra place:  
@@ -352,7 +352,7 @@ while (i < 4) {
 }  
 ```  
 
-**5.26**  
+##5.26##
 The program TestBreak in Listing 5.12 rewritten so that the break is no longer used:  
 ```Java  
 public class TestBreak {
@@ -393,7 +393,7 @@ public class TestContinue {
 }
 ```  
 
-**5.27**  
+##5.27##
 **(a)**  
 The second print statement will be executed after the break. The output will be:  
 ```
