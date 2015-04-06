@@ -143,7 +143,7 @@ public class Test {
 ## 6.11 ##
 The arguments passed to a method must be passed in the same order as in the method signature and the types of all argument must be compatible to the formal parameters in the method signature.  
 
-The arguments can have the same name as the formal parameters. This is for example a valid program:  
+An argument can have the same name as a formal parameter, this is for example a valid program:  
 ```Java  
 public class CheckPoint_06_11 {
 	
@@ -157,5 +157,10 @@ public class CheckPoint_06_11 {
 		System.out.println(i + j);
 	}
 	
-}
-```
+} 
+```  
+## 6.12 ##
+There is a mistake when calling the method. The order of the two parameters have been mixed up.  
+
+Another mistake is in the the body of nPrintln where n is declared even though n is used as an name for one of the formal parameters.  
+  
