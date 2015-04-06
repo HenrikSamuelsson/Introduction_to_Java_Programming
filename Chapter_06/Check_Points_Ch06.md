@@ -36,3 +36,5 @@ The body of the max method can be shortened by the use of the conditional operat
 ```Java  
 return ( num1 > num2 ) ? num1 : num2;  
 ```   
+## 6.4 ##
+A call to a method with a void return type is always a statement itself. A call to a value-returning method can also be a statement by itself.  
