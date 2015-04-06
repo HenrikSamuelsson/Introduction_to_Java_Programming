@@ -38,3 +38,5 @@ return ( num1 > num2 ) ? num1 : num2;
 ```   
 ## 6.4 ##
 A call to a method with a void return type is always a statement itself. A call to a value-returning method can also be a statement by itself.  
+## 6.5 ##
+The return type of the main method is void.  
