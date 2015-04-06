@@ -40,3 +40,9 @@ return ( num1 > num2 ) ? num1 : num2;
 A call to a method with a void return type is always a statement itself. A call to a value-returning method can also be a statement by itself.  
 ## 6.5 ##
 The return type of the main method is void.  
+## 6.6 ##
+Omitting a return statement in a value-returning method will cause a syntax error.  
+
+It is possible to have a return statement in a void function, this will end the execution of the method.  
+
+It is a syntax error to have a void function that returns a value.  
