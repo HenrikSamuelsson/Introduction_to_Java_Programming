@@ -128,3 +128,15 @@ public class Test {
 	}
 }
 ```  
+## 6.10 ##
+```Java  
+public class Test {
+	public static double method(double i, double j) {
+		while (i < j) {
+			j--;
+		}
+
+		return j;
+	}
+}
+```  
