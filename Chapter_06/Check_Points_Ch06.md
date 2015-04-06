@@ -52,3 +52,32 @@ The term parameter is used to refer to the list of variables in a method declara
 The term argument refers to the actual values that are passed in when the method is invoked.  
 
 A method signature is made up of the name and the parameter list of a given method. Note that the return type is not part of the method signature.  
+## 6.9 ##
+**a**  
+```Java  
+public static double getCommission(double SalesAmount, double commissionRate)
+```  
+**b**  
+```Java  
+public static void displayCalendar(int mont, int year)
+```  
+**c**  
+```Java  
+public static double squareRoot(double num)
+```  
+**d**  
+```Java  
+public static boolean isEven(int num)
+```  
+**e**  
+```Java  
+public static void displayMessage(String message, int count)
+```  
+**f**  
+```Java  
+public static double monthlyPayment(double loanAmount, int years, double interestRate)
+```  
+**g**  
+```Java  
+public static char toUpperCase(char letter)
+```  
