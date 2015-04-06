@@ -140,3 +140,22 @@ public class Test {
 	}
 }
 ```  
+## 6.11 ##
+The arguments passed to a method must be passed in the same order as in the method signature and the types of all argument must be compatible to the formal parameters in the method signature.  
+
+The arguments can have the same name as the formal parameters. This is for example a valid program:  
+```Java  
+public class CheckPoint_06_11 {
+	
+	public static void main(String[] args) {
+		int i = 5;
+		int j = 10;
+		printSum(i, j);
+	}
+	
+	public static void printSum(int i, int j) {
+		System.out.println(i + j);
+	}
+	
+}
+```
