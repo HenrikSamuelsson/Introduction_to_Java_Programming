@@ -53,7 +53,7 @@ The term parameter is used to refer to the list of variables in a method declara
 The term argument refers to the actual values that are passed in when the method is invoked.  
 
 A method signature is made up of the name and the parameter list of a given method. Note that the return type is not part of the method signature.  
-## 6.9 ##
+## 6.8 ##
 **a**  
 ```Java  
 public static double getCommission(double SalesAmount, double commissionRate)
@@ -81,4 +81,50 @@ public static double monthlyPayment(double loanAmount, int years, double interes
 **g**  
 ```Java  
 public static char toUpperCase(char letter)
+```  
+## 6.9 ##
+```Java  
+public class Test {
+	public static method1(int n, m) {
+		n += m;
+		method2(3.4);
+	}
+
+	public static int method2(int n) {
+		if (n > 0) 
+			return 1;
+		else if (n == 0) 
+			return 0;
+		else if (n < 0) 
+			return -1;
+	}
+}
+```
+There are multiple errors in the above code.  
+
+The return type for method1 is missing, it shall be void.
+
+The type of the second parameter in method1 is missing, it shall most likely be of type int.  
+
+The second method, named method2, is in method1 invoked with a double argument but the parameter of method2 is of typ int. This causes an syntax error, this can be fixed by changing the method signature of method2.  
+
+The compiler will think that it is possible for method2 to not return any value in some situations. Remove the last if to make the code compile without changing the behavior. 
+
+A fully corrected code look like this:
+```Java  
+public class Test {
+	public static void method1(int n, int m) {
+		n += m;
+		method2(3.4);
+	}
+
+	public static int method2(double n) {
+		if (n > 0)
+			return 1;
+		else if (n == 0)
+			return 0;
+		else
+			return -1;
+	}
+}
 ```  
