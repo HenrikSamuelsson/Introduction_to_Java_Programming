@@ -45,4 +45,10 @@ Omitting a return statement in a value-returning method will cause a syntax erro
 
 It is possible to have a return statement in a void function, this will end the execution of the method.  
 
-It is a syntax error to have a void function that returns a value.  
+It is a syntax error to have a void function return a value.  
+## 6.7 ##
+The term parameter is used to refer to the list of variables in a method declaration.  
+
+The term argument refers to the actual values that are passed in when the method is invoked.  
+
+A method signature is made up of the name and the parameter list of a given method. Note that the return type is not part of the method signature.  
