@@ -4,7 +4,6 @@ Some of the benefits of using methods are:
 - Faster development time by reuse of code  
 - Reduces complexity of the code  
 - Makes the code easier to maintain  
-
 ## 6.2 ##
 A number of properties about a given method need to be decided before it can be defined:  
 - What modifiers are suitable
@@ -32,3 +31,8 @@ An invocation of the max method can for example look like this:
 ```Java  
 int biggestNumber = max(15, 42);  
 ```  
+## 6.3 ##
+The body of the max method can be shortened by the use of the conditional operator.  
+```Java  
+return ( num1 > num2 ) ? num1 : num2;  
+```   
