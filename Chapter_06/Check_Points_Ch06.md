@@ -4,6 +4,7 @@ Some of the benefits of using methods are:
 - Faster development time by reuse of code  
 - Reduces complexity of the code  
 - Makes the code easier to maintain  
+
 ## 6.2 ##
 A number of properties about a given method need to be decided before it can be defined:  
 - What modifiers are suitable
