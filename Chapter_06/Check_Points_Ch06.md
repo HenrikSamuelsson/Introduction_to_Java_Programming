@@ -209,14 +209,14 @@ Output is:
 i is 5  
 ```  
 ## 6.14 ##
-Stack content just before max is called:  
+Stack content just before the max-method is invoked:  
 ```
 |           |
 | max     0 |
 -------------
 ```
 
-Stack content just entering max, we use more stack now because max need to store some data:  
+Stack content just entering the max-method, we use more stack now because max need to store some data:  
 ```
 |           |
 | max     0 |
@@ -227,7 +227,7 @@ Stack content just entering max, we use more stack now because max need to store
 -------------
 ```
 
-Stack content just before return from the max-method, max have done some writing in the memory now:
+Stack content just before return from the max-method that now have done some writing in the memory:
 ```    
 |           |
 | max     0 |
@@ -238,7 +238,7 @@ Stack content just before return from the max-method, max have done some writing
 -------------
 ```  
 
-Stack content after return from the max-method, the memory needed by max is nom free again:  
+Stack content after return from the max-method, the memory needed by the max-method is now free again:  
 ```
 |           |
 | max     0 |
