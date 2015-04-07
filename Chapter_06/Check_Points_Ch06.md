@@ -54,31 +54,31 @@ The term argument refers to the actual values that are passed in when the method
 
 A method signature is made up of the name and the parameter list of a given method. Note that the return type is not part of the method signature.  
 ## 6.8 ##
-**a**  
+**(a)**  
 ```Java  
 public static double getCommission(double SalesAmount, double commissionRate)
 ```  
-**b**  
+**(b)**  
 ```Java  
 public static void displayCalendar(int mont, int year)
 ```  
-**c**  
+**(c)**  
 ```Java  
 public static double squareRoot(double num)
 ```  
-**d**  
+**(d)**  
 ```Java  
 public static boolean isEven(int num)
 ```  
-**e**  
+**(e)**  
 ```Java  
 public static void displayMessage(String message, int count)
 ```  
-**f**  
+**(f)**  
 ```Java  
 public static double monthlyPayment(double loanAmount, int years, double interestRate)
 ```  
-**g**  
+**(g)**  
 ```Java  
 public static char toUpperCase(char letter)
 ```  
@@ -165,15 +165,13 @@ There is a mistake when calling the method. The order of the two parameters have
 Another mistake is in the the body of nPrintln where n is declared even though n is used as an name for one of the formal parameters.  
 ## 6.13 ##
 By definition, pass by value means you are making a copy in memory of the actual parameter's value that is passed in. All work done in the method is then done on this copy.  
-
-**a**  
+**(a)**  
 Output is:    
 ```
 0
 ```
 It is only the local copy that is altered by the method, the original is left unchanged.  
-
-**b**  
+**(b)**  
 Output is:  
 ```  
 2  
@@ -183,7 +181,7 @@ Output is:
 2 4 8 16 32  
 2 4 8 16 32 64  
 ```  
-**c**  
+**(c)**  
 Output is:  
 ```
 Before the call, variable times is 3  
@@ -196,8 +194,7 @@ Welcome to Java!
 After the call, variable times is 3    
 ```  
 What happens is that the value of the variable times is copied to n. The value of n n is then changed but the value of times stays unchanged.  
-
-**d**  
+**(d)**  
 Output is:  
 ```  
   
