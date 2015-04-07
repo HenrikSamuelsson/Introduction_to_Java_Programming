@@ -166,14 +166,14 @@ Another mistake is in the the body of nPrintln where n is declared even though n
 ## 6.13 ##
 By definition, pass by value means you are making a copy in memory of the actual parameter's value that is passed in. All work done in the method is then done on this copy.  
 
-** a **  
+**a**  
 Output is:    
 ```
 0
 ```
 It is only the local copy that is altered by the method, the original is left unchanged.  
 
-** b **  
+**b**  
 Output is:  
 ```  
 2  
@@ -183,7 +183,7 @@ Output is:
 2 4 8 16 32  
 2 4 8 16 32 64  
 ```  
-** c **  
+**c**  
 Output is:  
 ```
 Before the call, variable times is 3  
@@ -197,7 +197,7 @@ After the call, variable times is 3
 ```  
 What happens is that the value of the variable times is copied to n. The value of n n is then changed but the value of times stays unchanged.  
 
-** d **  
+**d**  
 Output is:  
 ```  
   
