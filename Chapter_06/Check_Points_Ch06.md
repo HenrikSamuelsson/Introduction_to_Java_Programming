@@ -165,14 +165,16 @@ There is a mistake when calling the method. The order of the two parameters have
 Another mistake is in the the body of nPrintln where n is declared even though n is used as an name for one of the formal parameters.  
 ## 6.13 ##
 By definition, pass by value means you are making a copy in memory of the actual parameter's value that is passed in. All work done in the method is then done on this copy.  
-** a **
+
+** a **  
 Output is:    
 ```
 0
 ```
 It is only the local copy that is altered by the method, the original is left unchanged.  
+
 ** b **  
-Output is:
+Output is:  
 ```  
 2  
 2 4  
@@ -182,7 +184,7 @@ Output is:
 2 4 8 16 32 64  
 ```  
 ** c **  
-Output is:
+Output is:  
 ```
 Before the call, variable times is 3  
 n = 3  
@@ -194,8 +196,9 @@ Welcome to Java!
 After the call, variable times is 3    
 ```  
 What happens is that the value of the variable times is copied to n. The value of n n is then changed but the value of times stays unchanged.  
-** d **
-Output is:
+
+** d **  
+Output is:  
 ```  
   
 1  
