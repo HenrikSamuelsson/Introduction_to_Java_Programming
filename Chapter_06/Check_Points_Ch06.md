@@ -227,7 +227,7 @@ Stack content just entering the max-method, we use more stack now because max ne
 -------------
 ```
 
-Stack content just before return from the max-method that now have done some writing in the memory:
+Stack content just before return from the max-method, that now have done some writing in the memory:
 ```    
 |           |
 | max     0 |
