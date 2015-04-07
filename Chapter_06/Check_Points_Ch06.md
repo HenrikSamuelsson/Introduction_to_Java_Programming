@@ -204,3 +204,39 @@ Output is:
 4 2 1  
 i is 5  
 ```  
+## 6.14 ##
+Stack content just before max is called:  
+```
+|           |
+| max     0 |
+-------------
+```
+
+Stack content just entering max, we use more stack now because max need to store some data:  
+```
+|           |
+| max     0 |
+| value2  2 |
+| value1  1 |
+-------------
+| max     0 |
+-------------
+```
+
+Stack content just before return from the max-method, max have done some writing in the memory now:
+```    
+|           |
+| max     0 |
+| value2  2 |
+| value1  1 |
+-------------
+| max     0 |
+-------------
+```  
+
+Stack content after return from the max-method, the memory needed by max is nom free again:  
+```
+|           |
+| max     0 |
+-------------
+```
