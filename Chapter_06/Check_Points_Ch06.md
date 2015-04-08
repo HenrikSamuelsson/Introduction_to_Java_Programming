@@ -254,3 +254,15 @@ It is not allowed to have overloaded methods where the difference is just based 
 # 6.16 #
 Both methods defined in this check point have the exact same signature, this is not allowed since there is no way to know which of the methods to invoke.  
 
+# 6.17 #
+**(a)**  
+The second method will be invoked in this case.  
+
+**(b)**  
+The second method will be invoked in this case.  
+
+**(c)**  
+The first method will be invoked in this case.  
+
+
+
