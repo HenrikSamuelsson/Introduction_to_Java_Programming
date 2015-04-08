@@ -250,4 +250,7 @@ Method overloading in Java occurs when two or more methods in the same class hav
 It is allowed to have identical method names, as long as the parameter types are sufficintly different.  
 
 It is not allowed to have overloaded methods where the difference is just based on return types or modifiers.  
- 
+
+# 6.16 #
+Both methods defined in this check point have the exact same signature, this is not allowed since there is no way to know which of the methods to invoke.  
+
