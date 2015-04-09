@@ -14,3 +14,10 @@ double[] myList = {1.9, 2.4, 3.4, 3.5, 1.0, 5.7, 3.1, 1.1, 8.7, 4.6};
 ```  
 ## 7.2 ##
 The memory needed for an array is allocated when the array is created, by the use of the new keyword or using an array initializer.  
+## 7.3 ##
+The code in this check point will output:  
+```  
+x is 60
+The size of numbers is 30
+```  
+The size of an array can not be changed after it is set.  
