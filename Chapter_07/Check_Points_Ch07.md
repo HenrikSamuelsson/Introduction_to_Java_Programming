@@ -21,3 +21,15 @@ x is 60
 The size of numbers is 30
 ```  
 The size of an array can not be changed after it is set.  
+## 7.4 ##
+**(a)**  
+True  
+
+**(b)**  
+False  
+
+**(c)**  
+True  
+
+**(d)**  
+False  
