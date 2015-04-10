@@ -47,3 +47,11 @@ Example:
 int i[] = {1, 5, 8, 2};
 int myInt = i[1];	// myInt becomes 5
 ```  
+## 7.7 ##
+The type of an array index is int.  
+
+The lowest index of an array is 0.  
+
+The third element of an array named a is represented by `a[2]`.  
+
+
