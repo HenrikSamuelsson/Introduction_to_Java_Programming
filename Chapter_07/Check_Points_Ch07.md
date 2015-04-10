@@ -33,3 +33,9 @@ True
 
 **(d)**  
 False  
+## 7.5 ##
+The following are both valid ways to define an array:  
+```Java  
+double d[] = new double[30];  
+float f[] = {2.3, 4.5, 6.6};  
+```  
