@@ -39,3 +39,11 @@ The following are both valid ways to define an array:
 double d[] = new double[30];  
 float f[] = {2.3, 4.5, 6.6};  
 ```  
+## 7.6 ##
+Each element in an array is associated with an index that can be used for accessing the element.  
+
+Example:  
+```Java  
+int i[] = {1, 5, 8, 2};
+int myInt = i[1];	// myInt becomes 5
+```  
