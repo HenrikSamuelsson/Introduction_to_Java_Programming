@@ -79,8 +79,8 @@ for (int e : listD) {
 
 **(e)**  
 ```Java  
-int min = listD[0];
-for (int e : listD) {
+int min = listE[0];
+for (int e : listE) {
 	if (e < min) {
 		min = e;
 	}
