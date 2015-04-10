@@ -53,5 +53,47 @@ The type of an array index is int.
 The lowest index of an array is 0.  
 
 The third element of an array named a is represented by `a[2]`.  
+## 7.8 ##
+**(a)**  
+```Java
+double[] listA = new double[10];
+```
 
+**(b)**  
+```Java  
+listB[listB.length() - 1] = 5.5;
+```
+
+**(c)**  
+```Java  
+System.out.println(listC[0] + listC[1]);
+```
+
+**(d)**  
+```Java  
+int sum = 0;
+for (int e : listD) {
+	sum += e;
+}
+```
+
+**(e)**  
+```Java  
+int min = listD[0];
+for (int e : listD) {
+	if (e < min) {
+		min = e;
+	}
+}
+```
+
+**(f)**  
+```Java  
+System.out.println(listF[(int)(Math.random()listF.length)]);
+```
+
+**(g)**  
+```Java  
+double[] ListG = {3.5, 5.5, 4.52, 5.6};
+```  
 
