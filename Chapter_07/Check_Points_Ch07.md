@@ -164,3 +164,17 @@ myList = new int[10];
 myList = new int[20];
 ```
 What happens it that the reference is moved so that it references another part of the memory, that is big enough to hold 20 elements. This means that the 10 first elements will no longer be the same unless they are somehow copied.   
+
+## 7.15 ##
+The problem is that the content is swapped two times so wo will end up with the same order of elements as we started with.  
+
+The trick to fix the problem is to stop the for loop when we have reached the midpoint of the array. A fixed version looks like this.  
+```Java  
+int[] list = {1, 2, 3, 5, 4};
+for (int i = 0, j = list.length - 1; i < list.length / 2; i++, j--) {
+	// Swap list[i] with list[j]
+	int temp = list[i];
+	list[i] = list[j];
+	list[j] = temp;
+}
+```  
