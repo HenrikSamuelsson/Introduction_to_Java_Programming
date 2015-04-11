@@ -178,3 +178,6 @@ for (int i = 0, j = list.length - 1; i < list.length / 2; i++, j--) {
 	list[j] = temp;
 }
 ```  
+## 7.16 ##
+Arrays are passed as references when used as arguments to methods. This reduces the amount of information that needs to be passed. Note that this means that if the method changes the content of the array so will this also affect corresponding array content existing outside of the method block.  
+
