@@ -98,3 +98,35 @@ double[] ListG = {3.5, 5.5, 4.52, 5.6};
 ```  
 ## 7.9 ##
 Attempts to access an array element with an invalid index will cause an ArrayIndexOutOfBoundsException to be thrown.    
+## 7.10 ##
+The creation of the array is wrong, the line 
+```Java
+double[100] r;  
+```  
+should be  
+```Java  
+double[] r = new double[100];
+```  
+
+The usage of length in the header of the for loop should be   
+```Java
+r.length  
+```  
+
+There is a semicolon after the for loop that shall be removed.  
+
+The array assignment expression uses parentheses where it should be square brackets.  
+
+The call to the random function misses parentheses.  
+
+A completely corrected program looks like this:  
+```Java  
+public class Test {
+	public static void main(String[] args) {
+		double[] r = new double[100];
+ 
+       for (int i = 0; i < r.length; i++)
+         r[i] = Math.random() * 100;
+     }
+}
+```
