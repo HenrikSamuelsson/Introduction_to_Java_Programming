@@ -130,3 +130,10 @@ public class Test {
      }
 }
 ```
+## 7.11 ##
+The first loop will in the first iteration copy the value of `list[0]` to `list[1]`. Which means that both `list[0]` and `list[1]` will be 1. The second iteration will the copy the value of `list[1]` to `list[2]`. This continues and by the end of the first loop so will the every value in list be set to 1.  
+
+The second loop just prints the content of the array, the output will hence be  
+```  
+1 1 1 1 1 1  
+```  
