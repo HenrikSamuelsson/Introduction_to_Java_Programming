@@ -137,3 +137,5 @@ The second loop just prints the content of the array, the output will hence be
 ```  
 1 1 1 1 1 1  
 ```  
+## 7.12 ##
+No the new version of the code, presented in the check point, will not work since it would be possible to get the same card more than once.  
