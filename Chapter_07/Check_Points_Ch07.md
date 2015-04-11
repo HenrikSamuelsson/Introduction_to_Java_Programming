@@ -149,3 +149,18 @@ int[] source = {3, 4, 5};
 int[] target = new int[3];
 System.arraycopy(source, 0, target, 0, source.length);
 ```  
+
+## 7.14 ##
+The following code will not really resize the array.  
+```Java  
+int[] myList;
+myList = new int[10];
+
+	.
+	.
+	.
+
+// Sometime later you want to assign a new array to myList
+myList = new int[20];
+```
+What happens it that the reference is moved so that it references another part of the memory, that is big enough to hold 20 elements. This means that the 10 first elements will no longer be the same unless they are somehow copied.   
