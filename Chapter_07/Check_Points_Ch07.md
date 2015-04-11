@@ -96,4 +96,5 @@ System.out.println(listF[(int)(Math.random()listF.length)]);
 ```Java  
 double[] ListG = {3.5, 5.5, 4.52, 5.6};
 ```  
-
+## 7.9 ##
+Attempts to access an array element with an invalid index will cause an ArrayIndexOutOfBoundsException to be thrown.    
