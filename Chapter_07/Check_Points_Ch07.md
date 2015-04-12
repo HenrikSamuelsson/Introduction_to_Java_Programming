@@ -230,3 +230,24 @@ The program from above will output:
 The reason that the output is not reversed is that the reference called "list" used inside the reverse method is a copy of the "list" in the main method, these two references are not the same even tough they have the same name.
 
 "list" inside reverse will reference memory where the content is in deed reversed when we reach the end of method. But the other "list" in main will still reference another chunk of memory whit unaltered content.  
+
+## 7.18 ##
+TODO - Skipping this one because it means to much work right now.  
+
+## 7.19 ##
+Each of the following code snippets are incorrect.  
+
+```Java
+public static void print(String... strings, double... numbers)  
+```  
+The problem with above code is that it is only allowed to have a single variable-length parameter.  
+
+```Java  
+public static void print(double... numbers, String name)
+```  
+The problem with the above is that a variable-length parameter is only allowed to be placed last int the parameter list.  
+
+```Java  
+public static double... print(double d1, double d2)
+```  
+The problem with the above code is that it is not allowed to return a variable-length type from a method.  
