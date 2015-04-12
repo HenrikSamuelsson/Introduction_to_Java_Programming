@@ -253,7 +253,7 @@ public static double... print(double d1, double d2)
 The problem with the above code is that it is not allowed to return a variable-length type from a method.  
 
 ## 7.20 ##
-The printMax method from Listing 7.5 can be invodked like this  
+The printMax method from Listing 7.5 can be invoked like this  
 ```Java  
 printMax(1, 2, 2, 1, 4);
 printMax(new double[]{1, 2, 3});
@@ -264,3 +264,12 @@ printMax(new int[]{1, 2, 3});
 ```  
 because the types does not match and there is no automatic conversion in this case.  
 
+## 7.21 ##
+Replace  
+```Java  
+(low + high) / 2  
+```  
+with  
+```Java  
+(-low + high) / 2 + low
+```  
