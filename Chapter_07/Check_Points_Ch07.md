@@ -229,4 +229,4 @@ The program from above will output:
 ```  
 The reason that the output is not reversed is that the reference called "list" used inside the reverse method is a copy of the "list" in the main method, these two references are not the same even tough they have the same name.
 
-"list" inside reverse will reference memory where the the content in deed is reversed when we reach the end of method. But the other "list" in main will still reference another chunk of memory whit unaltered content.  
+"list" inside reverse will reference memory where the content is in deed reversed when we reach the end of method. But the other "list" in main will still reference another chunk of memory whit unaltered content.  
