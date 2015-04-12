@@ -177,7 +177,59 @@ for (int i = 0, j = list.length - 1; i < list.length / 2; i++, j--) {
 	list[i] = list[j];
 	list[j] = temp;
 }
-```  
+```
+  
 ## 7.16 ##
 Arrays are passed as references when used as arguments to methods. This reduces the amount of information that needs to be passed. Note that this means that if the method changes the content of the array so will this also affect corresponding array content existing outside of the method block.  
+
+## 7.17 ##
+**(a)**  
+```Java  
+public class Test {
+	public static void main(String[] args) {
+		int number = 0;
+		int[] numbers = new int[1];
+		m(number, numbers);
+		System.out.println("number is " + number + " and numbers[0] is "
+				+ numbers[0]);
+	}
+
+	public static void m(int x, int[] y) {
+		x = 3;
+		y[0] = 3;
+	}
+}
+```  
+The program from above will output:
+```  
+number is 0 and numbers[0] is 3  
+```  
+
+**(b)**  
+```Java  
+public class Test {
+	public static void main(String[] args) {
+		int[] list = { 1, 2, 3, 4, 5 };
+		reverse(list);
+		for (int i = 0; i < list.length; i++)
+			System.out.print(list[i] + " ");
+	}
+
+	public static void reverse(int[] list) {
+		int[] newList = new int[list.length];
+		for (int i = 0; i < list.length; i++)
+			newList[i] = list[list.length - 1 - i];
+		list = newList;
+	}
+}
+```  
+The program from above will output:  
+```  
+1 2 3 4 5
+```  
+The reason that the output is not reversed is that the reference called "list" used inside the reverse method is a copy of the "list" in the main method.
+
+"list" inside reverse will reference memory where the the content in deed is reversed when we reach the end of method. But the other "list" in main will still reference another chunk of memory whit unaltered content.  
+ 
+
 
