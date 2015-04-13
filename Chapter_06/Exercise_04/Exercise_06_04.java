@@ -14,7 +14,7 @@ public class Exercise_06_04 {
 		int in = input.nextInt();
 		reverse(in);
 	}
-	
+
 	public static void reverse(int number) {
 		int reversedNumber = 0;
 		do {
