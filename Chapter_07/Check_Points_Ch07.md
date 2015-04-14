@@ -277,4 +277,17 @@ with
 ## 7.26 ##
 The java.util.Arrays.sort method is overloaded so that it can be used to sort arrays of any primitive type except boolean. This sort method will not create a new method, the elements will be sorted into the array that is given as argument to the method.  
 
+## 7.29 ##
+These are all valid ways to declare the main method  
+```Java
+public static void main(String[] args)
+public static void main(String args[])
+public static void main(String[] x)
+public static void main(String x[])  
+```  
+The name of the parameter does not matter and there are two ways of placing the square brackets when declaring an array in Java.  
 
+This is not a valid ways to declare main since the public access modifier must be applied to make the method visible to the world
+```Java 
+static void main(String x[])
+```  
