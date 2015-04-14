@@ -272,4 +272,9 @@ Replace
 with  
 ```Java  
 (-low + high) / 2 + low
-```  
+```
+  
+## 7.26 ##
+The java.util.Arrays.sort method is overloaded so that it can be used to sort arrays of any primitive type except boolean. This sort method will not create a new method, the elements will be sorted into the array that is given as argument to the method.  
+
+
