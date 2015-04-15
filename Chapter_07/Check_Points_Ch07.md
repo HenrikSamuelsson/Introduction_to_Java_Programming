@@ -291,3 +291,24 @@ This is not a valid ways to declare main since the public access modifier must b
 ```Java 
 static void main(String x[])
 ```  
+
+## 7.30 ##
+**(1)**  
+```  
+Number of strings is 4  
+I  
+have  
+a  
+dream  
+```  
+
+**(2)**  
+```  
+Number of strings is 1  
+1 2 3  
+```  
+
+**(3)**  
+```  
+Number of strings is 0  
+```  
