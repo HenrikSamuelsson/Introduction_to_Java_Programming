@@ -25,8 +25,8 @@ public class Exercise_07_03 {
 			if (inputStorage[i] == 1)
 				System.out.println(i + 1 + " occurs 1 time");
 			else if (inputStorage[i] > 1)
-				System.out.println(i + 1 + " occurs " + inputStorage[i] 
-						+ " times"); 
+				System.out.println(i + 1 + " occurs " + inputStorage[i]
+						+ " times");
 		}
 	}
 
