@@ -19,3 +19,17 @@ The above code will set array[0][0] to 1 and array[0][1] to 2. So the output wil
 ```  
 array[0][1] is 2
 ```  
+
+## 8.4 ##
+Examples of valid statements:  
+```Java  
+int[][] y = new int[3][];
+int[][] z = {{1, 2}};
+int[][] m = {{1, 2}, {2, 3}};
+```  
+Examples of invalid statements:  
+```Java  
+int[][] r = new int[2]; 
+int[] x = new int[];
+int[][] n = {{1, 2}, {2, 3}, };
+```  
