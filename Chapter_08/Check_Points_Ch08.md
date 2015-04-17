@@ -15,7 +15,7 @@ int[] x = {1, 2};
 array[0] = x;
 System.out.println("array[0][1] is " + array[0][1]);
 ```
-The above code will set array[0][0] to 1 and array[1][0] to 2. So the output will be:  
+The above code will set array[0][0] to 1 and array[0][1] to 2. So the output will be:  
 ```  
 array[0][1] is 2
 ```  
