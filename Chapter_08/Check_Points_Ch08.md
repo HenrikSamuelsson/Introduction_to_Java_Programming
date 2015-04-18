@@ -33,3 +33,16 @@ int[][] r = new int[2];
 int[] x = new int[];
 int[][] n = {{1, 2}, {2, 3}, };
 ```  
+
+## 8.5 ##
+```Java   
+int[][] array = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+int sum = 0;
+for (int i = 0; i < array.length; i++)
+	sum += array[i][0];
+System.out.println(sum);
+```  
+The above code setups a two dimensional array with 3 rows and 2 columns. The sum of all the elements in the first column will then be calculated (1 + 3 + 5) and the result is printed. The output will hence be:  
+```  
+9  
+```  
