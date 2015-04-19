@@ -35,6 +35,22 @@ int[][] n = {{1, 2}, {2, 3}, };
 ```  
 
 ## 8.5 ##
+```Java  
+int[][] array = {{1, 2}, {3, 4}, {5, 6}};
+for (int i = array.length - 1; i >= 0; i——) {
+	for (int j = array[i].length - 1; j >= 0; j——)
+ 		System.out.print(array[i][j] + " ");
+ 	System.out.println();
+}
+```  
+The above code setups a two dimensional array with 3 rows and 2 columns. It will then print the content of the array "in reverse". The output will be:  
+```  
+6 5  
+4 3  
+2 1  
+```  
+
+## 8.6 ##
 ```Java   
 int[][] array = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 int sum = 0;
