@@ -62,3 +62,12 @@ The above code setups a two dimensional array with 3 rows and 2 columns. The sum
 ```  
 9  
 ```  
+
+## 8.7 ##
+The method called m1 will take a two dimensional array as input and check the number of rows and columns. The result of the check is return in an array, where row count will go first followed by column count.
+
+The method is tested with a 2 by 4 array so the output will be: 
+``` 
+2
+4
+```  
