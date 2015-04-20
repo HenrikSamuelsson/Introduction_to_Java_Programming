@@ -77,3 +77,29 @@ A declaration of a three dimensional array:
 ```Java  
 int[][][] a = new int[4][6][5];  
 ```  
+
+## 8.9 ##
+Assume that we have the following declaration:  
+```Java 
+int[][][] x = new char[12][5][2];  
+```  
+
+This array will in total hold 120 elements because 12 times 5 times 2 is 120.  
+
+The value of  
+```Java  
+x.length  
+```  
+will be 12 because the outermost array can hold 12 elements.
+
+The value of  
+```Java  
+x[2].length  
+```  
+will be 5 because this refers to the array in the "second dimension".
+
+The value of  
+```Java  
+x.length[0][0]  
+```  
+will be 2 because this is a reference to the "third dimension" and these are all arrays of size 2.  
