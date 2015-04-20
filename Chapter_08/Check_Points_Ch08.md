@@ -64,10 +64,16 @@ The above code setups a two dimensional array with 3 rows and 2 columns. The sum
 ```  
 
 ## 8.7 ##
-The method called m1 will take a two dimensional array as input and check the number of rows and columns. The result of the check is return in an array, where row count will go first followed by column count.
+The method called m1 will take a two dimensional array as input and check the number of rows and columns. The result of the check is returned in an array where the row count is placed first and then follows the column count.
 
 The method is tested with a 2 by 4 array so the output will be: 
 ``` 
 2
 4
+```  
+
+## 8.8 ##
+A declaration of a three dimensional array:
+```Java  
+int[][][] a = new int[4][6][5];  
 ```  
