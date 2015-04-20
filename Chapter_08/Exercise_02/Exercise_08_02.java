@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Exercise 8.0 from the book Introduction to Java Programming (10th).
+ * Exercise 8.2 from the book Introduction to Java Programming (10th).
  *
  * @author Henrik Samuelsson, henrik.samuelsson(at)gmail.com
  */
