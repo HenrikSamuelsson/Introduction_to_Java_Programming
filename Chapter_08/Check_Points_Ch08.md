@@ -103,3 +103,15 @@ The value of
 x.length[0][0]  
 ```  
 will be 2 because this is a reference to the "third dimension" and these are all arrays of size 2.  
+
+## 8.10 ##
+```Java  
+int[][][] array = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};  
+System.out.println([0][0][0]);  
+System.out.println([1][1][1]);  
+```  
+The above code will declare an three-dimensional array of size 2 by 2 by 2. The "first" and "last" elements in the array are then printed, so the output will be:  
+```  
+1
+8
+```  
