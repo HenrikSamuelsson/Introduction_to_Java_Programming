@@ -110,7 +110,7 @@ int[][][] array = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
 System.out.println([0][0][0]);  
 System.out.println([1][1][1]);  
 ```  
-The above code will declare an three-dimensional array of size 2 by 2 by 2. The "first" and "last" elements in the array are then printed, so the output will be:  
+The above code will declare an three-dimensional array of size 2-by-2-by-2. The "first" and "last" elements in the array are then printed, so the output will be:  
 ```  
 1
 8
