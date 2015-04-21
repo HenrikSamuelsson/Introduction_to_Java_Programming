@@ -11,3 +11,9 @@ public class MyClass {
 	// constructors, class variables, and methods goes here  
 }  
 ```  
+
+## 9.3 ##
+A reference variable for an object is declared by the use of the class name followed by the name of the object. For example:  
+```Java  
+MyClass mc;  
+```  
