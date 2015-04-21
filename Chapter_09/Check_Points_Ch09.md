@@ -28,3 +28,6 @@ MyClass mc = new MyClass();
 Constructors are special methods that are used to create objects of an class.  
 
 An ordinary method will have a return type but constructors does not, not even void.  
+
+## 9.6 ##
+A default constructor, is provided automatically only if no constructors are explicitly defined in the class.  
