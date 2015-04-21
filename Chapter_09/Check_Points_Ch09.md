@@ -17,3 +17,9 @@ A reference variable for an object is declared by the use of the class name foll
 ```Java  
 MyClass mc;  
 ```  
+
+## 9.4 ##
+The new keyword in combination with a class constructor is used to create an object. For example:  
+```Java  
+MyClass mc = new MyClass();  
+```  
