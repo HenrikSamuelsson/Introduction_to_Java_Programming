@@ -23,3 +23,8 @@ The new keyword in combination with a class constructor is used to create an obj
 ```Java  
 MyClass mc = new MyClass();  
 ```  
+
+## 9.5 ##
+Constructors are special methods that are used to create objects of an class.  
+
+An ordinary method will have a return type but constructors does not, not even void.  
