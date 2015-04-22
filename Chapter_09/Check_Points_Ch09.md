@@ -36,3 +36,4 @@ A default constructor, is provided automatically only if no constructors are exp
 The member access operator, also known as the dot-operator, is used to access data fields or invoke methods on an object.  
 
 ## 9.8 ##
+An anonymous object does not have any reference variable referencing it. These type of objects have short life time and will go away immediately after doing its assigned task.  
