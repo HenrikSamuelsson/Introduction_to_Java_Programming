@@ -37,3 +37,6 @@ The member access operator, also known as the dot-operator, is used to access da
 
 ## 9.8 ##
 An anonymous object does not have any reference variable referencing it. These type of objects have short life time and will go away immediately after doing its assigned task.  
+
+## 9.9 ##
+A NullPointerException will occur when trying to use a reference that points to no location in memory (null) as though it were referencing an object.  
