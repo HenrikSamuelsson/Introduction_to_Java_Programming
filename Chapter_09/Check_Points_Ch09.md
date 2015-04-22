@@ -31,3 +31,8 @@ An ordinary method will have a return type but constructors does not, not even v
 
 ## 9.6 ##
 A default constructor, is provided automatically only if no constructors are explicitly defined in the class.  
+
+## 9.7 ##
+The member access operator, also known as the dot-operator, is used to access data fields or invoke methods on an object.  
+
+## 9.8 ##
