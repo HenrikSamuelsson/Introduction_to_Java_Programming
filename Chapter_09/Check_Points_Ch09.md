@@ -48,3 +48,62 @@ An array is an object. An array can hold elements that are themself objects. The
 - '\u0000' for char  
 - null for elements that are objects  
 
+## 9.11 ##
+**(a)**
+```Java  
+public class ShowErrors {
+
+	public static void main(String[] args) {
+		ShowErrors t = new ShowErrors(5);
+	}
+
+}
+```
+This code is incorrect because there is no constructor available that takes an int.  
+
+**(b)**
+```Java  
+public class ShowErrors {
+
+	public static void main(String[] args) {
+		ShowErrors t = new ShowErrors();
+		t.x();
+	}
+
+}
+```
+This code is incorrect because there is no member method called x in the ShowErrors class.
+
+**(c)**
+```Java  
+public class ShowErrors {
+
+	public void method1() {
+		Circle c;
+		System.out.println("What is radius " + c.getRadius());
+		c = new Circle());
+	}
+
+}
+```
+This code will cause a NullPointerException at runtime because c is used in the print statement before it is created.
+
+**(d)**
+```Java  
+public class ShowErrors {
+
+	public static void main(String[] args) {
+		C c = new C(5.0);
+		System.out.println(c.value);
+	}
+}
+
+class C {
+	int value = 2;
+}
+```
+This code is incorrect because the class C have no constructor that takes a double as argument.  
+
+
+
+
