@@ -104,6 +104,8 @@ class C {
 ```
 This code is incorrect because the class C have no constructor that takes a double as argument.  
 
+## 9.12 ##
+The problem with the code in this check point is that an object is constructed with a default constructor that takes no arguments. But there is no such constructor for the class A, because it have been designed with another constructor and this deletes the default constructor that we get automatically before providing a constructor of our own.  
 
 
 
