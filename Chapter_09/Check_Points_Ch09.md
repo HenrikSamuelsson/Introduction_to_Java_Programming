@@ -115,3 +115,14 @@ Member variables of type boolean get the default value false so the code in this
 ```
 false  
 ```  
+
+## 9.14 ##
+A Date object is created like this:  
+```Java  
+java.util.Date date = new java.util.Date();  
+```  
+
+The current time (including the date) can be displayed by the use of the toString method: 
+```Java  
+System.out.println(date.toString());
+```  
