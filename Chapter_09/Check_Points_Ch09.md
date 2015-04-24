@@ -106,7 +106,12 @@ class C {
 This code is incorrect because the class C have no constructor that takes a double as argument.  
 
 ## 9.12 ##
-The problem with the code in this check point is that an object is constructed with a default constructor that takes no arguments. But there is no such constructor for the class A, because it have been designed with another constructor and this deletes the default constructor that we get automatically before providing a constructor of our own.  
+The problem with the code in this check point is that an object is constructed with a default constructor that takes no arguments. But there is no such constructor for the class A.  
 
+There is always a default constructor, that takes no arguments, as long as we do not provide any constructor of our own. But as soon as we add one or more constructors in the code so is this default constructor removed.  
 
-
+## 9.13 ##
+Member variables of type boolean get the default value false so the code in this check point will result in the output:  
+```
+false  
+```  
