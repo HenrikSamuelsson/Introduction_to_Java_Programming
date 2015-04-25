@@ -139,3 +139,8 @@ There is a member method called distance in the Point2D class that can be used t
 ```Java  
 double d = p1.distance(p2));	// get distance between p1 and p2
 ```  
+
+There is a member method called midpoint in the Point2D class that can be used to get the point between two points.  
+```Java  
+Point2D mp = p1.midPoint(p2)); 
+```  
