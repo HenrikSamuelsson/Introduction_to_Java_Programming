@@ -135,7 +135,7 @@ double y = 5.5;
 Point2D p = new Point(x, y);  
 ```  
 
-There is a member method called distance in the Point2D class that can be used to get the distance between two one points.  
+There is a member method called distance in the Point2D class that can be used to get the distance between two points.  
 ```Java  
 double d = p1.distance(p2));	// get distance between p1 and p2
 ```  
