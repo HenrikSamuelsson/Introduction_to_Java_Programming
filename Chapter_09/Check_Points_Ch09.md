@@ -126,3 +126,16 @@ The current time (including the date) can be displayed by the use of the toStrin
 ```Java  
 System.out.println(date.toString());
 ```  
+
+## 9.15 ##
+A Point2D is created by using a constructor that takes an x-coordinate and a y-coordinate, like this:
+```Java  
+double x = 4.0;  
+double y = 5.5;  
+Point2D p = new Point(x, y);  
+```  
+
+There is a member method called distance in the Point2D class that can be used to get the distance between two one points.  
+```Java  
+double d = p1.distance(p2));	// get distance between p1 and p2
+```  
