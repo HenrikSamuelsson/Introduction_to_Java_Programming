@@ -204,3 +204,13 @@ public class Test {
 
 }
 ```  
+
+## 9.19 ##
+It is not possible to invoke an instance method or reference an instance variable from a static method.  
+
+It is possible to invoke a static method or reference a static variable from an instance method.  
+
+There are two problems with the code from this checkpoint. First problem is that method1 cannot be invoked inside main becaus main is static and method1 is not defined as static. Second problem is that c is not accessible from method2 because c is not static. 
+
+(There is a third problem regarding that the class Circle is not defined or imported but we ignore this.)  
+
