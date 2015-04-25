@@ -144,3 +144,12 @@ There is a member method called midpoint in the Point2D class that can be used t
 ```Java  
 Point2D mp = p1.midPoint(p2)); 
 ```  
+
+## 9.16 ##  
+The class Date and the class Random are included in the java.util package.    
+
+The class Point2D is included in the javafx.geometry package.  
+
+The class System and the class Math are included in the java.lang package.  
+
+Note that there are different versions of the above classes from different versions of Java so it is possible to find more or less similar classes with the same names in other packages.  
