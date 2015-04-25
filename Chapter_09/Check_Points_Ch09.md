@@ -145,7 +145,7 @@ There is a member method called midpoint in the Point2D class that can be used t
 Point2D mp = p1.midPoint(p2)); 
 ```  
 
-## 9.16 ##  
+## 9.16 ##
 The class Date and the class Random are included in the java.util package.    
 
 The class Point2D is included in the javafx.geometry package.  
@@ -153,3 +153,33 @@ The class Point2D is included in the javafx.geometry package.
 The class System and the class Math are included in the java.lang package.  
 
 Note that there are different versions of the above classes from different versions of Java so it is possible to find more or less similar classes with the same names in other packages.  
+
+## 9.17 ##
+Suppose that we have a class called F that looks like this:  
+```Java  
+public class F { 
+	int i:
+	static String s;
+    
+	void imethod() {
+	}
+
+	static void smethod() {
+	}
+```  
+Then suppose that we have f that is an instance of F.  
+
+The following statements are then legal:
+```Java  
+System.out.println(f.i);
+System.out.println(f.s);
+f.imethod();
+f.smethod();
+System.out.println(F.s);
+F.smethod();
+```  
+But the following statements are illegal because instance members cannot be used without an actual  instance of the class.  
+```Java  
+System.out.println(F.i);  
+F.imethod();
+```  
