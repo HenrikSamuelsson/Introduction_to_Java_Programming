@@ -167,9 +167,7 @@ public class F {
 	static void smethod() {
 	}
 ```  
-Then suppose that we have f that is an instance of F.  
-
-The following statements are then legal:
+Then suppose that we have f that is an instance of F. The following statements are then legal:
 ```Java  
 System.out.println(f.i);
 System.out.println(f.s);
