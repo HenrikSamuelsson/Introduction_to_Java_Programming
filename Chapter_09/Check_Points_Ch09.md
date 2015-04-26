@@ -243,3 +243,12 @@ count 101
 times 0
 ```  
 The myCount object is sent as a reference and will be altered also outside of the method but times is copied and the changes will not be noticed outside of the method.  
+
+## 9.24 ##
+Output:  
+```  
+After swap1: circle1 = 1.0 circle2 = 2.0  
+After swap2: circle1 = 2.0 circle2 = 1.0  
+```  
+The method called swap1 does not work as intended. This is because the swap is done on references to the circle objects that are copies of the references outside of the method. This means that the swap works inside the method but the original references used when printing afterwards have not been swapped.  
+ 
