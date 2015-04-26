@@ -231,3 +231,15 @@ Benefits of encapsulation:
 
 ## 9.22 ##
 There is no problem with the code from this check point. It is possible to access the private variable because it is done from within the class.  
+
+## 9.23 ##
+Primitive types are copied when passed as a parameter to a method. This means that the method that takes the value will work with a copy and there can be an original value that is guaranteed to be unaltered no matter what the method does with the parameter.  
+
+Reference types are not copied when passed as a parameter to a method. Instead so will a reference to the location in the memory be copied and given as parameter to the method. This reference is then used inside the method to look up the object. This means that if the method writes to the object so will these changes affect the object also in the scope outside of the method.  
+
+The output of the program in this check point will look like this:  
+```  
+count 101
+times 0
+```  
+The myCount object is sent as a reference and will be altered also outside of the method but times is copied and the changes will not be noticed outside of the method.  
