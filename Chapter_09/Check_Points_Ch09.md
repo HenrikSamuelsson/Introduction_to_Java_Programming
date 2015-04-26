@@ -213,4 +213,12 @@ It is possible to invoke a static method or reference a static variable from an 
 There are two problems with the code from this checkpoint. First problem is that method1 cannot be invoked inside main becaus main is static and method1 is not defined as static. Second problem is that c is not accessible from method2 because c is not static. 
 
 (There is a third problem regarding that the class Circle is not defined or imported but we ignore this.)  
+  
+## 9.20 ##
+An accessor method is used to get private data from from an object.  
 
+A mutator method is used to set private data in an object.  
+
+The naming convention for accessor methods is getDataFieldName for non-boolean values and isDataFieldName for boolean values.  
+
+The naming convention for mutator method is setDataFieldName.  
