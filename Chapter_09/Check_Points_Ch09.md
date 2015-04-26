@@ -228,3 +228,6 @@ Benefits of encapsulation:
 - The fields of a class can be made read-only or write-only.  
 - A class can have total control over what is stored in its fields.  
 - The users of a class do not know how the class stores its data. A class can change the data type of a field and users of the class do not need to change any of their code.  
+
+## 9.22 ##
+There is no problem with the code from this check point. It is possible to access the private variable because it is done from within the class.  
