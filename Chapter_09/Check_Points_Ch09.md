@@ -222,3 +222,9 @@ A mutator method is used to set private data in an object.
 The naming convention for accessor methods is getDataFieldName for non-boolean values and isDataFieldName for boolean values.  
 
 The naming convention for mutator method is setDataFieldName.  
+
+## 9.21 ##
+Benefits of Encapsulation:  
+- The fields of a class can be made read-only or write-only.  
+- A class can have total control over what is stored in its fields.  
+- The users of a class do not know how the class stores its data. A class can change the data type of a field and users of the class do not need to change any of their code.  
