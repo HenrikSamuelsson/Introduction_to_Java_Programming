@@ -251,4 +251,29 @@ After swap1: circle1 = 1.0 circle2 = 2.0
 After swap2: circle1 = 2.0 circle2 = 1.0  
 ```  
 The method called swap1 does not work as intended. This is because the swap is done on references to the circle objects that are copies of the references outside of the method. This means that the swap works inside the method but the original references used when printing afterwards have not been swapped.  
- 
+
+## 9.25 ##
+**(a)**  
+```  
+a[0] = 1 a[1] = 2
+```  
+Pass by value so no swap outside of the method.  
+  
+**(b)**  
+```  
+a[0] = 2 a[1] = 1
+```  
+The parameter will be a reference to the array so will swap also outside of the method.  
+
+**(c)**  
+```  
+e1 = 2 e2 = 1
+```  
+
+**(d)**  
+```  
+t1's i = 2 and j = 1
+t2's i = 2 and j = 1
+```  
+The member i is static so it is shared between all T instances and increased each time an instance is created. The member j is unique for each instance.  
+
