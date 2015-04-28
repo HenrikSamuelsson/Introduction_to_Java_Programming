@@ -277,3 +277,27 @@ t2's i = 2 and j = 1
 ```  
 The member i is static so it is shared between all T instances and increased each time an instance is created. The member j is unique for each instance.  
 
+## 9.26 ##
+**(a)**  
+```  
+null
+```  
+A new Date instance is created in m1 but date outside of m1 is never set to reference this variable.  
+
+**(b)**  
+```  
+1234567
+```  
+Almost the same situation as in part (a). There are two different references called date that will reference two different Date instances.  
+
+**(c)**  
+```  
+7654321
+```  
+There is only one Date instance this time and it is altered in m1.  
+
+**(d)**  
+```  
+1234567
+```  
+Again two different references variables, Both called date. The one local to m1 is set to null in m1 but this will not affect the one outside in main.  
