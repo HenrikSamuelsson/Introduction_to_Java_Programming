@@ -310,3 +310,6 @@ There are three requirements that must be met for a class to be immutable:
 1. All data fields shall be private.
 2. There can not be any mutator methods for the data fields.
 3. No methods is allowed to return a reference to a data field that is mutable, because this reference could be use to make changes.   
+
+## 9.29 ##
+A class where all the data field are private and of primitive types, and the class does not contain any setter methods, implies that the class is immutable.  
