@@ -301,3 +301,6 @@ There is only one Date instance this time and it is altered in m1.
 1234567
 ```  
 Again two different references variables, both called date. The one local to m1 is set to null in m1 but this will not affect the one outside in main.  
+
+## 9.26 ##
+The problem with the code in this checkpoint is that no Date instances are being created. All that is created is an array that can be used to store 10 dates. The first element in the array is then accessed but it will be null since there is nothing there yet.  
