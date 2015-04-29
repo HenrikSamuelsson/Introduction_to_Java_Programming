@@ -304,3 +304,9 @@ Again two different references variables, both called date. The one local to m1 
 
 ## 9.26 ##
 The problem with the code in this checkpoint is that no Date instances are being created. All that is created is an array that can be used to store 10 dates. The first element in the array is then accessed but it will be null since there is nothing there yet.  
+
+## 9.28 ##
+There are three requirements that must be met for a class to be immutable:  
+1. All data fields shall be private.
+2. There can not be any mutator methods for the data fields.
+3. No methods is allowed to return a reference to a data field that is mutable, because this reference could be use to make changes.   
