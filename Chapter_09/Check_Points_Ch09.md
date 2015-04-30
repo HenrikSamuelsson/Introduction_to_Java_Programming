@@ -313,3 +313,17 @@ There are three requirements that must be met for a class to be immutable:
 
 ## 9.29 ##
 A class where all the data field are private and of primitive types, and the class does not contain any setter methods, implies that the class is immutable.  
+
+## 9.30 ##
+The following class is not immutable.  
+```Java  
+public class A {
+	private int[] values;
+	
+	public int[] getValues() {
+		return values;
+	}
+}
+```  
+The reason for the class not being immutable is that the method getValues returns a reference that can be used to alter the content of the member variable called values.  
+
