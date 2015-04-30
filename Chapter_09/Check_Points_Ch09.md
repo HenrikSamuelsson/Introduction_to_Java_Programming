@@ -327,3 +327,15 @@ public class A {
 ```  
 The reason for the class not being immutable is that the method getValues returns a reference that can be used to alter the content of the member variable called values.  
 
+## 9.31 ##
+The output will be:  
+```
+i + j is 23
+k is 2
+j is 0
+```
+The first line of output will use the variable i from main and the local variable j that is 2. The plus will in this case be interpreted as string concatenation instead of arithmetic addition.  
+
+The second line of output is based on the i from main and the static class variable called j.  
+
+The third line of output is based on the static class variable called j.  
