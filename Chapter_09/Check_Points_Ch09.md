@@ -339,3 +339,6 @@ The first line of output will use the variable i from main and the local variabl
 The second line of output is based on the i from main and the static class variable called j.  
 
 The third line of output is based on the static class variable called j.  
+
+## 9.32 ##
+Within an instance method or a constructor, this is a reference to the current object — the object whose method or constructor is being called. You can refer to any member of the current object from within an instance method or a constructor by using this.  
