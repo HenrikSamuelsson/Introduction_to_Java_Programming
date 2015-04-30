@@ -385,3 +385,8 @@ public class C {
 }
 ```  
 Another strange thing with this class is that p is never ever used for anything buts lets ignore this and move on in life.  
+
+## 9.34 ##
+The problem is that m2 tries to set the member called id by using the class directly. This will not work since we must either use an instance of the class instead of the class itself. 
+
+The code would work if id was declared as static. But then it would only be one id for all instances which is probably not the intention.
