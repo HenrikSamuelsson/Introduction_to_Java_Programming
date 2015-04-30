@@ -342,3 +342,46 @@ The third line of output is based on the static class variable called j.
 
 ## 9.32 ##
 Within an instance method or a constructor, this is a reference to the current object — the object whose method or constructor is being called. You can refer to any member of the current object from within an instance method or a constructor by using this.  
+
+## 9.33 ##
+There are some problems with the following code:  
+```Java
+public class C {
+	private int p;
+	
+	public C() {
+		System.out.println("C's no-arg contstructor invoked");
+		this(0);
+	}
+	
+	public C(int p) {
+		p = p;
+	}
+	
+	public void setP(int p) {
+		p = p;
+	}
+}  
+```
+A constructor call must be the first statement in a constructor. There are two assignments where p is assigned to p which have no effect.  
+
+A corrected version of the code looks like this:    
+```Java  
+public class C {
+	private int p;
+	
+	public C() {
+		this(0);
+		System.out.println("C's no-arg contstructor invoked");
+	}
+	
+	public C(int p) {
+		this.p = p;
+	}
+	
+	public void setP(int p) {
+		this.p = p;
+	}
+}
+```  
+Another strange thing with this class is that p is never ever used for anything buts lets ignore this and move on in life.  
