@@ -32,8 +32,8 @@
      showguides="false"
      inkscape:window-width="1596"
      inkscape:window-height="846"
-     inkscape:window-x="204"
-     inkscape:window-y="78"
+     inkscape:window-x="245"
+     inkscape:window-y="111"
      inkscape:window-maximized="0"
      gridtolerance="10000"
      guidetolerance="10000"
@@ -404,7 +404,10 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
-         id="g5097">
+         id="g5097"
+         inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_01\Rectangle.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
         <rect
            style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.99999976;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect44383"
