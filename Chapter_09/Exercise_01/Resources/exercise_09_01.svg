@@ -27,7 +27,7 @@
      inkscape:cx="382.94617"
      inkscape:cy="740.17234"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5076"
      showgrid="true"
      showguides="false"
      inkscape:window-width="1596"
@@ -398,102 +398,122 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.99999976;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect44383"
-       width="398"
-       height="277.99991"
-       x="161"
-       y="173.36221"
-       rx="22.000004"
-       ry="19.999956"
+    <g
+       id="g5076"
+       inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_01\Rectangle.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       ry="0"
-       rx="0"
-       y="211.36218"
-       x="200"
-       height="201.99998"
-       width="320"
-       id="rect4293-0"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 200.00233,252.36222 c 319.99534,0 319.99534,0 319.99534,0 l 0,0"
-       id="path4964"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 200,312.36223 c 320.00001,0 320.00001,0 320.00001,0"
-       id="path4966"
-       inkscape:connector-curvature="0" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4295-2"
-       y="236.15251"
-       x="359.72534"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="236.15251"
-         x="359.72534"
-         sodipodi:role="line"
-         id="tspan11443">Rectangle</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4295-2-0"
-       y="276.7775"
-       x="215.21973"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="276.7775"
-         x="215.21973"
-         sodipodi:role="line"
-         id="tspan5031"
-         style="text-align:start;text-anchor:start">width:double</tspan><tspan
-         y="295.5275"
-         x="215.21973"
-         sodipodi:role="line"
-         id="tspan5035"
-         style="text-align:start;text-anchor:start">height:double</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4295-2-6"
-       y="338.11905"
-       x="215.68115"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         y="338.11905"
-         x="215.68115"
-         sodipodi:role="line"
-         id="tspan11443-3"
-         style="text-align:start;text-anchor:start">Rectangle()</tspan><tspan
-         y="356.86905"
-         x="215.68115"
-         sodipodi:role="line"
-         id="tspan5027"
-         style="text-align:start;text-anchor:start">Rectangle(width: double, height: double)</tspan><tspan
-         y="375.61905"
-         x="215.68115"
-         sodipodi:role="line"
-         style="text-align:start;text-anchor:start"
-         id="tspan5037">getArea():double</tspan><tspan
-         y="394.36905"
-         x="215.68115"
-         sodipodi:role="line"
-         style="text-align:start;text-anchor:start"
-         id="tspan5039">getPerimeter():double</tspan><tspan
-         y="413.11905"
-         x="215.68115"
-         sodipodi:role="line"
-         id="tspan5029" /></text>
+       inkscape:export-ydpi="90">
+      <g
+         id="g5097">
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.99999976;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect44383"
+           width="398"
+           height="277.99991"
+           x="161"
+           y="173.36221"
+           rx="22.000004"
+           ry="19.999956"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
+        <rect
+           ry="0"
+           rx="0"
+           y="211.36218"
+           x="200"
+           height="201.99998"
+           width="320"
+           id="rect4293-0"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 200.00233,252.36222 c 319.99534,0 319.99534,0 319.99534,0 l 0,0"
+           id="path4964"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 200,312.36223 c 320.00001,0 320.00001,0 320.00001,0"
+           id="path4966"
+           inkscape:connector-curvature="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4295-2"
+           y="236.15251"
+           x="359.72534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="236.15251"
+             x="359.72534"
+             sodipodi:role="line"
+             id="tspan11443">Rectangle</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4295-2-0"
+           y="276.7775"
+           x="215.21973"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="276.7775"
+             x="215.21973"
+             sodipodi:role="line"
+             id="tspan5031"
+             style="text-align:start;text-anchor:start">width : double</tspan><tspan
+             y="295.5275"
+             x="215.21973"
+             sodipodi:role="line"
+             id="tspan5035"
+             style="text-align:start;text-anchor:start">height : double</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4295-2-6"
+           y="338.11905"
+           x="215.68115"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90"><tspan
+             y="338.11905"
+             x="215.68115"
+             sodipodi:role="line"
+             id="tspan11443-3"
+             style="text-align:start;text-anchor:start">Rectangle()</tspan><tspan
+             y="356.86905"
+             x="215.68115"
+             sodipodi:role="line"
+             id="tspan5027"
+             style="text-align:start;text-anchor:start">Rectangle(width : double, height : double)</tspan><tspan
+             y="375.61905"
+             x="215.68115"
+             sodipodi:role="line"
+             style="text-align:start;text-anchor:start"
+             id="tspan5037">getArea() : double</tspan><tspan
+             y="394.36905"
+             x="215.68115"
+             sodipodi:role="line"
+             style="text-align:start;text-anchor:start"
+             id="tspan5039">getPerimeter() : double</tspan><tspan
+             y="413.11905"
+             x="215.68115"
+             sodipodi:role="line"
+             id="tspan5029" /></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="280"
+         y="372.36221"
+         id="text5093"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5095"
+           x="280"
+           y="372.36221"></tspan></text>
+    </g>
   </g>
 </svg>
