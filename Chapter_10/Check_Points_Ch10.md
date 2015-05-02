@@ -18,3 +18,7 @@ Aggregation implies a relationship where the child can exist independently of th
 Composition implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't exist separate to a House.  
 
 Association is a weaker form of relationship and in code terms indicates that a class uses another by parameter or return type.  
+
+## 10.5 ##
+The UML notation for aggregation is an unfilled diamond symbol at the owner (aggregation) class. Composition is indicated in the same way but with a filled diamond symbol.  
+
