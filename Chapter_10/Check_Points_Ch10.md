@@ -22,3 +22,5 @@ Association is a weaker form of relationship that indicates that a class uses an
 ## 10.5 ##
 The UML notation for aggregation is an unfilled diamond symbol at the owner (aggregation) class. Composition is indicated in the same way but with a filled diamond symbol.  
 
+## 10.6 ##
+Aggregation and composition are closely related. Hence so are they usually not differentiated in the book. Both are called composition for simplicity.  
