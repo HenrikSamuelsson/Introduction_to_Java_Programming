@@ -7,8 +7,14 @@ The BMI class is immutable. There are no setter methods, and there is only possi
 
 ## 10.3 ##
 The relationship among classes is often divided into four different groups based on characteristics of the relation. The name of these groups are:  
-1. Inheritance
-2. Aggregation
-3. Association
-4. Composition
+1. Inheritance  
+2. Aggregation  
+3. Association  
+4. Composition  
 
+## 10.4 ##
+Aggregation implies a relationship where the child can exist independently of the parent. Example: Class (parent) and Student (child). Delete the Class and the Students still exist.  
+
+Composition implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't exist separate to a House.  
+
+Association is a weaker form of relationship and in code terms indicates that a class uses another by parameter or return type.  
