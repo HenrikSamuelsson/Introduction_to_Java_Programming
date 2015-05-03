@@ -30,10 +30,10 @@
      inkscape:current-layer="g5097"
      showgrid="true"
      showguides="false"
-     inkscape:window-width="1268"
-     inkscape:window-height="1012"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1596"
+     inkscape:window-height="846"
+     inkscape:window-x="245"
+     inkscape:window-y="111"
      inkscape:window-maximized="0"
      gridtolerance="10000"
      guidetolerance="10000"
@@ -418,7 +418,8 @@
            rx="22.000004"
            ry="19.999956"
            inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
+           inkscape:export-ydpi="90"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png" />
         <rect
            ry="0"
            rx="0"
@@ -429,17 +430,24 @@
            id="rect4293-0"
            style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.00000024;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90" />
+           inkscape:export-ydpi="90"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png" />
         <path
            style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 200.00233,252.36222 c 319.99534,0 319.99534,0 319.99534,0 l 0,0"
            id="path4964"
-           inkscape:connector-curvature="0" />
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
         <path
            style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 200,312.36223 c 320.00001,0 320.00001,0 320.00001,0"
            id="path4966"
-           inkscape:connector-curvature="0" />
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
         <text
            sodipodi:linespacing="125%"
            id="text4295-2"
@@ -448,7 +456,8 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
            inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"><tspan
+           inkscape:export-ydpi="90"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png"><tspan
              y="236.15251"
              x="359.72534"
              sodipodi:role="line"
@@ -461,7 +470,8 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
            inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"><tspan
+           inkscape:export-ydpi="90"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png"><tspan
              y="276.7775"
              x="215.21973"
              sodipodi:role="line"
@@ -471,7 +481,7 @@
              x="215.21973"
              sodipodi:role="line"
              id="tspan5035"
-             style="text-align:start;text-anchor:start">- stopTime : long</tspan></text>
+             style="text-align:start;text-anchor:start">- endTime : long</tspan></text>
         <text
            sodipodi:linespacing="125%"
            id="text4295-2-6"
@@ -480,7 +490,8 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
            inkscape:export-xdpi="90"
-           inkscape:export-ydpi="90"><tspan
+           inkscape:export-ydpi="90"
+           inkscape:export-filename="E:\Documents\Git\Introduction_to_Java_Programming\Chapter_09\Exercise_06\StopWatch.png"><tspan
              y="338.11905"
              x="215.68115"
              sodipodi:role="line"
