@@ -24,3 +24,6 @@ The UML notation for aggregation is an unfilled diamond symbol at the owner (agg
 
 ## 10.6 ##
 Aggregation and composition are closely related. Hence so are they usually not differentiated in the book. Both are called composition for simplicity.  
+
+## 10.7 ##
+A wrapper class is one of eight classes provided in the java.lang package to provide object methods for the eight primitive types. Wrapper classes are used to represent primitive values when an Object is required. All of the primitive wrapper classes in Java are immutable.  
