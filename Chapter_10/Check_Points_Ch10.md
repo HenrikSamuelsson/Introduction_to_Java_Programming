@@ -27,3 +27,13 @@ Aggregation and composition are closely related. Hence so are they usually not d
 
 ## 10.7 ##
 A wrapper class is one of eight classes provided in the java.lang package to provide object methods for the eight primitive types. Wrapper classes are used to represent primitive values when an Object is required. All of the primitive wrapper classes in Java are immutable.  
+
+## 10.10 ##
+An Integer is created that will have the value 3. The value is then printed so 3 will be printed. The value 3 is then compared to 4 which will return -1. The result of the comparison is then also printed.  
+
+The printed output will hence be:  
+```  
+3  
+-1  
+```  
+ 
