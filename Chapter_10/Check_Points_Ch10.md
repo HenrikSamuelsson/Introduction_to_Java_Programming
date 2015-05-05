@@ -35,5 +35,15 @@ The printed output will hence be:
 ```  
 3  
 -1  
+```
+  
+## 10.11 ##
+No extra parameter means that the number will be interpreted as a decimal number. Extra parameter in the form of 10 also means that decimal interpretation. Extra parameter in the form of 16 means that the number will be interpreted as being written with hexadecimal base.  
+```   
+10  
+10  
+16  
+11  
+11  
+17  
 ```  
- 
