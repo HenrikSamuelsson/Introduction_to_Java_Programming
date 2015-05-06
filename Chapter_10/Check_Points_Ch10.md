@@ -69,3 +69,15 @@ But it can be fixed by introduction of a cast:
 ```  
 Double x = (double) 3;   
 ```  
+
+## 10.13 ##
+A cast will be used to convert the double into an int int the first print, the decimal part will be truncated away.
+
+3.5 is less than 4.5 so the compareTo method will return -1.
+
+The output will hence be:  
+```  
+3  
+-1  
+```
+ 
