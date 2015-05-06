@@ -47,3 +47,25 @@ No extra parameter means that the number will be interpreted as a decimal number
 11  
 17  
 ```  
+
+## 10.12 ##
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes. 
+
+Converting an object of a wrapper type to its corresponding primitive value is called unboxing.
+
+The following are all valid examples of autoboxing and unboxing:  
+```  
+Integer x = 3 + new Integer(5);
+Integer x = 3;
+Double x = 3.0;  
+int x = new Integer(3);
+int x = new Integer(3) + new Integer(4);
+```  
+This example is not valid because the types does not match up in the correct way:    
+```  
+Double x = 3;  
+```  
+But it can be fixed by introduction of a cast:  
+```  
+Double x = (double) 3;   
+```  
