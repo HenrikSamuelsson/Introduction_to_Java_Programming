@@ -108,5 +108,5 @@ s1.equals(s4)	// true
 s1.replace("o", "T")	// WelcTme tT Java
 s1.replaceAll("o", "T")	// WelcTme tT Java
 s1.replaceFirst("o", "T")	// WelcTme to Java
-s1.toCharArray()	// an array with the characters in the string "Welcome to Java"
+s1.toCharArray()	// an array holding the characters in the string "Welcome to Java"
 ```  
