@@ -88,3 +88,25 @@ x is 3
 y is 7  
 z is 10  
 ```  
+
+## 10.15 ##
+Assume the we create strings in the following way:  
+```Java  
+String s1 = "Welcome to Java";  
+String s2 = s1;  
+String s3 = new String("Welcome to Java");  
+String s4 = "Welcome to Java";  
+```  
+The results of the following expressions is indicated by comments in the code.  
+```Java  
+s1 == s2	// true, both variables will reference the same object  
+s1 == s3	// false, same content but not the same objects  
+s1 == s4	// true, an interned string
+s1.equals(s3)	// true
+s1.equals(s4)	// true
+"Welcome to Java".replace("Java", "HTML")	// Welcome to HTML
+s1.replace("o", "T")	// WelcTme tT Java
+s1.replaceAll("o", "T")	// WelcTme tT Java
+s1.replaceFirst("o", "T")	// WelcTme to Java
+s1.toCharArray()	// an array with the characters in the string "Welcome to Java"
+```  
