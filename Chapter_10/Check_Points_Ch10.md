@@ -80,4 +80,11 @@ The output will hence be:
 3  
 -1  
 ```
- 
+
+## 10.14 ##
+The output will be:  
+```  
+x is 3  
+y is 7  
+z is 10  
+```  
