@@ -121,4 +121,8 @@ String s = new String("Welcome to Java");
 ```  
 The first one is better because it creates an interned String that will be shared if more strings with the same value are created later on. This will save memory and be faster because using the new operator is expensive.  
 
+## 10.26 ##
+The main difference between StringBuffer and StringBuilder is that StringBuffer is synchronized and StringBuilder is not.   
+
+This means that StringBuilder will be faster but it can not be used if two or more threads needs to share it.  
 
