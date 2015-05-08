@@ -110,3 +110,15 @@ s1.replaceAll("o", "T")	// WelcTme tT Java
 s1.replaceFirst("o", "T")	// WelcTme to Java
 s1.toCharArray()	// an array holding the characters in the string "Welcome to Java"
 ```  
+
+## 10.14 ##
+There are two ways to create a String:  
+```Java  
+String s = "Welcome to Java";
+```
+```Java  
+String s = new String("Welcome to Java");
+```  
+The first one is better because it creates an interned String that will be shared if more strings with the same value are created later on. This will save memory and be faster because using the new operator is expensive.  
+
+
