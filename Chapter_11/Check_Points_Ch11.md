@@ -15,3 +15,10 @@ public class MountainBike extends Bicycle {
 
 }
 ```  
+
+## 10.3 ##
+Single inheritance means that a class may only inherit from one particular class.  
+
+Multiple inheritance is a feature of some object-oriented computer programming languages in which an class can inherit characteristics and features from more than one  parent class.  
+
+Multiple inheritance is not supported by the Java programming language.  
