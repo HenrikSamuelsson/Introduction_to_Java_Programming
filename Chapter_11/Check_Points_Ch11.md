@@ -41,3 +41,6 @@ It is possible to omit the explicit call of a superclass constructor. The compil
 ## 11.6 ##
 The no-arg constructor of a superclass will not be called if another constructor is called explicitly by the subclass.  
 
+## 11.7 ##
+It is not possible to override a method that is declared private in the superclass.  
+ 
