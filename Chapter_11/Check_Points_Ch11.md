@@ -37,3 +37,7 @@ This will cause a call to a constructor with matching parameter list in the supe
 Invocation of a superclass constructor must be on the first line in the subclass constructor.  
 
 It is possible to omit the explicit call of a superclass constructor. The compiler will in this case insert a call to the no-argument superclass constructor.  
+
+## 11.6 ##
+The no-arg constructor of a superclass will not be called if another constructor is called explicitly by the subclass.  
+
