@@ -43,4 +43,12 @@ The no-arg constructor of a superclass will not be called if another constructor
 
 ## 11.7 ##
 It is not possible to override a method that is declared private in the superclass.  
+
+## 11.8 ##
+It is not possible to override a static method defined in a superclass.  
+
+It is still possible to have another static method, with the same name, in a subclass but this method will not override the method in the superclass, it will hide it.  
+
+This is a bit tricky read more [here](http://docs.oracle.com/javase/tutorial/java/IandI/override.html "here").  
+
  
