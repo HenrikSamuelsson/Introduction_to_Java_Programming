@@ -60,3 +60,8 @@ The keyword super in combination with the dot operator is used to invoke an over
 super.method()  
 ´´´   
 
+## 11.12 ##
+Method overloading means making multiple versions of a method based on differences in the signature.  
+
+Method overriding means defining a new version of a method in a subclass of a superclass. Overridden methods have the same signature and return type as the original.  
+
