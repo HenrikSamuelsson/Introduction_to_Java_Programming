@@ -53,4 +53,10 @@ This is a bit tricky read more [here](http://docs.oracle.com/javase/tutorial/jav
 
 ## 11.9 ##
 The keyword super is used to explicitly invoke the constructor of a superclass.  
- 
+
+## 11.10 ##
+The keyword super in combination with the dot operator is used to invoke an overridden superclass method from a subclass.  
+´´´Java  
+super.method()  
+´´´   
+
