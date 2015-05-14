@@ -65,3 +65,38 @@ Method overloading means making multiple versions of a method based on differenc
 
 Method overriding means defining a new version of a method in a subclass of a superclass. Overridden methods have the same signature and return type as the original.  
 
+## 11.13 ##
+A corrected version of the code for this checkpoint looks like this:  
+```Java  
+public class Circle {
+	private double radius;
+
+	public Circle(double radius) {
+		this.radius = radius;
+	}
+
+	public double getRadius() {
+		return radius;
+	}
+
+	public double getArea() {
+		return radius * radius * Math.PI;
+	}
+}
+
+class B extends Circle {
+	private double length;
+
+	B(double radius, double length) {
+		super(radius);
+		this.length = length;
+	}
+
+	@Override
+	public double getArea() {
+		return super.getArea() * length;
+	}
+}
+```  
+
+
