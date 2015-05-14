@@ -39,7 +39,7 @@ x is -2147483648
 ```  
 
 ## 5.6 ##
-The program in this check point will take numbers as input and keep track of the biggest number in the variable called "max". The last entered number is stored in the variable called "number".  
+The program in this checkpoint will take numbers as input and keep track of the biggest number in the variable called "max". The last entered number is stored in the variable called "number".  
 
 The output when running the program with the input  
 ```
@@ -54,7 +54,7 @@ number 0
 ## 5.7 ##
 A do-while loop will always execute the body of the loop at least one time, this is not true for a while loop.  
 
-The code from the check point rewritten using a do-while loop:  
+The code from the checkpoint rewritten using a do-while loop:  
 ```Java  
 Scanner input = new Scanner(System.in);
 int sum = 0;
@@ -111,7 +111,7 @@ public class CheckPoint_05_10 {
 	
 }
 ```  
-The program in this check point will sum integers until the control variable in the loop reaches the value five 5. This means that if the input to the program is  
+The program in this checkpoint will sum integers until the control variable in the loop reaches the value five 5. This means that if the input to the program is  
 ```
 2 3 4 5 0  
 ```  
@@ -194,7 +194,7 @@ for (int i=1; sum < 1000; i++) {
 }
 ```  
 ##5.17##
-Fixed version of the code in this check point follows.  Had to guess a little on some of the fixes since there was no specification and instead just a piece of semi-random nonsense code.  
+Fixed version of the code in this checkpoint follows.  Had to guess a little on some of the fixes since there was no specification and instead just a piece of semi-random nonsense code.  
 ```Java  
 public class Test {
 	public static void main(String[] args) { // missing static

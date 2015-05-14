@@ -63,7 +63,7 @@ else
 
 **3.7**  
 **(a)**  
-There is a logical error in this code for this check point. The output will when number is 30 be:  
+There is a logical error in this code for this checkpoint. The output will when number is 30 be:  
 ```
 30 is even.  
 30 is odd.
@@ -169,7 +169,7 @@ int d = (int)(Math.random() * 2);
 ```  
 
 **3.17**  
-The two statements in this check point are equal. The first one is better since it is shorter.  
+The two statements in this checkpoint are equal. The first one is better since it is shorter.  
 
 **3.18**  
 ```Java  
