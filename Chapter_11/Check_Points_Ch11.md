@@ -97,5 +97,7 @@ class B extends Circle {
 ## 11.12 ##
 Method overloading means making multiple versions of a method based on differences in the signature.  
 
-Method overriding means defining a new version of a method in a subclass of a superclass. Overridden methods have the same signature and return type as the original.  
+Method overriding means defining a new version of a method in a subclass of a superclass. Overridden methods have the same signature and return type as the original. 
 
+## 11.13 ##
+A method in a subclass that have the same signature, and same return type, as a method in its superclass is said to be overriden.  
