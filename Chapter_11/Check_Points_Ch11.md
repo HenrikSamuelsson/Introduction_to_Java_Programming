@@ -101,3 +101,9 @@ Method overriding means defining a new version of a method in a subclass of a su
 
 ## 11.13 ##
 A method in a subclass that have the same signature, and same return type, as a method in its superclass is said to be overriden.  
+
+## 11.14 ##
+Having methods with the same signature but different return types in a subclass and its superclass is not allowed and will cause a syntax error.  
+
+## 11.15 ##
+A method in a subclass that have the same name as a method in its superclass but with different parameter types is said to be overloaded.  
