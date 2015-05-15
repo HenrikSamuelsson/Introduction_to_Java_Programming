@@ -122,7 +122,7 @@ When an method is overridden in subclass so is it up to the JVM to figure out at
 ## 11.18 ##
 Method matching is the process of deciding what version of an overloaded method to invoke. This is done at compile time by the compiler and the choice is based on the signature of the overloaded methods.  
 
-Method binding is the process of finding the method to invoke when using inheritance. A method may be implemented in several subclasses. The JVM dynamically binds the implementation of the method at runtime, decided by the actual class of the object referenced by the variable.  
+Method binding is the process of finding the method to invoke when using inheritance. A method may be implemented in several classes part of an inheritance chain. The JVM dynamically binds the implementation of the method at runtime, decided by the actual class of the object referenced by the variable.  
 
 ## 11.18 ##
 It is (of course) possible to assign an array of type Object like this:  
