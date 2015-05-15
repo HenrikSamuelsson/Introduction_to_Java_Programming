@@ -124,4 +124,19 @@ Method matching is the process of deciding what version of an overloaded method 
 
 Method binding is the process of finding the method to invoke when using inheritance. A method may be implemented in several subclasses. The JVM dynamically binds the implementation of the method at runtime, decided by the actual class of the object referenced by the variable.  
 
-
+## 11.18 ##
+It is (of course) possible to assign an array of type Object like this:  
+```Java  
+Object o = new Object[50];
+```
+Since all other classes inherits from Object so is it also possible to do assignments of the following kind:   
+```Java  
+Object[] o = new Integer[50];
+```  
+```Java  
+Object[] o = new String[50];
+```
+It is on the other hand not possible to assign an primitive type to an Object variable this means that the following code will not compile.
+```Java  
+Object[] o = new int[50];	// Type mismatch: cannot convert from int[] to Object[]  
+```
