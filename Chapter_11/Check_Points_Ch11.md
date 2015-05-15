@@ -119,5 +119,9 @@ A good definition of polymorphism can be found in [The Java Tutorials](https://d
 
 When an method is overridden in subclass so is it up to the JVM to figure out at runtime which specific method to invoke. This concept is called dynamic binding.  
 
+## 11.18 ##
+Method matching is the process of deciding what version of an overloaded method to invoke. This is done at compile time by the compiler and the choice is based on the signature of the overloaded methods.  
 
- 
+Method binding is the process of finding the method to invoke when using inheritance. A method may be implemented in several subclasses. The JVM dynamically binds the implementation of the method at runtime, decided by the actual class of the object referenced by the variable.  
+
+
