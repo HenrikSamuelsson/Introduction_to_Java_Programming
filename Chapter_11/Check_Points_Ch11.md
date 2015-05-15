@@ -112,3 +112,12 @@ A method in a subclass that have the same name as a method in its superclass but
 Using the @Ovveride annotation will take advantage of the compiler checking that makes sure that there is an actuall overriding of a method. This check will catch mistakes of misspelling a method name or not correctly matching the parameters.  
 
 Another benefit is that this annotation functions as documentation, making the intention of the code easier to understand.  
+
+## 11.17 ##
+A good definition of polymorphism can be found in [The Java Tutorials](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html "The Java Tutorials").
+> The dictionary definition of polymorphism refers to a principle in biology in which an organism or species can have many different forms or stages. This principle can also be applied to object-oriented programming and languages like the Java language. Subclasses of a class can define their own unique behaviors and yet share some of the same functionality of the parent class.  
+
+When an method is overridden in subclass so is it up to the JVM to figure out at runtime which specific method to invoke. This concept is called dynamic binding.  
+
+
+ 
