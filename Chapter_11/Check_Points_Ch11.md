@@ -139,4 +139,26 @@ Object[] o = new String[50];
 It is on the other hand not possible to assign an primitive type to an Object variable this means that the following code will not compile.
 ```Java  
 Object[] o = new int[50];	// Type mismatch: cannot convert from int[] to Object[]  
-```
+```  
+
+## 11.24 ##
+The following statement is true.     
+> You can always successfully cast an instance of a subclass to a superclass.  
+
+The following statement is false.  
+> You can always successfully cast an instance of a superclass to a subclass.  
+
+## 11.25 ##
+**(a)**  
+```Java  
+(circle instanceof GeometricObject)		// true  
+(object instanceof GeometricObject)		// true  
+(circle instanceof Circle)				// true  
+(object instanceof Circle)				// false  
+```  
+
+**(b)**  
+The code will compile because cast from subclass to superclass is always allowed.  
+
+**(c)**  
+The code will compile but there will be runtime exception when executing the program.  
