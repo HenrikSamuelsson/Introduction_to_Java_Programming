@@ -162,3 +162,16 @@ The code will compile because cast from subclass to superclass is always allowed
 
 **(c)**  
 The code will compile but there will be runtime exception when executing the program.  
+
+## 11.28 ##
+Every object have both a toString and an equals method because these methods are defined in the class Object and all classes inherits from this class.  
+
+Examples of how to invoke these methods:  
+```Java  
+object1.equals(object2)
+```
+```Java  
+object1.toString()  
+```  
+
+The default versions of these methods are rather crude and should often be overridden in the subclass to get more useful versions.  
