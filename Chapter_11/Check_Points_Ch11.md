@@ -109,7 +109,7 @@ Having methods with the same signature but different return types in a subclass 
 A method in a subclass that have the same name as a method in its superclass but with different parameter types is said to be overloaded.  
 
 ## 11.16 ##
-Using the @Ovveride annotation will take advantage of the compiler checking that makes sure that there is an actuall overriding of a method. This check will catch mistakes of misspelling a method name or not correctly matching the parameters.  
+Using the @Override annotation will take advantage of the compiler checking that makes sure that there is an actual overriding of an existing method. This check will catch mistakes of misspelling a method name or not correctly matching the parameters.  
 
 Another benefit is that this annotation functions as documentation, making the intention of the code easier to understand.  
 
@@ -153,8 +153,8 @@ The following statement is false.
 ```Java  
 (circle instanceof GeometricObject)		// true  
 (object instanceof GeometricObject)		// true  
-(circle instanceof Circle)				// true  
-(object instanceof Circle)				// false  
+(circle instanceof Circle)			// true  
+(object instanceof Circle)			// false  
 ```  
 
 **(b)**  
