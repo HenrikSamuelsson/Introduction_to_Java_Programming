@@ -175,3 +175,53 @@ object1.toString()
 ```  
 
 The default versions of these methods are rather crude and should often be overridden in the subclass to get more useful versions.  
+
+## 11.30 ##
+**(a)**
+Creation of an ArrayList for storing double values:  
+```Java  
+ArrayList <Double> doubleList = new ArrayList<>();
+```  
+
+**(b)**  
+Append an on object to a list:
+```Java  
+doubleList.add(5.0);
+```  
+
+**(c)**  
+Insert an object at the beginning of the list:
+```Java  
+doubleList.add(0, 1.0);	// index 0 is the start of the list
+```  
+
+**(d)**  
+Number of objects in the list:
+```Java  
+doubleList.size();    
+```  
+
+**(e)**  
+Removal of a given object in the list:
+```Java  
+doubleList.remove(5.0);	// removes the first occurence found of 5.0 in the list
+```  
+
+**(f)**  
+Removal of the last element in the list:
+```Java  
+doubleList.remove(doubleList.size() - 1);
+```  
+
+**(g)**  
+Check whether a given element is in the list:
+```Java  
+doubleList.contains(1.0);	// checks if the number 1.0 is in the list
+```  
+
+**(h)**  
+Retrieve an object at a specified index in the list:   
+```Java  
+doubleList.get(0);	// returns what the first element in the list is
+```  
+
