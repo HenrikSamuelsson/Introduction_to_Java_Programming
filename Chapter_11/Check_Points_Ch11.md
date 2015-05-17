@@ -124,7 +124,7 @@ Method matching is the process of deciding what version of an overloaded method 
 
 Method binding is the process of finding the method to invoke when using inheritance. A method may be implemented in several classes part of an inheritance chain. The JVM dynamically binds the implementation of the method at runtime, decided by the actual class of the object referenced by the variable.  
 
-## 11.18 ##
+## 11.19 ##
 It is (of course) possible to assign an array of type Object like this:  
 ```Java  
 Object o = new Object[50];
