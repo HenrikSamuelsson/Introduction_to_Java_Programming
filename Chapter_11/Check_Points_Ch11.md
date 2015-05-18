@@ -225,3 +225,19 @@ Retrieve an object at a specified index in the list:
 doubleList.get(0);	// returns what the first element in the list is
 ```  
 
+## 11.31 ##
+There are multiple issuses with the below code.
+```Java  
+ArrayList<String> list = new ArrayList<>();
+list.add("Denver");
+list.add("Austin");
+list.add(new java.util.Date());
+String city = list.get(0);
+list.set(3, "Dallas");
+System.out.println(list.get(3));
+```  
+A Date object is attempted to be added to the ArrayList, this will not work because the list is setup to hold String objects.  
+
+Index 3 is attempted to be set to Dallas but it will not be possible since the list only holds two elements when this statement is executed.  
+
+An attempt to get the element at index 3 is done. This will not work because there is no element at this location.  
