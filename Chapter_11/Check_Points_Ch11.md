@@ -241,3 +241,19 @@ A Date object is attempted to be added to the ArrayList, this will not work beca
 Index 3 is attempted to be set to Dallas but it will not be possible since the list only holds two elements when this statement is executed.  
 
 An attempt to get the element at index 3 is done. This will not work because there is no element at this location.  
+
+## 11.33 ##
+What happens is that the method with the signature    
+```Java  
+remove(int index)  
+```  
+is called with the argument 1. This will remove the value at index 1, the value 2 is stored here so this will be removed.  
+
+If instead the value 1 shall found int the list and be removed so can the method with the signature  
+```Java  
+remove(Object)
+```   
+be called by writing like this
+```Java  
+remove(new Integer(1));
+```  
