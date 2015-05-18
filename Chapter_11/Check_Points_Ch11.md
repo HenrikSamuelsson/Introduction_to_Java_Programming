@@ -238,9 +238,9 @@ System.out.println(list.get(3));
 ```  
 A Date object is attempted to be added to the ArrayList, this will not work because the list is setup to hold String objects.  
 
-Index 3 is attempted to be set to Dallas but it will not be possible since the list only holds two elements when this statement is executed.  
+Index 3 is attempted to be set to Dallas but it will not be possible since the list only holds two elements when this statement is executed at runtime.  
 
-An attempt to get the element at index 3 is done. This will not work because there is no element at this location.  
+An attempt to get the element at index 3 is done. This will not work because there is no element at this location when this statement is executed at runtime.  
 
 ## 11.33 ##
 What happens is that the method with the signature    
