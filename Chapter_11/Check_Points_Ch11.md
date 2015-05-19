@@ -257,3 +257,19 @@ be called by writing like this
 ```Java  
 remove(new Integer(1));
 ```  
+
+## 11.34 ##
+```Java  
+ArrayList<Double> list = new ArrayList<>();
+list.add(1);
+```  
+The above code will not work because the add function takes an Double Object as argument but an int is provided. There is no auto boxing from int to Double so the code will not compile.  
+
+The code can be fixed by writing like this
+```Java  
+list.add(1.0);
+```  
+or like this  
+```Java  
+list.add(new Double(1));  
+```  
