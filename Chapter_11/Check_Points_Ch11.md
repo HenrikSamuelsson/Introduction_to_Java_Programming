@@ -273,3 +273,10 @@ or like this
 ```Java  
 list.add(new Double(1));  
 ```  
+
+## 11.35 ##
+The asList method does not support primitive types and there is no autoboxing for arrays. This is why the code from the book does not work. A corrected version is shown below.  
+```Java  
+Integer[] array = {3, 5, 95, 4, 15, 34, 3, 6, 5};  
+ArrayList<Integer> list = new ArrayList<(Arrays.asList(array));  
+```  
