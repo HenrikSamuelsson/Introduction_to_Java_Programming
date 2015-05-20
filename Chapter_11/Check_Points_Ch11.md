@@ -282,9 +282,12 @@ ArrayList<Integer> list = new ArrayList<(Arrays.asList(array));
 ```  
 
 ## 11.36 ##
-The max method in the Collections class can not be used with an array as argument. The array need to be converted to an ArrayList that is allowed to be used as an argument.  
+The max method in the Collections class can not be used with an array as argument. The array need to be converted to an ArrayList that is an type allowed to be used as an argument.  
 ```Java  
 Integer[] array = {3, 5, 95, 4, 15, 34, 3, 6, 5};
 ArrayList<Integer> list = new ArrayList<(Arrays.asList(array));
 System.out.println(java.util.Collections.max(list));
 ```  
+
+## 11.37 ##
+A class can by default access another class in the same package but classes outside of the package will not be able to access it by default. This means that if this is the desired level of visibility so shall the accessibility modifier simply be omitted.  
