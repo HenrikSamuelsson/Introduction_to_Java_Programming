@@ -291,3 +291,6 @@ System.out.println(java.util.Collections.max(list));
 
 ## 11.37 ##
 A class can by default access another class in the same package but classes outside of the package will not be able to access it by default. This means that if this is the desired level of visibility so shall the accessibility modifier simply be omitted.  
+
+## 11.38 ##
+The keyword protected is used as an accessibility modifier to setup so that a class in a different package cannot access the class, but its subclasses in any package can access it.  
