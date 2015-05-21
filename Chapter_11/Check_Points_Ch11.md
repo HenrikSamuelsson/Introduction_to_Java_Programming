@@ -294,3 +294,11 @@ A class can by default access another class in the same package, but classes out
 
 ## 11.38 ##
 The keyword protected is used as an accessibility modifier to setup so that a class in a different package cannot access the class, but its subclasses in any package can access it.  
+
+## 11.39 ##
+If the question marks are replaced by blanks, can class B be compiled? Yes, default access means visibility between classes in the same package.  
+    
+If the question marks are replaced by private, can class B be compiled? No, private means that the int called i and the method called m can only be used from within the class.  
+
+If the question marks are replaced by protected, can class B be compiled? Yes, B inherits from A so B can used protected members from A.  
+
