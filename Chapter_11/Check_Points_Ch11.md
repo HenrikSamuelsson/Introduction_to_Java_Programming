@@ -309,3 +309,5 @@ If the question marks are replaced by private, can class B be compiled? No, i an
  
 If the question marks are replaced by protected, can class B be compiled? Yes, B inherits from A so there is no problem to access protected variables in A.  
 
+## 11.41 ##
+The keyword final is used to prevent classes from being extended. It is also used to prevent methods form being overridden.  
