@@ -302,3 +302,10 @@ If the question marks are replaced by private, can class B be compiled? No, priv
 
 If the question marks are replaced by protected, can class B be compiled? Yes, B inherits from A so B can used protected members from A.  
 
+## 11.40 ##
+If the question marks are replaced by blanks, can class B be compiled? No, B is not in the same package as A so if i and m from class A will not be visible to B if default access is set.  
+
+If the question marks are replaced by private, can class B be compiled? No, i and m will not be visible outside of class A if they are set to private.  
+ 
+If the question marks are replaced by protected, can class B be compiled? Yes, B inherits from A so there is no problem to access protected variables in A.  
+
