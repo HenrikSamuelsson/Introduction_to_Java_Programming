@@ -311,3 +311,17 @@ If the question marks are replaced by protected, can class B be compiled? Yes, B
 
 ## 11.41 ##
 The keyword final is used to prevent classes from being extended. It is also used to prevent methods form being overridden.  
+
+## 11.42 ##
+**(a)**  
+True.  
+**(b)**  
+False, only true if the subclass extends the class with the protected members.  
+**(c)**  
+True.  
+**(d)**  
+True.  
+**(e)**  
+False.  
+**(f)**  
+False.  
