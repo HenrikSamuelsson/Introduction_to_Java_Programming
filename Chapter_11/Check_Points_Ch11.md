@@ -315,13 +315,18 @@ The keyword final is used to prevent classes from being extended. It is also use
 ## 11.42 ##
 **(a)**  
 True.  
+
 **(b)**  
 False, only true if the subclass extends the class with the protected members.  
+
 **(c)**  
 True.  
+
 **(d)**  
 True.  
+
 **(e)**  
 False.  
+
 **(f)**  
 False.  
