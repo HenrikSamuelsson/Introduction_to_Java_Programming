@@ -48,3 +48,12 @@ Output if value is 50:
 ```  
 Continue after the catch block
 ```  
+
+## 12.7 ##
+The java.lang.Throwable class is the superclass of all errors and exceptions in the Java language. Only objects that are instances of this class, or one of its subclasses, are thrown by the JVM or can be thrown by the Java throw statement.  
+
+The classes Error and Exception are both subclasses of Throwable. 
+- The Error class is used by the JVM when a system error occurs. For example that there is no more available memory.   
+- The Exception class is for exceptions caused by the program. These types of exceptions can be caught and handled by the code.  
+
+
