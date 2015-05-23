@@ -56,4 +56,3 @@ The classes Error and Exception are both subclasses of Throwable.
 - The Error class is used by the JVM when a system error occurs. For example that there is no more available memory.   
 - The Exception class is for exceptions caused by the program. These types of exceptions can be caught and handled by the code.  
 
-
