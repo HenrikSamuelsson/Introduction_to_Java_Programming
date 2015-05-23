@@ -15,4 +15,9 @@ The above line will not throw an exception. The output from a test run was:
 ```  
 Infinity  
 ```  
-
+## 12.3 ##
+```Java  
+long value = Long.MAX_VALUE + 1;  
+System.out.println(value);  
+```  
+The above code will add one to a long variable that already holds the biggest value that can be fitted into a long. This will cause a wrap around that may or may not be seen as an error depending on how the design of program is intended to work. This will not cause throwing of an exception in the current version of Java.  
