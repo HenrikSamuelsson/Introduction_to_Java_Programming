@@ -37,3 +37,14 @@ catch (Exception ex){
 	// in this follow up block  
 }
 ```  
+
+## 12.5 ##
+Output if value is 30:  
+```Java  
+value is too small
+Continue after the catch block
+```  
+Output if value is 50:
+```Java  
+Continue after the catch block
+```  
