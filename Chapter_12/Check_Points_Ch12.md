@@ -70,3 +70,13 @@ public void writeList() throws IOException, IndexOutOfBoundsException {
 Checked exception is a property of the exception classes. Anything that is a subclass of Exception except for RuntimeException and its subclasses is a checked exception.  
 
 The code will not compile unless checked exceptions are caught or declared to be thrown in the method signature. There are no such demands regarding unchecked exceptions.  
+
+## 12.11 ##
+The keyword throw is used to throw an exception. There can only be one exception in a single throw statement.  
+
+Example statement that throws an exception:  
+```Java  
+throw new EmptyStackException();
+```  
+
+ 
