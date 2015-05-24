@@ -62,6 +62,11 @@ It is often not possible to anticipate how an exception shall be handled since i
 An exception is declared by the use of the keyword throws in the method declaration. Multiple exceptions are declared by separting them with commas.  
 ```Java  
 public void writeList() throws IOException, IndexOutOfBoundsException {  
-	// method body ommitted for brevity  
+	// method body omitted for brevity  
 }
 ```  
+
+## 12.10 ##
+Checked exception is a property of the exception classes. Anything that is a subclass of Exception except for RuntimeException and its subclasses is a checked exception.  
+
+The code will not compile unless checked exceptions are caught or declared to be thrown in the method signature. There are no such demands regarding unchecked exceptions.  
