@@ -56,3 +56,12 @@ The classes Error and Exception are both subclasses of Throwable.
 - The Error class is used by the JVM when a system error occurs. For example that there is no more available memory.   
 - The Exception class is for exceptions caused by the program. These types of exceptions can be caught and handled by the code.  
 
+## 12.9 ##
+It is often not possible to anticipate how an exception shall be handled since it depends on how the the program that uses the class is constructed. This is why the exception is thrown up in the call stack so that the user of the class can choose how to handle the exception. The main purpose of declaring the exception is hence to inform the user of the class what exceptions can be thrown so that they can be handled appropiatry.  
+
+An exception is declared by the use of the keyword throws in the method declaration. Multiple exceptions are declared by separting them with commas.  
+```Java  
+public void writeList() throws IOException, IndexOutOfBoundsException {  
+	// method body ommitted for brevity  
+}
+```  
