@@ -24,7 +24,6 @@ public class Exercise_07_02 {
 		for (int i = NUMBER_COUNT; i > 0; i--) {
 			System.out.print(numbers[i - 1] + " ");
 		}
-
 	}
 
 }
