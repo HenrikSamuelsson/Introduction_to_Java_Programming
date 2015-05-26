@@ -83,4 +83,23 @@ throw new EmptyStackException();
 The keyword called throw is used to throw an Exception from a method or static block.  
 
 The keyword throws is used in method declarations to denote what types of exceptions possibly can be thrown by the method.  
+
+## 12.13 ##
+Assume that we have the following try catch block.  
+```Java  
+try {  
+	statement1;
+	statement2;
+	statement3;
+}
+catch (Exception1 ex1) {
+}
+catch (Exception2 ex2) {
+}
+
+statement4;
+```  
+Now assume that an exception is caused by statement2.  
+
+Under the above assumptions so will statement3 not be executed. And statement4 will be executed if and only if the thrown exception is caught in one of the catch blocks.  
  
