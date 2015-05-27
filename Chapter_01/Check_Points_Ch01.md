@@ -6,7 +6,7 @@ Hardware are the different devices either installed in or connected to the compu
 
 Software is a set of instructions that are interpreted and executed by the hardware.
 
-## 1.2 ##  
+## 1.2 ##
 Five major computer hardware components are  
 1. Processor  
 2. Memory  
@@ -83,13 +83,13 @@ Java is currently owned and developed by a company called Oracle.
 ## 1.22 ##
 A Java applet is a small application which is written in Java and delivered to the users over the Web. The user launches the Java applet from a web page, and the applet is then executed within in a process separate from the web browser itself.  
 
-## 1.23 ##  
+## 1.23 ##
 Java is often used when developing Android applications. 
 
 ## 1.24 ##
 The Java language specification is a technical definition of the Java programming language’s syntax and semantics.  
 
-## 1.25 ##  
+## 1.25 ##
 JDK is an acronym for Java Development toolKit.  
 
 ## 1.26 ##
@@ -97,7 +97,7 @@ IDE is an acronym for Integrated Development Environment.
 
 ## 1.27 ##
 NetBeans and Eclipse are two different integrated development environments that can be helpful when developing Java programs.   
-## 1.28 ##  
+## 1.28 ##
 A keyword is a word that has special meaning to the compiler and can hence not be used for other purposes.  
 
 Example of keywords are:  
