@@ -113,3 +113,11 @@ The method that is invoked will cause an ArithmeticException to be thrown. Nothi
 ```  
 ArithmeticException  
 ```  
+## 12.16 ##
+The code inside the method will cause an  StringIndexOutOfBoundsException that is a subclass of RuntimeException. This exception is caught in method itself. The main method then continues its normal execution flow.  
+
+The output will be:  
+```  
+RuntimeException in method()  
+After the method call  
+```  
