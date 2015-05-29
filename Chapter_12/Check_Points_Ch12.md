@@ -102,4 +102,9 @@ statement4;
 Now assume that an exception is caused by statement2.  
 
 Under the above assumptions so will statement3 not be executed. And statement4 will be executed if and only if the thrown exception is caught in one of the catch blocks.  
- 
+
+## 12.14 ##
+The code in this checkpoint will try to access an element with an index that is outside of the range of valid indexes. This will cause an IndexOutOfBoundsException. This type of exception is a subclass of RuntimeException. The output when running the code will hence be:  
+```  
+RuntimeException  
+```  
