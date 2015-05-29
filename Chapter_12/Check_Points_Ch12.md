@@ -108,3 +108,8 @@ The code in this checkpoint will try to access an element with an index that is 
 ```  
 RuntimeException  
 ```  
+## 12.15 ##
+The method that is invoked will cause an ArithmeticException to be thrown. The try block will be hence be excited directly without execution of the print statement inside the try block. There is then a following catch for ArithmeticException that will print:  
+```  
+ArithmeticException  
+```  
