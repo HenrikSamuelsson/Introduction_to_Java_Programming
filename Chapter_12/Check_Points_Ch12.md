@@ -109,7 +109,7 @@ The code in this checkpoint will try to access an element with an index that is 
 RuntimeException  
 ```  
 ## 12.15 ##
-The method that is invoked will cause an ArithmeticException to be thrown. The try block will be hence be excited directly without execution of the print statement inside the try block. There is then a following catch for ArithmeticException that will print:  
+The method that is invoked will cause an ArithmeticException to be thrown. Nothing is printed inside the method because the exception is thrown before the actual printing starts. The try block will be excited directly without execution of the print statement inside the try block. There is then a following catch for ArithmeticException that will print:  
 ```  
 ArithmeticException  
 ```  
