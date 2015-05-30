@@ -140,3 +140,10 @@ public void m(int value) throws Exception {
 		throw new Exception("value is too small");
 }
 ```  
+
+## 12.21 ##
+If no exception occurs so will both statement4 and statement5 be executed.  
+
+If the exception is of type Exception1 so will both statement4 and statement5 be executed.  
+
+If the exception is not of type Exception1 so will statement4 be executed but not statement5.  
