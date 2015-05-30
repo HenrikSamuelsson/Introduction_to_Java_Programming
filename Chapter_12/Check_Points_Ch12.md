@@ -125,4 +125,7 @@ After the method call
 The Throwable.getMessage() method is used for retrieving the detailed message describing the exception associated with a given Throwable instance.  
 
 ## 12.18 ##
-The member method called printStackTrace in the Throwable class is a very useful tool for diagnosing an Exception. It indicates what happened and where in the code this happened by printing information about the content of the stack when the exception occured.  
+The member method called printStackTrace in the Throwable class is a very useful tool for diagnosing an Exception. It indicates what happened and where in the code this happened by printing information about the content of the stack when the exception occurred.  
+
+## 12.19 ##
+The presence of a try-catch block will not impose any overhead when no exception occurs.  
