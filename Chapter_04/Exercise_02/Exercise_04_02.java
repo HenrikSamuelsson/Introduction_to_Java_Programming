@@ -22,11 +22,11 @@ public class Exercise_04_02 {
 		// get the coordinates for the two points from the user
 		Scanner input = new Scanner(System.in);
 		System.out
-				.println("Enter point 1 (latitude and longitude) in degrees:");
+				.println("Enter point 1 (latitude and longitude) in degrees: ");
 		lat1 = input.nextDouble();
 		lon1 = input.nextDouble();
 		System.out
-				.println("Enter point 2 (latitude and longitude) in degrees:");
+				.println("Enter point 2 (latitude and longitude) in degrees: ");
 		lat2 = input.nextDouble();
 		lon2 = input.nextDouble();
 
