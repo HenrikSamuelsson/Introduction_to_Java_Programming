@@ -121,3 +121,6 @@ The output will be:
 RuntimeException in method()  
 After the method call  
 ```  
+## 12.17 ##
+The Throwable.getMessage() method is used for retrieving the detailed message associated with a given Throwable instance.  
+ 
