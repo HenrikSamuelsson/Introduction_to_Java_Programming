@@ -122,5 +122,7 @@ RuntimeException in method()
 After the method call  
 ```  
 ## 12.17 ##
-The Throwable.getMessage() method is used for retrieving the detailed message associated with a given Throwable instance.  
- 
+The Throwable.getMessage() method is used for retrieving the detailed message describing the exception associated with a given Throwable instance.  
+
+## 12.18 ##
+The member method called printStackTrace in the Throwable class is a very useful tool for diagnosing an Exception. It indicates what happened and where in the code this happened by printing information about the content of the stack when the exception occured.  
