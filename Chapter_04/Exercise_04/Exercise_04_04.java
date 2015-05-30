@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Exercise_04_04 {
 
 	public static void main(String[] args) {
-		Double side;	// length of one side in the hexagon
+		Double side;	// length of a side in the hexagon
 		Double area;	// the area of a hexagon
 		
 		// query the user for the length of the sides in the hexagon
