@@ -129,3 +129,14 @@ The member method called printStackTrace in the Throwable class is a very useful
 
 ## 12.19 ##
 The presence of a try-catch block will not impose any overhead when no exception occurs.  
+
+## 12.20 ##
+The code will possibly throw a checked exception. This means that the exception must be caught in the code or so must it be declared that the code can throw an exception.
+
+Below is a fixed version that declares the throwing of the exception.  
+```Java  
+public void m(int value) throws Exception {
+	if (value < 40)
+		throw new Exception("value is too small");
+}
+```  
