@@ -5,7 +5,7 @@ import java.util.Scanner;
  * <p>
  * Geometry: great circle distance.
  * <p>
- * Note that the solution is not exactly as in the book, the user will here 
+ * Note that the solution is not exactly as in the book, the user will there 
  * input the coordinates separated by a comma. My solution assumes that that 
  * the data is separated by a blank space.
  * 
