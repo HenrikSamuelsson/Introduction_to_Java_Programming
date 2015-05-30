@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 /**
  * Exercise 4.1 from the book Introduction to Java Programming (10th).
- *
+ * <p>
+ * Geometry: area of a pentagon.
+ * 
  * @author Henrik Samuelsson, henrik.samuelsson(at)gmail.com
  */
 
