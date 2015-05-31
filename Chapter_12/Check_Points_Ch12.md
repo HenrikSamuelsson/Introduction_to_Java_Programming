@@ -202,3 +202,6 @@ java.lang.Exception: New info from method1
  	at ChainedExceptionDemo.method1(ChainedExceptionDemo.java:16)  
  	at ChainedExceptionDemo.main(ChainedExceptionDemo.java:4)
 ```  
+
+## 12.25 ##
+A custom exception class is defined by extending Exception or a subclass of Exception.  
