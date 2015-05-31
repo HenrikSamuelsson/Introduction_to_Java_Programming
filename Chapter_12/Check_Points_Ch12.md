@@ -151,7 +151,7 @@ If the exception is not of type Exception1 so will statement4 be executed but no
 ## 12.22 ##
 The method presented in the checkpoint will work but can be expensive to run if many of the input strings are on the incorrect form since this will then cause overhead when the exception is caught.  
 
-The code can for example be rewritten by the use of regular expression.  
+If it is desired to have code without exceptions so can the solution be based on the use of regular expression.  
 ```Java  
 public static boolean isNumeric(String token) {
 	return token.matches("-?\\d+(\\.\\d+)?");
