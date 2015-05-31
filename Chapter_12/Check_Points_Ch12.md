@@ -194,3 +194,11 @@ If the exception is of type Exception1 so will both statment4 and statment5 be e
 If the exception is of type Exception2 so will statement4 be executed but statment5 will not be executed.  
 
 If the exception is not Exception1 nor Exception2, so will statement4 be executed but statement5 will not be executed.  
+
+## 12.24 ##
+The output would be:
+```  
+java.lang.Exception: New info from method1  
+ 	at ChainedExceptionDemo.method1(ChainedExceptionDemo.java:16)  
+ 	at ChainedExceptionDemo.main(ChainedExceptionDemo.java:4)
+```  
