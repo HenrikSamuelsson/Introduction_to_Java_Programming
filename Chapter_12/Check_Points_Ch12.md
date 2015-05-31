@@ -168,3 +168,29 @@ public static boolean isNumeric(String token) {
 }
 ```  
 Note that it is tricky to write a method that covers all possible cases of numeric input. The first solution will for example fail if the locale decimal indicator is set to anything else than a dot. The second solution will only accept numbers, decimal points or minus signs will be rejected.  
+
+## 12.23 ##
+Suppose that statement2 causes an exception in the following code.
+```Java  
+try {
+	statement1;
+	statement2;
+	statement3;
+}
+catch (Exception1 ex1) {
+}
+catch (Exception2 ex2) {
+	throw ex2;
+}
+finally {
+	statement4;
+}
+statement5;
+```  
+If no exception occurs so will both statement4 and statement5 be executed.  
+
+If the exception is of type Exception1 so will both statment4 and statment5 be executed.  
+
+If the exception is of type Exception2 so will statement4 be executed but statment5 will not be executed.  
+
+If the exception is not Exception1 nor Exception2, so will statement4 be executed but statement5 will not be executed.  
