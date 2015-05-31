@@ -147,3 +147,24 @@ If no exception occurs so will both statement4 and statement5 be executed.
 If the exception is of type Exception1 so will both statement4 and statement5 be executed.  
 
 If the exception is not of type Exception1 so will statement4 be executed but not statement5.  
+
+## 12.22 ##
+The method presented in the checkpoint will work but can be expensive to run if many of the input strings are on the incorrect form since this will then cause overhead when the exception is caught.  
+
+The code can for example be rewritten by the use of regular expression.  
+```Java  
+public static boolean isNumeric(String token) {
+	return token.matches("-?\\d+(\\.\\d+)?");
+}
+```  
+Another possible solution could be based around checking each character in the string to see if it is a number.  
+```Java  
+public static boolean isNumeric(String token) {
+	for (char c : token.toCharArray()) {
+		if (!Character.isDigit(c))
+			return false;
+	}
+	return true;
+}
+```  
+Note that it is tricky to write a method that covers all possible cases of numeric input. The first solution will for example fail if the locale decimal indicator is set to anything else than a dot. The second solution will only accept numbers, decimal points or minus signs will be rejected.  
