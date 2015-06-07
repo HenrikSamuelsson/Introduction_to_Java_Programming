@@ -211,7 +211,7 @@ A file object is attempted to be created like this
 ```Java  
 new File("c:\book\test.dat");  
 ```  
-but there is a problem. It has been forgotten a  backslash cannot be used directly in a string, it has special meaning and must be accompanied by an extra backslash.  
+but there is a problem. It has been forgotten that a backslash cannot be used directly in a string, it has special meaning and must be accompanied by an extra backslash.  
 
 A corrected version looks like this:  
 ```Java  
