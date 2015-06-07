@@ -204,4 +204,16 @@ java.lang.Exception: New info from method1
 ```  
 
 ## 12.25 ##
-A custom exception class is defined by extending Exception or a subclass of Exception.  
+A custom exception class is defined by extending Exception or a subclass of Exception. 
+
+## 12.27 ##
+A file object is attempted to be created like this  
+```Java  
+new File("c:\book\test.dat");  
+```  
+but there is a problem. It has been forgotten a  backslash cannot be used directly in a string, it has special meaning and must be accompanied by an extra backslash.  
+
+A corrected version looks like this:  
+```Java  
+new File("c:\\book\\test.dat);
+```   
