@@ -206,6 +206,13 @@ java.lang.Exception: New info from method1
 ## 12.25 ##
 A custom exception class is defined by extending Exception or a subclass of Exception. 
 
+## 12.26 ##
+An exception of type Exception will be thrown in method(). This exception is caught in method and then re-thrown out to main. The output will be  
+```  
+Exception in method()  
+Exception in main
+```   
+
 ## 12.27 ##
 A file object is attempted to be created like this  
 ```Java  
