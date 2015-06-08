@@ -240,5 +240,6 @@ The size of a a file is retrieved with the length() method.
 File(pathname: String) can be used for creation of both directories and files.  
 
 ## 12.29 ##
-The file class is not intended for I/O. Creation of a File object will not create a file on the disk.  
+The file class is not intended for I/O.   
 
+Creation of a File object does mean that a file will be created on the disk.  
