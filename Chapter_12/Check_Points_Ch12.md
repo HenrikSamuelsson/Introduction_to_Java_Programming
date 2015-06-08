@@ -224,3 +224,17 @@ A corrected version looks like this:
 ```Java  
 new File("c:\\book\\test.dat);
 ```   
+
+## 12.28 ##
+The class called File have several member methods that can be used to get properties about files on a system.  
+
+The exist() methods checks if a file exists.  
+
+Files or directories can be deleted with the delete() method.  
+
+Renaming of files is done with renameTo() method.  
+
+The size of a a file is retrieved with the length() method.  
+
+File(pathname: String) can be used for creation of both directories and files.  
+ 
