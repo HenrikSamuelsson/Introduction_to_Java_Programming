@@ -252,3 +252,12 @@ PrintWriter output = new PrintWriter(file);
 There are multiple things that can go wrong when using PrintWriter so we must either handle these problems or at least inform the user of our class that things can go wrong. This is way the main method in Listing 12.13 is declared with throws Exception.  
 
 Listing 12.13 closes the file at the end by the use of the close() method. Data may not get saved properly in the file if this step is omitted.  
+
+## 12.31 ##
+The program from this checkpoint will store the following text in a file called temp.txt.  
+```  
+amount is 32,320000 3,232000e+01
+amount is 32,3200 3,2320e+01
+ false
+  Java
+```  
