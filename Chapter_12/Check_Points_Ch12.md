@@ -243,3 +243,12 @@ File(pathname: String) can be used for creation of both directories and files.
 The file class is not intended for I/O.   
 
 Creation of a File object does mean that a file will be created on the disk.  
+
+## 12.30 ##
+A PrintWriter for writing data to a file is created like this  
+```Java  
+PrintWriter output = new PrintWriter(file);  
+```  
+There are multiple things that can go wrong when using PrintWriter so we must either handle these problems or at least inform the user of our class that things can go wrong. This is way the main method in Listing 12.13 is declared with throws Exception.  
+
+Listing 12.13 closes the file at the end by the use of the close() method. Data may not get saved properly in the file if this step is omitted.  
