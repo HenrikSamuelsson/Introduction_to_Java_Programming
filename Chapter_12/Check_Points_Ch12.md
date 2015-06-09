@@ -277,4 +277,11 @@ public class Checkpoint_12_32 {
 
 }
 ```  
+## 12.33 ##
+A Scanner that takes input from a file is created in the following way.  
+```Java  
+Scanner input = new Scanner(file);  
+```  
+The throws Exception declaration in listing 12.15 is needed because the code have no functionality for handling exceptions. It is the up to the user of the code to decide how the eventual exceptions shall be handled. The throws exception declaration functions as documentation for both the user and the compiler that the exceptions shall be handled by another part.  
 
+If the close() method is not invoked, the problem will run fine. But it is a good practice to close the file to release the resource on the file. The compiler will also probably give us a warning.  
