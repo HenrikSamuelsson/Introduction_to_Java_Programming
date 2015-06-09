@@ -1,5 +1,5 @@
-# Checkpoint Answers Chapter 3 #
-**3.1**  
+﻿# Checkpoint Answers Chapter 3 #
+## 3.1 ##
 Examples of relational operators are:
 ```
 <    less than  
@@ -10,7 +10,7 @@ Examples of relational operators are:
 !=   not equal to
 ```  
 
-**3.2**  
+## 3.2 ##
 Below are some Boolean expressions with comments about the resulting values.  
 ```
 x = 1  
@@ -21,7 +21,7 @@ x = 1
 (x != 1)  // false
 ```  
 
-**3.3**  
+## 3.3 ##
 It is now allowed to cast from an boolean to an int in Java, neither is it allowed to cast from an int to an boolean.  
 
 This means that the following program will not compile.  
@@ -39,20 +39,20 @@ public class CheckPoint_03_03 {
 }
 
 ```  
-**3.4**  
+##3.4##
 An if statement that assigns 1 to x if y is greater than 0:  
 ```Java
 if(y > 0)  
 	x = 1;  
 ```  
-**3.5**  
+##3.5##
 An if statement that increases pay by 3% if score is greater than 90:  
 ```Java  
 if(score > 90)  
 	pay *= 1.03;  
 ```  
 
-**3.6**  
+##3.6##
 An if statement that increases pay by 3% if score is greater than 90 and otherwise increases pay by 1%.  
 ```Java  
 if(score > 90)  
@@ -61,7 +61,7 @@ else
 	pay *= 1.01;
 ```   
 
-**3.7**  
+##3.7##
 **(a)**  
 There is a logical error in this code for this checkpoint. The output will when number is 30 be:  
 ```
@@ -82,7 +82,7 @@ When number is 35 so will the output, as in the first verison, be:
 35 is odd.  
 ```
 
-**3.8**  
+##3.8##
 There will be no output if x = 3 and y = 2.  
 
 The ouput will be `z is 7` if x = 3 and y = 4.  
@@ -91,32 +91,32 @@ The ouput will be `x is 2` if x = 2 and y = 2.
 
 ![](https://github.com/HenrikSamuelsson/Introduction_to_Java_Programming/blob/master/Chapter_03/Resources/check_point_03_08.png)
 
-**3.9**  
+##3.9##
 There will be no output if x = 2 and y = 3.  
 
 The ouput will be `x is 3` if x = 3 and y = 2.  
 
 The ouput will be `z is 6` if x = 3 and y = 3.  
 
-**3.10**  
+##3.10##
 The problem with the code in this checkpoint is that only D or F will be printed. D will be printed whenever score is 60 or more, F is printed if score is less than 60.  
 
 The score comparisons shall be done in descending order for this code to work as intended.  
 
-**3.11**  
+##3.11##
 a, b, and c are equivalent.  
 
 b and c are correctly indented.  
 
-**3.12**  
+##3.12##
 ```Java
 boolean newLine = count % 10 == 0;
 ```
 
-**3.13**  
+##3.13##
 Both a and b are correct and will do the same thing. The code in b is the preferred way because it shows that the statements are related.  
 
-**3.14**  
+##3.14##
 **(a)**  
 This code will always check for both even numbers and numbers that is a multiple of 5.
 
@@ -138,12 +138,12 @@ The out put when using number 14, 15, and 30 will be:
 30 is even  
 ```  
 
-**3.15**  
+##3.15##
 Math.random() will generate a random double value between 0.0 and 1.0, excluding 1.0.  
 
 Examples of possible values when using Math.random() are 0.5, 0.0, 0.234.  
 
-**3.16**  
+##3.16##
 **(a)**  
 Generates an int in the 0 to 19 interval:  
 ```
@@ -168,10 +168,10 @@ Generates an int that is 0 or 1:
 int d = (int)(Math.random() * 2);    
 ```  
 
-**3.17**  
+##3.17##
 The two statements in this checkpoint are equal. The first one is better since it is shorter.  
 
-**3.18**  
+##3.18##
 ```Java  
 x = 1  
 
@@ -184,7 +184,7 @@ x = 1
 (x != 1) == !(x == 1)  // true  
 ```  
 
-**3.19**   
+##3.19## 
 **(a)**  
 ```Java  
 (num > 1) && (num < 100)  
@@ -194,7 +194,7 @@ x = 1
 (num > 1) && (num < 100) || (num < 0)  
 ```  
 
-**3.20**   
+##3.20## 
 **(a)**  
 ```Java  
 (x - 5 < 4.5) && (-(x - 5) < 4.5)
@@ -204,7 +204,7 @@ x = 1
 (x - 5 > 4.5) || (-(x - 5) > 4.5)
 ``` 
 
-**3.21**  
+##3.21##
 Assume that x and y are int type variables.  
 
 Examples of legal Java expressions:  
@@ -221,10 +221,10 @@ x and y
 (x != 0) || (x = 0) 
 ```  
 
-**3.22**  
+##3.22##
 Yes.  
 
-**3.23**  
+##3.23##
 Call the following expression p:  
 ```  
 x >= 50 && x <= 100  
@@ -233,7 +233,7 @@ p is false when x is 45
 p is true when x is 67  
 p is false when x is 101  
 
-**3.24**  
+##3.24##
 The output will be  
 ```
 (x < y && y < z) is true  
@@ -243,32 +243,32 @@ The output will be
 (x + y > z) is false  
 ```  
 
-**3.25**  
+##3.25##
 Boolean expression that evaluates to true if age is greater than 13 and less than 18.  
 ```Java  
 age > 13 && age < 18  
 ```  
 
-**3.26**  
+##3.26##
 Boolean expression that evaluates to true if weight is greater than 50 pounds or height is greater than 60 inches.  
 ```Java  
 weight > 50 || height > 60
 ```  
 
-**3.27**  
+##3.27##
 Write a Boolean expression that evaluates to true if weight is greater than 50 pounds and height is greater than 60 inches.  
 ```Java  
 weight > 50 && height > 60
 ```  
 
-**3.28**  
+##3.28##
 Write a Boolean expression that evaluates to true if either weight is greater than 50 pounds or height is greater than 60 inches, but not both.  
 ```Java  
 (weight > 50 && !(height > 60)) || (!(weight > 50) && height > 60)  
 ``` 
 My opinion is that the other answer, that can be found on the book web site, is wrong on this one.  
 
-**3.29**  
+##3.29##
 The following data types are allowed to be used as a switch variable:  
 - char  
 - byte  
@@ -282,7 +282,7 @@ A switch statement can be converted to an equivalent if statement.
 
 A switch statement can make the code easier to read comparing to using deeply nested if statements.  
 
-**3.30**  
+##3.30##
 ```Java  
 public class CheckPoint_03_03 {
 
@@ -311,7 +311,7 @@ public class CheckPoint_03_03 {
 ```  
 y is 2 after the switch statement.  
 
-**3.31**  
+##3.31##
 ```Java  
 public class CheckPoint_03_31 {
 
@@ -359,7 +359,7 @@ A flowchart for the switch statement is shown below.
 
 ![](https://github.com/HenrikSamuelsson/Introduction_to_Java_Programming/blob/master/Chapter_03/Resources/checkpoint_03_31.png?raw=true)
 
-**3.32**  
+##3.32##
 ```Java  
 switch (day) {
 case 0:
@@ -386,18 +386,18 @@ case 6:
 }
 ```  
 
-**3.33**  
+##3.33##
 The output will be:  
 ```  
 sorted  
 ```  
 
-**3.34**  
+##3.34##
 ```Java  
 ticketPrice = ages >= 16 ? 20 : 10;  
 ```  
 
-**3.35**   
+##3.35## 
 **(a)** 
 ```Java   
 if (x > 10)
@@ -420,12 +420,12 @@ else
 	System.out.println(j);
 ```  
 
-**3.36**  
+##3.36##
 ```Java  
 1 == (int) (Math.random() * 2) ? 1 : -1;
 ```  
 
-**3.37**  
+##3.37##
 The precedence of the the Boolean operators is (listed from high to low):
 - NOT `!`    
 - XOR `^`  
@@ -445,10 +445,10 @@ true || false
 true
 ```  
 
-**3.38**  
+##3.38##
 It is true that all the binary operators except =, +=, -=, *=, /=, %= are left associative.  
 
-**3.39**
+##3.39##
 ```  
 2 * 2 - 3 > 2 && 4 – 2 > 5  
 4 - 2 > 2 && 4 - 2 > 5  
@@ -465,7 +465,7 @@ false || false
 false     
 ```  
 
-**3.40**  
+##3.40##
 `(x > 0 && x < 10)` is the same as `((x > 0) && (x < 10))`  
 
 `(x > 0 || x < 10)` is the same as `((x > 0) || (x < 10))`  
