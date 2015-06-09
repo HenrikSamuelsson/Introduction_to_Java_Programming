@@ -289,7 +289,7 @@ If the close() method is not invoked, the problem will run fine. But it is a goo
 ## 12.35 ##
 The line separator is not the same on all platforms.  
 
-Some examples of different line separator    
+Some examples of different line separators  
 - Windows: `\r\n`  
 - Mac (OS 9-): `\r`  
 - Mac (OS 10+): `\n`  
