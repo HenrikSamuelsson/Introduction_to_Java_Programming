@@ -295,4 +295,8 @@ Some examples of different line separators
 - Mac (OS 10+): `\n`  
 - Unix/Linux: `\n`  
 
-
+## 12.36 ##
+The Scanner will repeatedly read the entered data  
+- intValue holds 45  
+- doubleValue contains 57.8  
+- line contains ' ', '7 ', '8 ', '9'  
