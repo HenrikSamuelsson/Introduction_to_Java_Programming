@@ -300,3 +300,11 @@ The Scanner will repeatedly read the entered data
 - intValue holds 45  
 - doubleValue contains 57.8  
 - line contains ' ', '7 ', '8 ', '9'  
+
+## 12.37 ##
+The Scanner will repeatedly read the entered data  
+- intValue contains 45  
+- doubleValue contains 57.8  
+- and line is empty  
+The reason that line is empty is that the 
+token-reading method nextDouble() reads in 57.8 and stops at the delimiter, which in this case is a line separator (the Enter key). The nextLine() method ends after reading the line separator and returns the string read before the line separator. Since there are no characters before the line separator, line is empty.  
