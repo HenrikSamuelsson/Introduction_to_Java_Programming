@@ -316,3 +316,6 @@ Creation of a Scanner object for reading text from an URL is done in the followi
 URL url = new URL("www.google.com/index.html");  
 Scanner input = new Scanner(url.openStream());  
 ```  
+
+## 12.39 ##
+One problem with the WebCrawler program is that it is possible that listOfPendingsURLs can hold duplicate URLs. This will happen if a link is not in listOfTraversedURLs and the link appears more than one time in a given page.  
