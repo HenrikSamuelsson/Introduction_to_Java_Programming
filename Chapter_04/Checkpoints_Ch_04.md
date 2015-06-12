@@ -1,5 +1,5 @@
 # Checkpoint Answers Chapter 4 #
-**4.1**  
+##4.1##
 **(a)**  
 ```  
 Math.sqrt(4)   // 2.0  
@@ -73,22 +73,22 @@ Math.round(2.5)    // 3
 Math.round(Math.abs(-2.5))   // 3  
 ```  
 
-**4.2**  
+##4.2##
 The argument for trigonometric methods is an angle in radians.  
 
-**4.3**
+##4.3##
 ```Java  
 // convert 47 degrees to radians  
 double angle = Math.toRadians(47);  
 ```  
 
-**4.4**  
+##4.4##
 ```Java  
 // convert pi / 7 radians to degrees  
 double angle = Math.toDegrees(Math.PI / 7);  
 ```  
 
-**4.5**  
+##4.5##
 **(a)**  
 ```Java  
 int i = 34 + (int)(Math.random() * 22);  
@@ -102,12 +102,12 @@ int j = (int)(Math.random() * 1000);
 double k = 5.5 + (int)(Math.random() * 50);  
 ```  
 
-**4.6**  
+##4.6##
 There is one package that is automatically imported into any Java program, this package is called java.lang.  
 
 One of the classes that belongs to the java.lang package is the Math class. This means that the Math methods can be used directly without the need for explicit import.  
  
-**4.7**  
+##4.7##
 ```Java  
 Math.log(Math.exp(5.5));    // evaluates to 5.5  
 ```  
@@ -120,7 +120,7 @@ Math.asin(Math.sin(Math.PI / 6));    // evaluates to 0.5235987755982988 = pi / 6
 ```Java  
 Math.sin(Math.asin(Math.PI / 6));    // evaluates to 0.5235987755982988 = pi / 6  
 ```  
-**4.8**  
+##4.8##
 ```Java  
 System.out.println((int)'1');	// prints 49
 System.out.println((int)'A');	// prints 65
@@ -143,7 +143,7 @@ System.out.println((char)0x72);	// prints r
 System.out.println((char)0x7A);	// prints z 
 ```  
 
-**4.9**  
+##4.9##
 Examples of correct character literals:
 ```Java  
 'l'  
@@ -156,13 +156,13 @@ Example of incorrect character literal, because the Unicode representation is to
 '\u345dE'
 ```  
 
-**4.10**  
+##4.10##
 ```Java  
 System.out.println('\\');	// prints \
 System.out.println('"');	// prints "
 ```  
 
-**4.11**  
+##4.11##
 ```Java  
 int i = '1';  
 ```  
@@ -199,7 +199,7 @@ char c = 'Z';
 ```  
 because the 90 equals Z in the ASCII table, c will hence hold the value Z.  
 
-**4.12**  
+##4.12##
 Some examples that illustrate casting.  
 ```Java  
 // i will be set to 65
@@ -222,7 +222,7 @@ int i = 97;
 char c = (char)i;  
 ```  
 
-**4.13**
+##4.13##
 ```Java    
 public class Test {  
 
@@ -243,13 +243,13 @@ public class Test {
 }
 ```
 
-**4.14**  
+##4.14##
 ```Java  
 // c will become a lower case character in the range a to z  
 char c = (char)(97 + Math.random() * 26);  
 ```  
 
-**4.15**  
+##4.15##
 ```Java  
 System.out.println('a' < 'b');	// true  
 System.out.println('a' <= 'A');	// false   
@@ -259,7 +259,7 @@ System.out.println('a' == 'a');	// true
 System.out.println('a' != 'b');	// true
 ```  
 
-**4.16**  
+##4.16##
 ```Java
 String s1 = "Welcome to Java";  
 String s2 = "Programming is fun";  
@@ -333,7 +333,7 @@ s1.contains(s2)		// false
 "\t Wel \t".trim()	// Wel  
 ```  
 
-**4.17**  
+##4.17##
 Suppose that s1 and s2 are two strings.  
 
 The following are all examples of correct string manipulations in Java.  
@@ -352,7 +352,7 @@ char c = s1(0);
 char c = s1.charAt(s1.length());  
 ```  
 
-**4.18**  
+##4.18##
 ```Java  
 public class CheckPoint_04_18 {
 
@@ -376,7 +376,7 @@ d)    12
 e)    51
 ```  
 
-**4.19**  
+##4.19##
 ```Java  
 public class CheckPoint_04_19 {
 
@@ -402,7 +402,7 @@ Above program will output:
 1Welcome a1
 ```  
 
-**4.20**  
+##4.20##
 **(a)**
 ```Java  
 boolean isEqual = s1.equals(s2);  
@@ -468,13 +468,13 @@ int x = s1.indexOf('e');
 int x = s1.lastIndexOf("abc");
 ```  
 
-**4.21**  
+##4.21##
 We will get the answer by adding the first numbers in Set1, Set3, and Set4:
 ```  
 1 + 4 + 8 = 13
 ```  
 
-**4.22**  
+##4.22##
 The format specifier for outputting a boolean is %b.  
 
 The format specifier for outputting a character is %c.  
@@ -485,7 +485,7 @@ The format specifier for outputting a boolean is %f.
 
 The format specifier for outputting a string is %s.  
 
-**4.23**  
+##4.23##
 **(a)**    
 ```Java
 System.out.printf("%5d %d\n", 1, 2, 3);
@@ -516,7 +516,7 @@ System.out.printf("%08s\n", "Java");
 ```  
 Erroneous because of the 0 in the format specifiers that need to be removed.  
 
-**4.24**  
+##4.24##
 ```Java  
 public class CheckPoint_04_24 {
 	
