@@ -48,3 +48,10 @@ abstract class A {
 }
 ```   
 Legal code.
+
+## 13.1 ##
+Abstract classes improve the situation by preventing a developer from instantiating the base class, because a developer has marked it as having missing functionality.  
+
+It also provides compile-time safety so that you can ensure that any classes that extend your abstract class provide the bare minimum functionality to work, and you don't need to worry about putting stub methods that inheritors somehow have to magically know that they have to override a method in order to make it work.  
+
+Read more at:[stackexchange - Why should I declare a class as an abstract class?](http://programmers.stackexchange.com/questions/96947/why-should-i-declare-a-class-as-an-abstract-class)  
