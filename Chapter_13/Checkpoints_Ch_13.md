@@ -54,8 +54,7 @@ Abstract classes prevents a developer from instantiating the base class, because
 
 It also provides compile-time safety so that you can ensure that any classes that extend your abstract class provide the bare minimum functionality to work, and you don't need to worry about putting stub methods that inheritors somehow have to magically know that they have to override a method in order to make it work.  
 
-<<<<<<< HEAD
-Read more at:[stackexchange - Why should I declare a class as an abstract class?](http://programmers.stackexchange.com/questions/96947/why-should-i-declare-a-class-as-an-abstract-class)  
+Read more at: [StackExchange - Why should I declare a class as an abstract class?](http://programmers.stackexchange.com/questions/96947/why-should-i-declare-a-class-as-an-abstract-class)  
 
 ## 13.3 ##
 **(a)**  
@@ -72,6 +71,4 @@ A subclass can override a concrete method in a superclass to define it as abstra
 
 **(e)**  
 An abstract method cannot be static.  
-=======
-Read more at: [StackExchange - Why should I declare a class as an abstract class?](http://programmers.stackexchange.com/questions/96947/why-should-i-declare-a-class-as-an-abstract-class)  
->>>>>>> 87f91c08294ec3138702183d14f8dea74a98f989
+
