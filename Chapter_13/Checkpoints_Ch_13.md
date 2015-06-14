@@ -74,3 +74,6 @@ An abstract method cannot be static.
 
 ## 13.4 ##
 There will be an attempt, at runtime, to create a Double object out of an Number object. But this will not work because the Number object is in based on an Integer object.  
+
+## 13.5 ##
+The code from this checkpoint will fail at runtime because a Double object is attempted to be stored where an Integer object is supposed to be stored.  
