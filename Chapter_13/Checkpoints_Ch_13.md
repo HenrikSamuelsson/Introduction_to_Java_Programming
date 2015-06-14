@@ -72,3 +72,5 @@ A subclass can override a concrete method in a superclass to define it as abstra
 **(e)**  
 An abstract method cannot be static.  
 
+## 13.4 ##
+There will be an attempt, at runtime, to create a Double object out of an Number object. But this will not work because the Number object is in based on an Integer object.  
