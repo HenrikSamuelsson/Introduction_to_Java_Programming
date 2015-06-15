@@ -92,4 +92,7 @@ The above code will output:
 ```  
 3  
 3.0  
-```  
+``` 
+ 
+## 13.7 ##
+The problem with the code in this checkpoint is that x is of type Number and the method compareTo(Integer) is undefined for the type Number.  
