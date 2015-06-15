@@ -98,7 +98,7 @@ The above code will output:
 The problem with the code in this checkpoint is that x is of type Number and the method compareTo(Integer) is undefined for the type Number.  
 
 ## 13.8 ##
-This is checkpoint is about the same code that was discussed in checkpoint 13.7. The problem with the code is tried to be remedied with a cast. There is however a mistake made when introducing the cast. A corrected working version can be seen below.  
+This checkpoint is about the same code that was discussed in checkpoint 13.7. The problem with the code is now tried to be fixed with a cast. There is however a mistake made when introducing the cast. A corrected working version can be seen below.  
 ```Java  
 public class Test {
 	public static void main(String[] args) {
