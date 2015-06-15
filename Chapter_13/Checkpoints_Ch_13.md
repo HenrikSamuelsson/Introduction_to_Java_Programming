@@ -77,3 +77,19 @@ There will be an attempt, at runtime, to create a Double object out of an Number
 
 ## 13.5 ##
 The code from this checkpoint will fail at runtime because a Double object is attempted to be stored where an Integer object is supposed to be stored.  
+
+## 13.6 ##
+```Java  
+public class Test {
+	public static void main(String[] args) {
+ 		Number x = 3;
+ 		System.out.println(x.intValue());
+		System.out.println(x.doubleValue());
+ 	}
+}
+```  
+The above code will output:  
+```  
+3  
+3.0  
+```  
