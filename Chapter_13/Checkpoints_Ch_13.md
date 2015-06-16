@@ -1,5 +1,5 @@
 # Checkpoint Answers Chapter 13 #
-## 1 ##
+## 13.1 ##
 **(a)**
 ```Java    
 class A {
@@ -130,3 +130,5 @@ c.get(Calendar.HOUR)	// get the hour
 c.get(Calendar.MINUTE)	// get the minute  
 c.get(Calendar.SECOND)	// get the second  
 ```  
+
+## 13.13 ##
