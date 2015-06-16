@@ -113,3 +113,9 @@ It is not possible to create an Calendar object using the Calendar class. This i
 
 ## 13.10 ##
 The add method in the Calendar class is abstract.  
+
+## 13.11 ##
+A calendar set to the current time can be created in the following way.  
+```Java  
+Calendar calendar = new GregorianCalendar();  
+```  
