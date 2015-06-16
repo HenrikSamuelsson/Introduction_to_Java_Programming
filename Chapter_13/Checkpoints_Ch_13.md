@@ -119,3 +119,14 @@ A calendar set to the current time can be created in the following way.
 ```Java  
 Calendar calendar = new GregorianCalendar();  
 ```  
+
+## 13.12 ##
+```Java  
+// c is Calendar instance  
+c.get(Calendar.YEAR)	// get the year  
+c.get(Calendar.MONTH)	// get the month  
+c.get(Calendar.DATE)	// get the date  
+c.get(Calendar.HOUR)	// get the hour  
+c.get(Calendar.MINUTE)	// get the minute  
+c.get(Calendar.SECOND)	// get the second  
+```  
