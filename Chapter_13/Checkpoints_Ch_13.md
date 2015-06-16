@@ -122,7 +122,7 @@ Calendar calendar = new GregorianCalendar();
 
 ## 13.12 ##
 ```Java  
-// c is Calendar instance  
+// c is a Calendar instance  
 c.get(Calendar.YEAR)	// get the year  
 c.get(Calendar.MONTH)	// get the month  
 c.get(Calendar.DATE)	// get the date  
