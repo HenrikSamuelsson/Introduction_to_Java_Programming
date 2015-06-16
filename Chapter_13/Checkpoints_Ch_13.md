@@ -132,3 +132,4 @@ c.get(Calendar.SECOND)	// get the second
 ```  
 
 ## 13.13 ##
+Suppose A is an interface. It it then **not** possible to create an instance using new A().  
