@@ -172,3 +172,14 @@ interface A {
 }  
 ```  
 The above is a valid interface.  
+
+## 13.16 ##
+The problem with the code is that the public specifier is missing. The class B shall look like this:  
+```Java  
+public class B implements A {
+	public void m1() {
+		System.out.println("m1");
+	}
+}
+```  
+All methods defined in an interface are public. This means that when a class implements the interface so must all methods be declared public. The visibility cannot be reduced afterwards.  
