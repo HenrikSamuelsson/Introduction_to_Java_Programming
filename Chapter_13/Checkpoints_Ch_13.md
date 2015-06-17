@@ -132,10 +132,43 @@ c.get(Calendar.SECOND)	// get the second
 ```  
 
 ## 13.13 ##
-Suppose A is an interface. It is then **not** possible to create an instance using new A().  
+Suppose A is an interface. It is then **not** possible to create an instance using `new A()`.  
 
 ## 13.14 ##
 Suppose A is an interface. It is then possible to declare a reference variable x with type A.  
 ```Java  
 A x;	// valid code  
 ```  
+
+## 13.15 ##
+** (a) **  
+```Java  
+interface A {
+	void print() { };
+}
+```  
+The above interface is not correct because the (implicitly) abstract member method have an body.  
+
+** (b) **  
+```Java  
+abstract interface A extends I1, I2 {
+	abstract void print() {};
+}
+```  
+The above interface is not correct for exactly the same reason as in (a). Note A can extend I1 and I2 assuming that these are them self interfaces.   
+
+** (c) **  
+```Java  
+abstract interface A {
+	print();
+}
+```  
+The above interface is not correct because the return type of the method is missing.  
+
+** (d) **  
+```  
+interface A {
+	void print();
+}  
+```  
+The above is a valid interface.  
