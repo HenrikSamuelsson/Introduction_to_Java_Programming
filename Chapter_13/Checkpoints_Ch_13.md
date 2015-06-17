@@ -133,3 +133,9 @@ c.get(Calendar.SECOND)	// get the second
 
 ## 13.13 ##
 Suppose A is an interface. It is then **not** possible to create an instance using new A().  
+
+## 13.14 ##
+Suppose A is an interface. It is then possible to declare a reference variable x with type A.  
+```Java  
+A x;	// valid code  
+```  
