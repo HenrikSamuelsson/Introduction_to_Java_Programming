@@ -141,7 +141,7 @@ A x;	// valid code
 ```  
 
 ## 13.15 ##
-** (a) **  
+**(a)**  
 ```Java  
 interface A {
 	void print() { };
@@ -149,7 +149,7 @@ interface A {
 ```  
 The above interface is not correct because the (implicitly) abstract member method have an body.  
 
-** (b) **  
+**(b)**  
 ```Java  
 abstract interface A extends I1, I2 {
 	abstract void print() {};
@@ -157,7 +157,7 @@ abstract interface A extends I1, I2 {
 ```  
 The above interface is not correct for exactly the same reason as in (a). Note A can extend I1 and I2 assuming that these are them self interfaces.   
 
-** (c) **  
+**(c)**  
 ```Java  
 abstract interface A {
 	print();
@@ -165,7 +165,7 @@ abstract interface A {
 ```  
 The above interface is not correct because the return type of the method is missing.  
 
-** (d) **  
+**(d)**  
 ```  
 interface A {
 	void print();
