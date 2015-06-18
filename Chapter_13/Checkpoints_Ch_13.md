@@ -192,3 +192,11 @@ The correct method header for the compareTo method in the String class is:
 ```Java  
 public int compareTo(String o)  
 ```  
+
+## 13.19 ##
+```Java  
+Integer n1 = new Integer(3);  
+Object n2 = new Integer(4);  
+System.out.println(n1.compareTo(n2));  
+```  
+The above code will not compile because the method compareTo(Integer) in the type Integer is not applicable for the arguments (Object).  
