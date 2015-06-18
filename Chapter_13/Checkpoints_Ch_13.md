@@ -183,3 +183,7 @@ public class B implements A {
 }
 ```  
 All methods defined in an interface are public. This means that when a class implements the interface so must all methods be declared public. The visibility cannot be reduced afterwards.  
+
+## 13.17 ##
+If a class implements Comparable so can the object of the class invoke the compareTo method.  
+
