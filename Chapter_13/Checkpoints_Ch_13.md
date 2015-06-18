@@ -203,3 +203,6 @@ The above code will not compile because the method compareTo(Integer) in the typ
 
 ## 13.20 ##
 By implementing the Comparable interface for a class so can objects of the class be passed to a method that requires a Comparable type. This would not be possible by just implementing a member method called compareTo.    
+
+## 13.21 ##
+The code in this checkpoint will not work because the class tries to use the sort method but this will only work if the compareTo method from the Comparable interface is present. Having the class Person implement the Comparable interface would fix the problem.  
