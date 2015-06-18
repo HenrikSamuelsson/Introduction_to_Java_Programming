@@ -200,3 +200,6 @@ Object n2 = new Integer(4);
 System.out.println(n1.compareTo(n2));  
 ```  
 The above code will not compile because the method compareTo(Integer) in the type Integer is not applicable for the arguments (Object).  
+
+## 13.20 ##
+By implementing the Comparable interface for a class so can objects of the class be passed to a method that requires a Comparable type. This would not be possible by just implementing a member method called compareTo.    
