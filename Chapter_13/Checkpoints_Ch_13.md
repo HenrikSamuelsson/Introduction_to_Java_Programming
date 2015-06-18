@@ -187,3 +187,8 @@ All methods defined in an interface are public. This means that when a class imp
 ## 13.17 ##
 If a class implements Comparable so can the object of the class invoke the compareTo method.  
 
+## 13.18 ##
+The correct method header for the compareTo method in the String class is:
+```Java  
+public int compareTo(String o)  
+```  
