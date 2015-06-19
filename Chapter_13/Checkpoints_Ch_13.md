@@ -225,3 +225,18 @@ true
 false  
 true    
 ```  
+
+## 13.25 ##
+`list1` is just a shallow copy of `list` so any changes made to `list` will affect the content of `list1`.  
+
+`list2` is a deep copy of `list` constructed by cloning `list`. Following changes of `list` will hence not affect `list2`.
+
+Output when running the code from this checkpoint will be:  
+```  
+true
+false
+list is [New York, Atlanta]
+list1 is [New York, Atlanta]
+list2.get(0) is New York
+list2.size() is 1
+```  
