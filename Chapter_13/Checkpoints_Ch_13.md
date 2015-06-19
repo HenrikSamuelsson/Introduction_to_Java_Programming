@@ -262,6 +262,6 @@ Then assume that we have the classes House, Car, Bicycle. All these classes coul
 Interfaces makes it possibly to bind things that are less tightly bound to an Object. Things that can be applied in multiple different situations.  
 
 ## 13.28 ##
-Stole this answer from the [https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html "The Java Tutorials - Abstract Method and Classes")  
+Stole this answer from the [The Java Tutorials - Abstract Method and Classes](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)  
 > Abstract classes are similar to interfaces. You cannot instantiate them, and they may contain a mix of methods declared with or without an implementation. However, with abstract classes, you can declare fields that are not static and final, and define public, protected, and private concrete methods. With interfaces, all fields are automatically public, static, and final, and all methods that you declare or define (as default methods) are public. In addition, you can extend only one class, whether or not it is abstract, whereas you can implement any number of interfaces.  
 
