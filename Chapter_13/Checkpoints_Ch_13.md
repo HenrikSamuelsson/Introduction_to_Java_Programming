@@ -294,4 +294,8 @@ The output of the code in this checkpoint will be:
 ## 13.31 ##
 The problem is that r2 is of type Object and does not have a method called compareTo.  
 
+## 13.32 ##
+The problem is that the parameter for the compareTo method is of the wrong type. Shall be of type Rational but r1 is of type Object.  
+
+
 
