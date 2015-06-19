@@ -280,3 +280,14 @@ An interface can extend one or more interfaces.
 An interface cannot extend an abstract class.  
 **(e)**  
 An abstract class can extend an interface.  
+
+## 13.30 ##
+A rational number with the value -2 / 6 = -1 / 3 is created. The numerator is -1 and the denominator is 3. The integer representation will be truncated to 0. The double representation will be -0.333333333...
+
+The output of the code in this checkpoint will be:  
+```  
+-1  
+3  
+0  
+0.333333333333  
+```   
