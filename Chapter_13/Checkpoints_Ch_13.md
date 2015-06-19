@@ -210,4 +210,16 @@ The code in this checkpoint will not work because the class tries to use the sor
 ## 13.22 ##
 A precondition for for invocation of the `clone()` method to clone an object is that the class of the object implement the interface `java.long.Cloneable`.  
 
-The `Date` class implement `Cloneable`.  
+The `Date` class implements `Cloneable`.  
+
+## 13.24 ##
+The object called `date1` is a shallow copy of the object `date`. The object called `date2` is on the other hand a deep copy of `date`.
+
+This means that `date == date1` will evaluate to true but `date == date2` will evaluate to false. `date.equals(date2)` will evaluate to true.  
+
+The output of the code in this checkpoint will hence be:  
+```
+true  
+false  
+true    
+```  
