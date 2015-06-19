@@ -206,3 +206,8 @@ By implementing the Comparable interface for a class so can objects of the class
 
 ## 13.21 ##
 The code in this checkpoint will not work because the class tries to use the sort method but this will only work if the compareTo method from the Comparable interface is present. Having the class Person implement the Comparable interface would fix the problem.  
+
+## 13.22 ##
+A precondition for for invocation of the `clone()` method to clone an object is that the class of the object implement the interface `java.long.Cloneable`.  
+
+The `Date` class implement `Cloneable`.  
