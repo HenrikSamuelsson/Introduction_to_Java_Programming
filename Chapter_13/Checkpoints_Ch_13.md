@@ -215,7 +215,9 @@ The `Date` class implements `Cloneable`.
 ## 13.24 ##
 The object called `date1` is a shallow copy of the object `date`. The object called `date2` is on the other hand a deep copy of `date`.
 
-This means that `date == date1` will evaluate to true but `date == date2` will evaluate to false. `date.equals(date2)` will evaluate to true.  
+This means that `date == date1` will evaluate to true but `date == date2` will evaluate to false. 
+
+`date.equals(date2)` will evaluate to true.  
 
 The output of the code in this checkpoint will hence be:  
 ```
