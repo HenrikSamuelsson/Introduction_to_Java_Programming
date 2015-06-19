@@ -290,4 +290,8 @@ The output of the code in this checkpoint will be:
 3  
 0  
 0.333333333333  
-```   
+```  
+## 13.31 ##
+The problem is that r2 is of type Object and does not have a method called compareTo.  
+
+
