@@ -240,3 +240,8 @@ list1 is [New York, Atlanta]
 list2.get(0) is New York
 list2.size() is 1
 ```  
+
+## 13.26 ##
+The problem is that `clone()` is not visible when y shall be defined.  
+
+Override `clone()` and make it public, and have the class `GeometricObject` implement `Java.lang.Cloneable` to fix this problem.  
