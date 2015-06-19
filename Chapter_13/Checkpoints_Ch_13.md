@@ -262,6 +262,10 @@ Then assume that we have the classes House, Car, Bicycle. All these classes coul
 Interfaces makes it possibly to bind things that are less tightly bound to an Object. Things that can be applied in multiple different situations.  
 
 ## 13.28 ##
-Stole this answer from the [The Java Tutorials - Abstract Method and Classes](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)  
+An abstract class is a class that is declared with the keyword abstract, it may or may not include abstract methods. Abstract classes cannot be instantiated, but they can be sub-classed.  
+
+An interface is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.  
+
+Stole this answer from the [The Java Tutorials - Abstract Method and Classes](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html) that discusses the differenses between intefacees and abstract classes.  
 > Abstract classes are similar to interfaces. You cannot instantiate them, and they may contain a mix of methods declared with or without an implementation. However, with abstract classes, you can declare fields that are not static and final, and define public, protected, and private concrete methods. With interfaces, all fields are automatically public, static, and final, and all methods that you declare or define (as default methods) are public. In addition, you can extend only one class, whether or not it is abstract, whereas you can implement any number of interfaces.  
 
