@@ -245,3 +245,18 @@ list2.size() is 1
 The problem is that `clone()` is not visible when y shall be defined.  
 
 Override `clone()` and make it public, and have the class `GeometricObject` implement `Java.lang.Cloneable` to fix this problem.  
+
+## 13.27 ##
+One major advantage with interfaces is that a class can can only inherit from one superclass but it can extend multiple interfaces.  
+
+Say that we have the interfaces:
+- AirConditioning  
+- Light  
+- Door  
+- Lock  
+- Radio  
+- Speedometer  
+
+Then assume that we have the classes House, Car, Bicycle. All these classes could then possible implement several of the above interfaces but likely not all. A Bicycle will for example probably have a lights and a lock but not a door.  
+
+Interfaces makes it possibly to bind things that are less tightly bound to an Object. Things that can be applied in multiple different situations.  
