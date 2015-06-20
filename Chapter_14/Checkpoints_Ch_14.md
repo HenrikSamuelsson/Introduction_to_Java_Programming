@@ -12,3 +12,32 @@ Some reasons for that this book does not teach AWT or Swing:
 2. JavaFX is well designed, based around solid object oriented thinking.  
 3. JavaFX is the GUI library is the one that is being actively developed by Oracle. Swing will not get any further updates.  
 
+## 14.3 ##
+A JavaFX main class is defined by extending the Application class.  
+```Java  
+public class MyJavaFX extends Application  
+```  
+The signature of the start method in the application class is:  
+```Java  
+public void start(Stage prmaryStage)
+```  
+A Stage is a construct that functions as a base window for JavaFX content. An application can have multiple Stages.
+
+A Stage object called primary stage is automatically created by the JVM when the application is launched.
+
+A Stage object is displayed by invoking the show method.    
+```Java  
+Stage stage = new Stage();  
+  
+// ...  
+// setup of the stage here  
+// ...  
+
+stage.show();  
+```  
+It is possible to prevent the user from resizing a stage.
+```Java  
+stage.setResizable(false);  
+```  
+
+It is possible to replace `Application.launch(args)` by `launch(args)`, because the JavaFX main class is a subtype of Application.  
