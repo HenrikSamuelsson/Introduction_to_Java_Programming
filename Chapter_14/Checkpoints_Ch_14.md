@@ -40,4 +40,12 @@ It is possible to prevent the user from resizing a stage.
 stage.setResizable(false);  
 ```  
 
-The instruction `Application.launch(args)` is needed in development environmens with limited suppord for JavaFX. This can be replaced by `launch(args)`, because the JavaFX main class is a subtype of Application.  
+The instruction `Application.launch(args)` is needed in development environments with limited support for JavaFX. This can be replaced by `launch(args)`, because the JavaFX main class is a subtype of Application.  
+
+## 14.4 ##
+The output of the program in this exercise is:  
+```  
+launch application
+Test constructor is invoked
+start method is invoked
+```  
