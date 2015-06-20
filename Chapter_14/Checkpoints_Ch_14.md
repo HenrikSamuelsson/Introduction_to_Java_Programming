@@ -9,6 +9,6 @@ Swing is now being replaced by a third version called JavaFX. JavaFX aims to be 
 ## 14.2 ##
 Some reasons for that this book does not teach AWT or Swing:  
 1. JavaFX is considered to be the easiest to learn for beginners.  
-2. JavaFX is well designed in a good object oriented thinking.  
+2. JavaFX is well designed, based around solid object oriented thinking.  
 3. JavaFX is the GUI library is the one that is being actively developed by Oracle. Swing will not get any further updates.  
 
