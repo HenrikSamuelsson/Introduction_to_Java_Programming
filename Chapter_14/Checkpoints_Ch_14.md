@@ -5,3 +5,10 @@ The initial version of the GUI library was known as the Abstract Windows Toolkit
 After AWT came another version called Swing. Paints all GUI components by itself instead of relying on the underlying operating system. 
 
 Swing is now being replaced by a third version called JavaFX. JavaFX aims to be better suited for today's systems with for example multi-touch support.  
+
+## 14.2 ##
+Some reasons for that this book does not teach AWT or Swing:  
+1. JavaFX is considered to be the easiest to learn for beginners.  
+2. JavaFX is well designed in a good object oriented thinking.  
+3. JavaFX is the GUI library is the one that is being actively developed by Oracle. Swing will not get any further updates.  
+
