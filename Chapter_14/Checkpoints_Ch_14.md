@@ -19,7 +19,7 @@ public class MyJavaFX extends Application
 ```  
 The signature of the start method in the application class is:  
 ```Java  
-public void start(Stage prmaryStage)
+public void start(Stage primaryStage)
 ```  
 A Stage is a construct that functions as a base window for JavaFX content. An application can have multiple Stages.
 
@@ -40,4 +40,4 @@ It is possible to prevent the user from resizing a stage.
 stage.setResizable(false);  
 ```  
 
-It is possible to replace `Application.launch(args)` by `launch(args)`, because the JavaFX main class is a subtype of Application.  
+The instruction `Application.launch(args)` is needed in development environmens with limited suppord for JavaFX. This can be replaced by `launch(args)`, because the JavaFX main class is a subtype of Application.  
