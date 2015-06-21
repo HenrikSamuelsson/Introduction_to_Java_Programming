@@ -72,3 +72,16 @@ setScene(Scene value)
 
 A circle is placed in a Scene by first placing the circle in a pane. This pane can then be placed in the Scene.  
 
+## 14.6 ##
+A pane is a form of container for content called nodes.  
+
+A node is a component that have a visual representation and can hence be displayed in a GUI.  
+
+A node can be placed into a pane:
+```Java  
+pane.getChildren().add(node)  
+```  
+
+It is not possible to place a Shape or ImageView into a Scene. These must be placed on for example a pane and this pane can then be placed in the Scene.  
+
+A control or a pane can be place into a scene when constructing a Scene using `new Scene(Parent, width, height)` or `new Scene(Parent)`. Parent is the superclass for Control and Pane.  
