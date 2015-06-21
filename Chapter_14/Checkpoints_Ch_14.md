@@ -45,7 +45,30 @@ The instruction `Application.launch(args)` is needed in development environments
 ## 14.4 ##
 The output of the program in this exercise is:  
 ```  
-launch application
-Test constructor is invoked
-start method is invoked
+launch application  
+Test constructor is invoked  
+start method is invoked  
 ```  
+
+## 14.5 ##
+There are some different constructors that can be used to create a Scene.  
+
+Creation of a Scene for a specific root Node.  
+```Java  
+Scene(Parent root)
+```
+
+Creation of a Scene for a specific root Node with a specific size.  
+```Java  
+Scene(Parent root, double width, double height)  
+```  
+
+See the documentation for more examples of constructors for creation of Scene instanses.  
+
+A Scene is set on a Stage by invoking a member method called:  
+```  
+setScene(Scene value)  
+```  
+
+A circle is placed in a Scene by first placing the circle in a pane. This pane can then be placed in the Scene.  
+
