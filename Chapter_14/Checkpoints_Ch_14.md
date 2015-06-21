@@ -90,8 +90,24 @@ A control or a pane can be place into a scene when constructing a Scene using `n
 There are several constructor variants that can be used to create a Circle.
 ```Java  
 Circle()	// creates an empty instance of Circle
-Circle(double radius)	// creates a new instance of Circle with a specified radius   
-Circle(double centerX, double centerY, double radius)	//Creates a Circle with a specified position and radius  
-Circle(double centerX, double centerY, double radius, Paint fill)	// creates a Circle with a specified position, radius and fill
-Circle(double radius, Paint fill) creates a Circle with a specified radius and fill  
+Circle(double radius)	// creates Circle with a specified radius   
+Circle(double centerX, double centerY, double radius)	// creates a Circle with a position and radius  
+Circle(double centerX, double centerY, double radius, Paint fill)	// creates a Circle with a position, radius and fill
+Circle(double radius, Paint fill)	// creates a Circle with a radius and fill  
+```  
+The methods for setting the center of a circle is:    
+```Java  
+void setCenterY(double value)
+```  
+The method for setting the radius of a Circle is:
+```Java  
+void setRadius(double value)    
+```  
+The method for setting the stroke color of a Circle is:
+```Java  
+public final void setStroke(Paint value)      
+```  
+The method for setting the fill color of a Circle is:  
+```Java  
+public final void setFill(Paint value)      
 ```  
