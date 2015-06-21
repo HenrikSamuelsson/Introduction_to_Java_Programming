@@ -95,19 +95,19 @@ Circle(double centerX, double centerY, double radius)	// specified position and 
 Circle(double x, double y, double r, Paint fill)	// specified position, radius and fill
 Circle(double radius, Paint fill)	// specified radius and fill  
 ```  
-The methods for setting the center of a circle is:    
+The methods for setting the center of a Circle instance is:    
 ```Java  
 void setCenterY(double value)
 ```  
-The method for setting the radius of a Circle is:
+The method for setting the radius of a Circle instance is:
 ```Java  
 void setRadius(double value)    
 ```  
-The method for setting the stroke color of a Circle is:
+The method for setting the stroke color of a Circle instance is:
 ```Java  
 public final void setStroke(Paint value)      
 ```  
-The method for setting the fill color of a Circle is:  
+The method for setting the fill color of a Circle instance is:  
 ```Java  
 public final void setFill(Paint value)      
 ```  
