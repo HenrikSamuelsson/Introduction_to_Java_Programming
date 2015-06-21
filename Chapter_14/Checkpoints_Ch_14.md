@@ -85,3 +85,13 @@ pane.getChildren().add(node)
 It is not possible to place a Shape or ImageView into a Scene. These must be placed on for example a pane and this pane can then be placed in the Scene.  
 
 A control or a pane can be place into a scene when constructing a Scene using `new Scene(Parent, width, height)` or `new Scene(Parent)`. Parent is the superclass for Control and Pane.  
+
+## 14.7 ##
+There are several constructor variants that can be used to create a Circle.
+```Java  
+Circle()	// creates an empty instance of Circle
+Circle(double radius)	// creates a new instance of Circle with a specified radius   
+Circle(double centerX, double centerY, double radius)	//Creates a Circle with a specified position and radius  
+Circle(double centerX, double centerY, double radius, Paint fill)	// creates a Circle with a specified position, radius and fill
+Circle(double radius, Paint fill) creates a Circle with a specified radius and fill  
+```  
