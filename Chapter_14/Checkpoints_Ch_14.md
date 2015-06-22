@@ -111,3 +111,13 @@ The method for setting the fill color of a Circle instance is:
 ```Java  
 public final void setFill(Paint value)      
 ```  
+## 14.8 ##
+A binding property is used to bind with a source object. Any changes to the source will be reflected in the bound target.  
+
+A binding property is an instance of of the interface Property.  
+
+A source object is an instance of the inteface  ObservableValue.  
+
+The binding object types for int, long, float, double, and boolean are IntegerProperty, LongProperty, DoubleProperty, and BooleanProperty.  
+
+Integer and Double are not subtypes of ObservableValue. Hence, they cannot be used as a source object in a binding.  
