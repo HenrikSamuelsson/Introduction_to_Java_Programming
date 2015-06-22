@@ -120,4 +120,4 @@ A source object is an instance of the inteface  ObservableValue.
 
 The binding object types for int, long, float, double, and boolean are IntegerProperty, LongProperty, DoubleProperty, and BooleanProperty.  
 
-Integer and Double are not subtypes of ObservableValue. Hence, they cannot be used as a source object in a binding.  
+The classes Integer and Double are not subtypes of ObservableValue. Hence, they cannot be used as a source object in a binding.  
