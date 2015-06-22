@@ -121,3 +121,21 @@ A source object is an instance of the inteface  ObservableValue.
 The binding object types for int, long, float, double, and boolean are IntegerProperty, LongProperty, DoubleProperty, and BooleanProperty.  
 
 The classes Integer and Double are not subtypes of ObservableValue. Hence, they cannot be used as a source object in a binding.  
+
+## 14.9 ##
+The naming convention that shall be used is as follows.  
+
+The getter method is:  
+```Java  
+public int getAge()
+```  
+            
+The setter method is:  
+```Java  
+public void setAge(int age)
+```  
+            
+The property getter is
+```Java  
+public IntegerProperty ageProperty()
+```  
