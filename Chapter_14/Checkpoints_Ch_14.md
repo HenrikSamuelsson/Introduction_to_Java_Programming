@@ -139,3 +139,13 @@ The property getter is
 ```Java  
 public IntegerProperty ageProperty()
 ```  
+
+## 14.12 ##
+The border color of a node can be set by the use of a style. Here is an example of how to set the border color to red.  
+```Java  
+node.setStyle("-fx-border: red");  
+```  
+In i similar way so can the text color of some element be set to a color of choice.  
+```Java  
+text.setStyle("-fx-fill: red");
+```  
