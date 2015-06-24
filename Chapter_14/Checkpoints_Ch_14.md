@@ -182,3 +182,8 @@ Setting the fill color of a circle can be achieved with either the setFill metho
 c.setFill(Color.BLUE)
 c.setStyle("-fx-fill: blue")
 ```  
+## 14.17 ##
+Creation of a Font object with font name Courier, size 20, and weight bold.  
+```Java  
+font("Courier", FontWeight.BOLD, 20)  
+```  
