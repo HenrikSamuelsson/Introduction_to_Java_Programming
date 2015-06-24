@@ -199,4 +199,10 @@ new Image(URL)
 An Image is created from a file name in a similar way.  
 ```Java  
 new Image(filename)   
+```
+  
+## 14.20 ##
+An ImageView can be created from an Image, or directly from a file or a URL.  
+```Java  
+new ImageView(image)  
 ```  
