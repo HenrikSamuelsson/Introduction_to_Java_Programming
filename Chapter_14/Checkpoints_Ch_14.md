@@ -157,3 +157,16 @@ Rotation of a button 15 degrees counterclockwise is done in the following way.
 ```Java  
 button.setRotate(-15);  
 ```  
+
+## 14.14 ##
+There are various constructors or static methods that can be used to create a Color. The following constructor creates a Color with the specified red, green, blue, and opacity values.  
+```Java  
+Color(double red, double green, double blue, double opacity)  
+```  
+The following attempt to create a Color is incorrect because all parameters shall be in the range from 0.0 to 1.0.  
+```Java  
+new Color(1.2, 2.3, 3.5, 4)		// error
+```  
+Higher values supplied to the above constructor means lighter colors so when creating two colors, `c1 = new Color(0, 0, 0, 1)` and `c2 = new Color(1, 1, 1, 1)` so will c2 be lihter than c1.  
+
+Invoking `c.darker()` will not change the color value in c, instead so will a new darker color object, based on c, be returned.  
