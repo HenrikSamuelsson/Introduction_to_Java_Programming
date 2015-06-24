@@ -176,3 +176,9 @@ A Color object with a random color can be created in the following way.
 ```Java  
 new Color(Math.random(), Math.random(), Math.random(), 1)  
 ```  
+## 14.16 ##
+Setting the fill color of a circle can be achieved with either the setFill method or the setStyle method.  
+```Java  
+c.setFill(Color.BLUE)
+c.setStyle("-fx-fill: blue")
+```  
