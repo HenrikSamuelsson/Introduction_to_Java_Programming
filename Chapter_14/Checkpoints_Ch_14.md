@@ -209,3 +209,15 @@ new ImageView(image)
 
 ## 14.21 ##
 An Image can be set to multiple ImagViews, but one ImageView can only be displayed on time.  
+
+## 14.22 ##
+The pane types Pane, StackPane, FlowPane, GridPane, BorderPane, HBox and VBox have identical methodology for adding nodes.  
+```Java  
+pane.getChildren.add(node)  
+```  
+The BorderPane is a special case, the methods setTop, setBottom, setLeft, setRight, and setCenter shall be used when adding nodes to this type of pane.  
+
+A node is removed from a pane in the following way.  
+```Java  
+pane.getChildren().remove(node)  
+```  
