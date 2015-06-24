@@ -190,3 +190,13 @@ font("Courier", FontWeight.BOLD, 20)
 
 ## 14.18 ##
 The available fonts on a system can be found with `Font.getFamilies()` that return a list of strings for font names.  
+
+## 14.19 ##
+An Image is created from a URL like this.
+```Java  
+new Image(URL)  
+```  
+An Image is created from a file name in a similar way.  
+```Java  
+new Image(filename)   
+```  
