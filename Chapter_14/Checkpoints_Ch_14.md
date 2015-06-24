@@ -170,3 +170,9 @@ new Color(1.2, 2.3, 3.5, 4)		// error
 Higher values supplied to the above constructor means lighter colors so when creating two colors, `c1 = new Color(0, 0, 0, 1)` and `c2 = new Color(1, 1, 1, 1)` so will c2 be lihter than c1.  
 
 Invoking `c.darker()` will not change the color value in c, instead so will a new darker color object, based on c, be returned.  
+
+## 14.15 ##
+A Color object with a random color can be created in the following way.  
+```Java  
+new Color(Math.random(), Math.random(), Math.random(), 1)  
+```  
