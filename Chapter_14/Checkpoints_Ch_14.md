@@ -206,3 +206,6 @@ An ImageView can be created from an Image, or directly from a file or a URL.
 ```Java  
 new ImageView(image)  
 ```  
+
+## 14.21 ##
+An Image can be set to multiple ImagViews, but one ImageView can only be displayed on time.  
