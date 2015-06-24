@@ -149,3 +149,11 @@ In i similar way so can the text color of some element be set to a color of choi
 ```Java  
 text.setStyle("-fx-fill: red");
 ```  
+
+## 14.13 ##
+Elements such as pane, text, or button can be rotated.  
+
+Rotation of a button 15 degrees counterclockwise is done in the following way.  
+```Java  
+button.setRotate(-15);  
+```  
