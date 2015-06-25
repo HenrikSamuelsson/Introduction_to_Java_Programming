@@ -221,3 +221,11 @@ A node is removed from a pane in the following way.
 ```Java  
 pane.getChildren().remove(node)  
 ```  
+## 14.28 ##
+Example code that shows how to rotate a text.  
+```Java  
+Text text = new Text("Checkpoint 14.28");  
+StackPane pane = new StackPane();  
+pane.getChildren().add(text);  
+text.setRotate(15);  
+```  
