@@ -9,6 +9,10 @@ label.setContentDisplay(ContentDisplay.LEFT);
 ```  
 
 ## 16.3 ##
-Usage of `\n` makes it possibl to divide a label text into multiple lines.  
+Usage of `\n` makes it possible to divide a label text into multiple lines.  
 
-
+## 16.4 ##
+It is possible to underline a text in a label by setting an underline property.  
+```Java  
+label.setunderLine(true);    
+```  
