@@ -23,4 +23,9 @@ Pressing the mouse button while on the ball pane will cause the animation to pau
 ballPane.requestFocus();  
 ```  
 The above line of code is taken from the BounceBallControl class in the book. The purpose of this line is to set focus on this node and that this node's top-level ancestor become the focused window. This is necessary for receiving events when the arrow up-key and arrow down-key are pressed.  
- 
+
+## 15.28 ##
+```Java  
+animation.setCycleCount(Timeline.INDEFINITE);  
+```  
+The above line of code is taken from the BallPane class in the book. It sets the Timeline animation to be repeated for an indefinite number of times. Without this line so would the animation only be repeated once.  
