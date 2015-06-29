@@ -17,3 +17,10 @@ The direction of the ball is reversed by multiplying the control variables dx an
 
 ## 15.26 ##
 Pressing the mouse button while on the ball pane will cause the animation to pause. The animation is paused until the mouse button is released.  
+
+## 15.27 ##
+```Java  
+ballPane.requestFocus();  
+```  
+The above line of code is taken from the BounceBallControl class in the book. The purpose of this line is to set focus on this node and that this node's top-level ancestor become the focused window. This is necessary for receiving events when the arrow up-key and arrow down-key are pressed.  
+ 
