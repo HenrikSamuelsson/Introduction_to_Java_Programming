@@ -8,3 +8,7 @@ The following code shows how to adjust the label so that it is placed on the rig
 label.setContentDisplay(ContentDisplay.LEFT);  
 ```  
 
+## 16.3 ##
+Usage of `\n` makes it possibl to divide a label text into multiple lines.  
+
+
