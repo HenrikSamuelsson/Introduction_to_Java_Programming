@@ -11,3 +11,6 @@ Button is a subclass of Node, therefore, it can fire all the events that Node ca
 
 ## 15.24 ##
 A timer is setup that will launch a redraw of the ball every 50 ms. The ball is moved a small distance on each redraw.  
+
+## 15.25 ##
+The direction of the ball is reversed by multiplying the control variables dx and dy by -1.  
