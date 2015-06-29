@@ -14,3 +14,6 @@ A timer is setup that will launch a redraw of the ball every 50 ms. The ball is 
 
 ## 15.25 ##
 The direction of the ball is reversed by multiplying the control variables dx and dy by -1.  
+
+## 15.26 ##
+Pressing the mouse button while on the ball pane will cause the animation to pause. The animation is paused until the mouse button is released.  
