@@ -14,5 +14,12 @@ Usage of `\n` makes it possible to divide a label text into multiple lines.
 ## 16.4 ##
 It is possible to underline a text in a label by setting an underline property.  
 ```Java  
-label.setunderLine(true);    
+label.setunderLine(true);  
 ```  
+
+## 16.5 ##
+A button with a text (Left) and a node (in this case an image) is created in the following way.  
+```Java  
+Button btLeft = new Button("Left", new ImageView("left.gif"));  
+```  
+The class Button is a subclass of Labeled so Button can invoke all the methods in Labeled.  
