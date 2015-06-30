@@ -23,3 +23,6 @@ A button with a text (Left) and a node (in this case an image) is created in the
 Button btLeft = new Button("Left", new ImageView("left.gif"));  
 ```  
 The class Button is a subclass of Labeled so Button can invoke all the methods in Labeled.  
+
+## 16.6 ##
+The `getPane()` method and the member `Text` in Listing 16.2 are declared as protected because they are intended to be used in subclasses later on in the book.  
