@@ -26,3 +26,6 @@ The class Button is a subclass of Labeled so Button can invoke all the methods i
 
 ## 16.6 ##
 The `getPane()` method and the member `Text` in Listing 16.2 are declared as protected because they are intended to be used in subclasses later on in the book.  
+
+## 16.7 ##
+The method `setOnAction(handler)` is used to set a handler for processing a button-clicked action.  
