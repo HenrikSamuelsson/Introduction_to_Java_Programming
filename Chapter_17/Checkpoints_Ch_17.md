@@ -30,3 +30,10 @@ if (sourceFile.exists())
 else  
 	System.out.println("File temp.bin does not exist.");  
 ```  
+
+## 17.23 ##
+The read method will return -1 when the end of a file is reached.  
+```Java  
+if (r = input.read()) == -1)  
+	System.out.println("No more data to read in the file.");  
+```  
