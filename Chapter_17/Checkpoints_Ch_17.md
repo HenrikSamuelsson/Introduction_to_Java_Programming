@@ -2,7 +2,7 @@
 ## 17.1 ##
 A text file can be thought of as a sequence of characters and a binary file can be thought of as a sequence of bits. 
 
-Take for example the number 199 that will in a text file be stored as '1','9','9' but with each character coded according to the Unicode standard or the ASCII standard.  
+Take for example the number 199 that will in a text file be stored as '1','9','9' but with each character coded according to some standard such as the Unicode standard or the ASCII standard.  
 
 If 199 is stored as binary so will it instead be stored in some form of hex format possibly as 0xC7.  
 
@@ -19,4 +19,14 @@ input.close();
 PrintWriter output = new PrintWriter("temp.txt");  
 output.print("Java 101");  
 output.close();  
+```  
+
+## 17.22 ##
+A File object is used to check if a file exists.  
+```Java  
+File sourceFile = new File("temp.bin");  
+if (sourceFile.exists())  
+	System.out.println("File temp.bin exists.");  
+else  
+	System.out.println("File temp.bin does not exist.");  
 ```  
