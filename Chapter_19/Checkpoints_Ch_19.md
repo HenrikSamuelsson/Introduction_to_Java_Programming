@@ -28,3 +28,22 @@ public interface Comparable<T> {
 
 ## 19.6 ##
 A generic class can have multiple generic parameters.  
+
+## 19.8 ##
+A generic method is declared by placing the generic type immediately after the keyword static in the method.  
+
+Example:  
+```Java  
+public static <T> void print(T[] list) {
+	for (int i = 0; i < list.length; i++)
+		System.out.print(list[i] + " ");
+	System.out.println();
+}
+```  
+A generic method can be invoked just like a regular method. The compiler will figure out the actual type.  
+
+Example:  
+```Java  
+String[] strings = {"London", "Paris", "New York", "Austin"};  
+print(strings);  
+```  
