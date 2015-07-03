@@ -47,3 +47,6 @@ Example:
 String[] strings = {"London", "Paris", "New York", "Austin"};  
 print(strings);  
 ```  
+
+## 19.9 ##
+A bounded generic type specifies that the accepted generic types must be subclasses of a given class.  
