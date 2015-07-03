@@ -25,3 +25,6 @@ public interface Comparable<T> {
 	public int compareTo(T o) { }
 }
 ```  
+
+## 19.6 ##
+A generic class can have multiple generic parameters.  
