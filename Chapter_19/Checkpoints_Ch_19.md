@@ -16,3 +16,12 @@ new ArrayList<>();
 dates.add(new Date());
 dates.add(new String());
 ```  
+## 19.4 ##
+The generic definition for `java.lang.Comparable` in the Java API.
+```Java  
+package java.lang;  
+
+public interface Comparable<T> {
+	public int compareTo(T o) { }
+}
+```  
