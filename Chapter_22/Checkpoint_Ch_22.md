@@ -7,11 +7,16 @@ A non-dominating term is ignored in Big O notation, because as the input size gr
 ## 22.2 ##
 **(a)**  
 O(n^3)  
+ 
 **(b)**  
-O(n^3)    
+O(n^3)  
+  
 **(c)**  
-O(n^3)    
+O(n^3)  
+  
 **(d)**  
 O(2^n)  
+
 **(e)**  
 O(n^2 * 2^n)  
+
