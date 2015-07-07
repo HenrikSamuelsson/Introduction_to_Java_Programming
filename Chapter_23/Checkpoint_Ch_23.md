@@ -19,3 +19,6 @@ The steps are:
 3. Recursively apply the above steps to the sub-array of elements with smaller values and separately to the sub-array of elements with greater values.  
 
 The time complexity for a merge sort is O(nlogn).  
+
+## 23.14 ##
+The return value will be null when invoking the remove method if the heap is empty.  
