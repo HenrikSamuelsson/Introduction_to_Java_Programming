@@ -22,3 +22,6 @@ The time complexity for a merge sort is O(nlogn).
 
 ## 23.14 ##
 The return value will be null when invoking the remove method if the heap is empty.  
+
+## 23.21 ##
+Bucket sort is not suitable for sorting strings.  
