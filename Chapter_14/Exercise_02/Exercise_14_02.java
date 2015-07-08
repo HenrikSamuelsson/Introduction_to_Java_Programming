@@ -40,7 +40,7 @@ public class Exercise_14_02 extends Application{
 			}
 		}
 		 
-		// standard JavaFX components need to display the board
+		// standard JavaFX components needed to display the board
 	    Scene scene = new Scene(pane);
 	    primaryStage.setTitle("Exercise 14.2");
 	    primaryStage.setScene(scene);
