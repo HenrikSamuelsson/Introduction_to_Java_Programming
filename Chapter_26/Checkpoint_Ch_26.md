@@ -9,3 +9,8 @@ A node is said to be balanced if its balance factor is -1, 0, or 1.
 A node is said to be left-heavy if its balance factor is -1.  
 
 A node is said to be right-heavy if its balance factor is +1.  
+
+## 26.4 ##
+AVLTreeNode defines the data field `height`, that stores the height of the node.   
+
+AVLTreeNode inherits from TreeNode so it will also have the data fields `left` and `right`, that points to the left and right subtree.  
