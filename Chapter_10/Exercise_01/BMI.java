@@ -1,9 +1,9 @@
 /**
  * Exercise 10.2 from the book Introduction to Java Programming (10th).
  * <p>
- * The original for code for this exercise can be found in the book. An extra
- * constructor is added in this exercise that makes it possible to specify the
- * height in feet and inches.
+ * The code that this exercise is based on can be found in the book. An extra
+ * constructor have been added that makes it possible to specify the height in
+ * feet and inches.
  *
  * @author Henrik Samuelsson, henrik.samuelsson(at)gmail.com
  */
