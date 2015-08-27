@@ -3,8 +3,9 @@
  * <p>
  * InputMismatchException
  * <p>
- * Sums two given integer. Will throws and catches an exception if the user does
- * not enter integers.
+ * Sums two given integers. An exception will be thrown if the user does
+ * not enter integers. This exception is caught and the user is again instructed
+ * to enter integers.
  */
 
 import java.util.Scanner;
