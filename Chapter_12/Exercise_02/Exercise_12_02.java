@@ -27,7 +27,8 @@ public class Exercise_12_02 {
 				done = true;
 			} catch (Exception ex) {
 				ex.printStackTrace();
-				System.out.print("Incorrect input and re-enter two integers: ");
+				System.out.println("Incorrect input please try again.");
+				System.out.print("Enter two integers: ");
 				input.nextLine(); // Discard input
 			}
 		}
