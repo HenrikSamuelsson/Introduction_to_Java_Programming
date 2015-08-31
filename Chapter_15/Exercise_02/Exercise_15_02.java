@@ -9,7 +9,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 /**
- * Exercise 15.02 from the book Introduction to Java Programming (10th).
+ * Exercise 15.2 from the book Introduction to Java Programming (10th).
  * <p>
  * Rotate a rectangle
  */
