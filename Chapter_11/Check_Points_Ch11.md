@@ -23,6 +23,12 @@ Multiple inheritance is a feature of some object-oriented computer programming l
 
 Multiple inheritance is not supported by the Java programming language.  
 
+## 11.4 ##
+a)
+A's no-arg constructor is invoked
+b)
+There will be an error in compiling because the parent class A doesn't have a no-arg constructor
+
 ## 11.5 ##
 The syntax for calling a superclass constructor that takes no parameters is:  
 ```Java  
