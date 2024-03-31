@@ -215,6 +215,14 @@ Exception in main
 ```   
 
 ## 12.27 ##
+```Java
+new File("c:\book\test.dat");
+```
+It uses absolute file name. As absolute file names vary for Windows and UNIX , it is recommended to use relative file name. For eg: 
+```Java
+new File("test.dat");
+```
+
 A file object is attempted to be created like this  
 ```Java  
 new File("c:\book\test.dat");  
@@ -229,7 +237,7 @@ new File("c:\\book\\test.dat);
 ## 12.28 ##
 The class called File have several member methods that can be used to get properties about files on a system.  
 
-The exist() methods checks if a file exists.  
+The exists() methods checks if a file exists.  
 
 Files or directories can be deleted with the delete() method.  
 
